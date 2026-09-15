@@ -1,0 +1,119 @@
+{
+  "reference": "outputs/design/wi-009/handover-calibration-round-2/../handover-design-v1.png",
+  "candidate": "outputs/design/wi-009/handover-calibration-round-2/candidate.png",
+  "reference_size": [
+    1505,
+    1045
+  ],
+  "candidate_size_original": [
+    1505,
+    1045
+  ],
+  "candidate_size_compared": [
+    1505,
+    1045
+  ],
+  "resized": false,
+  "geometry_match": true,
+  "height_delta": 0,
+  "unmatched_tails": {},
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1505,
+        1045
+      ],
+      "rms_diff": 42.011,
+      "mean_abs_diff": 15.753,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-full-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-full-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-full-heatmap.png"
+    },
+    {
+      "name": "region-000",
+      "size": [
+        236,
+        1045
+      ],
+      "rms_diff": 29.479,
+      "mean_abs_diff": 8.317,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-000-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-000-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-000-heatmap.png"
+    },
+    {
+      "name": "region-001",
+      "size": [
+        1269,
+        65
+      ],
+      "rms_diff": 30.495,
+      "mean_abs_diff": 10.381,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-001-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-001-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-001-heatmap.png"
+    },
+    {
+      "name": "region-002",
+      "size": [
+        1219,
+        65
+      ],
+      "rms_diff": 65.743,
+      "mean_abs_diff": 30.41,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-002-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-002-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-002-heatmap.png"
+    },
+    {
+      "name": "region-003",
+      "size": [
+        1219,
+        79
+      ],
+      "rms_diff": 39.886,
+      "mean_abs_diff": 13.423,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-003-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-003-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-003-heatmap.png"
+    },
+    {
+      "name": "region-004",
+      "size": [
+        749,
+        440
+      ],
+      "rms_diff": 47.292,
+      "mean_abs_diff": 19.895,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-004-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-004-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-004-heatmap.png"
+    },
+    {
+      "name": "region-005",
+      "size": [
+        459,
+        195
+      ],
+      "rms_diff": 48.449,
+      "mean_abs_diff": 19.191,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-005-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-005-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-005-heatmap.png"
+    },
+    {
+      "name": "region-006",
+      "size": [
+        721,
+        38
+      ],
+      "rms_diff": 50.454,
+      "mean_abs_diff": 21.577,
+      "candidate": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-006-candidate.png",
+      "diff": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-006-diff.png",
+      "heatmap": "outputs/design/wi-009/handover-calibration-round-2/report/verify-region-006-heatmap.png"
+    }
+  ],
+  "note": "误差不等于还原度；字体、摄影和位置分别判断。尺寸一致也不代表视觉通过。"
+}

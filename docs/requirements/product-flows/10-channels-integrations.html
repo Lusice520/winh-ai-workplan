@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>Web、移动端与系统协同｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">10 / 渠道</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 10｜WEB、移动端、通知与系统集成</h2>
+<p class="subtitle">新系统保存客户、商机、项目状态和业务结果；飞书只做提醒，原商机表通过 Excel 一次性迁移后停用。</p>
+
+<div class="section">
+  <div class="label">一、一个业务后台，三个使用入口</div>
+  <div style="display:grid;grid-template-columns:1.3fr auto 2fr;gap:14px;align-items:center;margin-top:10px;">
+    <div style="padding:20px;border-radius:12px;background:#f1f5f9;border:2px solid #64748b;text-align:center;">
+      <strong>统一业务与权限底座</strong><br><small>同一组织账号、工作台、项目、文件版本和审计记录</small>
+    </div>
+    <div style="font-size:25px;color:#94a3b8;">→</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;">
+      <div style="padding:17px;border-radius:11px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>桌面WEB</strong><br><small>规划、分析、资料、配置</small></div>
+      <div style="padding:17px;border-radius:11px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>移动端</strong><br><small>任务、现场、审批、拍照</small></div>
+      <div style="padding:17px;border-radius:11px;background:#f3efff;border-top:4px solid #7863ce;"><strong>飞书入口（可选）</strong><br><small>提醒、待办摘要、深度链接<br>不进入 P1 必验范围</small></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、桌面WEB与移动端的职责分工</div>
+  <div class="split" style="margin-top:10px;">
+    <div class="mockup" style="border:2px solid #5d8ee3;">
+      <div class="mockup-header mockup-header--light" style="background:#eef4ff;"><strong>桌面WEB｜复杂管理与集中操作</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">主计划 / 甘特图</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">工作包与资源排期</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">预算与采购分析</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">知识库与版本评审</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">项目 / 部门 / 公司看板</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">流程模板与权限配置</div>
+        </div>
+      </div>
+    </div>
+    <div class="mockup" style="border:2px solid #3d9d73;">
+      <div class="mockup-header mockup-header--light" style="background:#eef9f4;"><strong>移动端｜现场执行与快速反馈</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">今日任务 / 日报</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">工时与位置状态</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">问题 / 风险 / 隐患</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">拍照、视频和语音备注</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">安全检查 / 培训确认</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">确认、评审和待办</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、P1 先形成站内闭环｜飞书只做后续提醒</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1.4fr auto 1fr;gap:10px;align-items:stretch;margin-top:10px;min-width:760px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;text-align:center;"><strong>系统事件</strong><br><small>到期、评审、问题升级、阶段门、成员变更和经营节点</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#f3efff;text-align:center;"><strong>站内待办 / 消息</strong><br><small>待办承接行动，消息告知变化<br>飞书可选发送摘要和深链</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;text-align:center;"><strong>处理结果回到系统</strong><br><small>更新正式状态、证据与审计记录</small></div>
+  </div>
+  <div style="margin-top:10px;padding:10px 12px;border-left:4px solid #7863ce;background:#faf8ff;border-radius:6px;">
+    <small>在飞书聊天中回复“已完成”不自动关闭系统任务；只有在新系统提交成果并通过验证才算正式完成。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、数据与系统边界</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>新系统</strong><br><small>客户、商机、主阶段/重点阶段/状态/结果、项目清单及当前有效资料的唯一事实源</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f3efff;border-top:4px solid #7863ce;"><strong>飞书</strong><br><small>消息、待办摘要和深度链接；不再维护正式商机表</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;border-top:4px solid #d19a32;"><strong>Excel</strong><br><small>一次性导入全部约 30—50 条历史与当前商机</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>NAS</strong><br><small>验收后的不可变归档快照、清单、校验结果和档案位置</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f1f5f9;border-top:4px solid #64748b;"><strong>财务系统</strong><br><small>未来可选对账/回写；不是 P4 项目管理口径台账的前提</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">Excel 只迁移当前行中的结构化字段，不迁移附件、评论和跟进历史；迁移完成后冻结飞书商机表，不建设双向同步。</p>
+</div>
+
+<div class="section">
+  <div class="label">五、数据任务与集成运行状态</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>数据任务中心</strong><br><small>查看导入导出进度、成功/失败数量和结果文件</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;border-top:4px solid #d19a32;"><strong>失败可恢复</strong><br><small>下载错误明细，修正后重试，不重复覆盖成功数据</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>集成运行状态</strong><br><small>查看连接、最近同步、失败原因和重试结果</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">P1 先交付 Excel 数据任务；飞书、NAS 和后续财务系统的连接管理随对应业务批次启用。凭证、网络和接口协议进入总体技术方案。</p>
+</div>
+
+<div class="section">
+  <div class="label">六、现场弱网候选策略｜不进入 P1</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#f8fafc;text-align:center;"><strong>离线草稿</strong><br><small>日报、问题和检查单可暂存</small></div>
+    <div style="padding:15px;border-radius:10px;background:#f8fafc;text-align:center;"><strong>断点续传</strong><br><small>照片和视频恢复网络后上传</small></div>
+    <div style="padding:15px;border-radius:10px;background:#f8fafc;text-align:center;"><strong>离线模板</strong><br><small>可提前下载当天任务与检查单</small></div>
+    <div style="padding:15px;border-radius:10px;background:#f8fafc;text-align:center;"><strong>同步提示</strong><br><small>明确未上传、冲突和完成状态</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">P1 不建设离线能力；进入 P3 现场交付后若真实网络条件需要，再从现场记录、问题、安全检查和媒体上传开始评估。</p>
+</div>
+
+<div style="margin-top:14px;padding:13px 15px;border-left:4px solid #3d9d73;background:#f3fbf7;border-radius:7px;">
+  <strong>终端原则：</strong>P1 采用桌面 WEB＋移动响应式 WEB，不建设独立原生 APP；P3 若现场体验不足，再结合弱网、推送和设备能力重新评估。
+</div>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="09b-system-foundation.html"><small>上一页 · 09B</small><strong>← 工作台与系统管理闭环</strong></a>
+    <a href="11-mvp-rollout-acceptance.html"><small>下一页 · 11</small><strong>P1/P2 边界、迁移与验收 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · Web、移动端与系统协同 · V0.4</footer>
+</body>
+</html>

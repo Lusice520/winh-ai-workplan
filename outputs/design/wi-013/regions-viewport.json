@@ -1,0 +1,77 @@
+{
+  "reference": "income-design-v2.png",
+  "css_viewport_width": 1523,
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1523,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "regions": [
+    {
+      "name": "heading",
+      "box": [
+        259,
+        76,
+        1235,
+        61
+      ],
+      "selector": ".income-page .business-page-heading"
+    },
+    {
+      "name": "facts",
+      "box": [
+        259,
+        201,
+        889,
+        90
+      ],
+      "selector": ".income-facts"
+    },
+    {
+      "name": "ledger",
+      "box": [
+        259,
+        306,
+        889,
+        487
+      ],
+      "selector": ".income-ledger-panel"
+    },
+    {
+      "name": "revisions",
+      "box": [
+        259,
+        808,
+        889,
+        176
+      ],
+      "selector": ".income-revisions-panel"
+    },
+    {
+      "name": "review",
+      "box": [
+        1161,
+        201,
+        333,
+        443
+      ],
+      "selector": ".income-review-panel"
+    },
+    {
+      "name": "sources",
+      "box": [
+        1161,
+        659,
+        333,
+        305
+      ],
+      "selector": ".income-source-panel"
+    }
+  ]
+}

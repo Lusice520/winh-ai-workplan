@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-09-12T17:14:53.788Z",
+  "projectId": "71a40e56-9908-4681-9ad8-95d1a8f64a08",
+  "applicationId": "6ddd173b-cc2f-49b9-a1be-6c82922ef6b0",
+  "currentPackageId": "403f161a-addc-450b-b4ea-2b684f0e00c3",
+  "checks": [
+    "DG-01 重开后清空设备依据，9/10 齐备；缺项阻断提交且保留输入",
+    "浏览器补齐版本、提交、独立接收、刷新后保留新移交包",
+    "390px DG-01、提前开工页面和申请抽屉无页面横向溢出",
+    "真实浏览器申请 80 人时 / 4000 元、独立批准、录入 24 人时 / 1200 元承诺",
+    "部分核销 6 人时 / 300 元，刷新后占用仍为 24 人时 / 1200 元",
+    "协调人恢复最小职责，不能审批；主阶段仍为售前"
+  ],
+  "totals": {
+    "committedHours": 24,
+    "committedCost": 1200,
+    "outstandingHours": 18,
+    "outstandingCost": 900,
+    "actualHours": 6,
+    "actualCost": 300,
+    "usedHours": 24,
+    "usedCost": 1200
+  }
+}

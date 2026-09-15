@@ -1,0 +1,877 @@
+{
+  "caseId": "bd45ffea-2036-427d-9bef-d1aeac8d12ef",
+  "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+  "caseVersion": 37,
+  "header": {
+    "projectManagerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "technicalLeadId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+    "projectType": "SYSTEM_INTEGRATION",
+    "riskLevel": "MEDIUM",
+    "scopeAcceptance": "已接收产线控制、设备集成和现场实施范围。",
+    "acceptanceCriteria": "按成果清单、接口校验和现场联调结果验收。",
+    "timeConstraints": "方案与采购并行，前置成果确认后进入现场实施。",
+    "handoverFollowups": "移交资料已逐项接收，首段人员承诺在立项中继续确认。"
+  },
+  "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+  "handover": {
+    "id": "f6d06aba-c05b-4927-b8ba-072961692223",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "receiverId": "80bbcc8b-3a7d-4e20-912d-e9d6a12039f5",
+    "number": "HG-F6D06ABA",
+    "hash": "822f9bfaa405a6d204d90bfe0cc025bcc070e102900a5513765339f1b0db09ec",
+    "basisKind": "AWARD",
+    "projectType": "SYSTEM_INTEGRATION"
+  },
+  "template": {
+    "id": "c95818ef-7ce4-4e4d-a831-486bd00ab7b8",
+    "seriesId": "8b8e7c25-0b22-437a-b80f-762ce8d345a3",
+    "edition": 1,
+    "name": "验证·自动化项目交付阶段 mtyv14oy",
+    "kind": "STAGE_TEMPLATE",
+    "template": {
+      "projectTypes": [
+        "SYSTEM_INTEGRATION"
+      ],
+      "stages": [
+        {
+          "code": "DESIGN",
+          "name": "方案设计",
+          "applicability": "REQUIRED",
+          "condition": null,
+          "ownerRoleHint": "专业负责人",
+          "predecessorCodes": [],
+          "parallelCodes": [
+            "INTEGRATION"
+          ],
+          "milestones": [
+            "方案设计成果确认"
+          ],
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "方案设计成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。"
+        },
+        {
+          "code": "INTEGRATION",
+          "name": "采购集成",
+          "applicability": "REQUIRED",
+          "condition": null,
+          "ownerRoleHint": "专业负责人",
+          "predecessorCodes": [],
+          "parallelCodes": [
+            "DESIGN"
+          ],
+          "milestones": [
+            "采购集成成果确认"
+          ],
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "采购集成成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。"
+        },
+        {
+          "code": "SITE",
+          "name": "现场实施",
+          "applicability": "REQUIRED",
+          "condition": null,
+          "ownerRoleHint": "专业负责人",
+          "predecessorCodes": [
+            "DESIGN",
+            "INTEGRATION"
+          ],
+          "parallelCodes": [],
+          "milestones": [
+            "现场实施成果确认"
+          ],
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "现场实施成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。"
+        }
+      ]
+    },
+    "policy": null,
+    "snapshotHash": "5da6c88cc6564c05de948610571264e00ea272ae8fe96ba797dc92dc3ed7c7f0"
+  },
+  "policy": {
+    "id": "9f829493-34c1-4cfe-8826-cd9353440b27",
+    "seriesId": "1281a5ec-a0d6-448c-9760-9f911a8f5cfa",
+    "edition": 1,
+    "name": "验证·交付立项授权分工 mtyv14oy",
+    "kind": "REVIEW_POLICY",
+    "template": null,
+    "policy": {
+      "projectTypes": [
+        "SYSTEM_INTEGRATION"
+      ],
+      "minimumBudget": 0,
+      "maximumBudget": 1000000,
+      "riskLevels": [
+        "LOW",
+        "MEDIUM"
+      ],
+      "reviewers": [
+        {
+          "accountId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+          "scope": "TECHNICAL"
+        }
+      ],
+      "finalApproverId": "80bbcc8b-3a7d-4e20-912d-e9d6a12039f5",
+      "authorityBasis": "验证·本地授权路径，不能作为公司正式审批制度。"
+    },
+    "snapshotHash": "a56ef4132604f5698e13a092083060aed98cf4e3f4366f376931606a7304b2c2"
+  },
+  "objects": [
+    {
+      "id": "cda8f340-3ede-4042-97b2-55539f38ad65",
+      "version": 3,
+      "kind": "STAGE",
+      "content": {
+        "stage": {
+          "templateCode": "DESIGN",
+          "title": "方案设计",
+          "applicable": true,
+          "applicabilityReason": null,
+          "differenceReason": null,
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-08",
+          "predecessorIds": [],
+          "parallelIds": [
+            "414cc1ca-73a7-48f9-81c5-21c4955f6269"
+          ],
+          "focus": true,
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "方案设计成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。控制接口复核记录作为项目资料上传，由专业工作包负责人编制，指定验证人复核后确认完成。"
+        },
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+      "version": 1,
+      "kind": "STAGE",
+      "content": {
+        "stage": {
+          "templateCode": "INTEGRATION",
+          "title": "采购集成",
+          "applicable": true,
+          "applicabilityReason": null,
+          "differenceReason": null,
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "predecessorIds": [],
+          "parallelIds": [
+            "cda8f340-3ede-4042-97b2-55539f38ad65"
+          ],
+          "focus": false,
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "采购集成成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。"
+        },
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+      "version": 1,
+      "kind": "STAGE",
+      "content": {
+        "stage": {
+          "templateCode": "SITE",
+          "title": "现场实施",
+          "applicable": true,
+          "applicabilityReason": null,
+          "differenceReason": null,
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "startsOn": "2026-11-16",
+          "endsOn": "2026-12-20",
+          "predecessorIds": [
+            "cda8f340-3ede-4042-97b2-55539f38ad65",
+            "414cc1ca-73a7-48f9-81c5-21c4955f6269"
+          ],
+          "parallelIds": [],
+          "focus": false,
+          "actions": [
+            "核对范围与接口",
+            "组织成果复核"
+          ],
+          "deliverables": [
+            "现场实施成果资料",
+            "验收依据清单"
+          ],
+          "completionCriteria": "成果通过指定人员独立验证，范围与验收依据完整。"
+        },
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+      "version": 1,
+      "kind": "WORK_PACKAGE",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": {
+          "title": "方案设计专业工作包",
+          "scope": "方案设计范围与接口边界已明确，限定本项目交付内容。",
+          "deliverables": "方案设计成果资料、接口与验收清单",
+          "acceptanceCriteria": "成果齐备且经指定人员独立确认。",
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-08",
+          "resourceNotes": "按本包资源申请进行部门承诺，冲突需明确协调。",
+          "itemIds": [
+            "891af3d1-c826-4f75-8ad1-c9922b8c5f6c"
+          ],
+          "milestoneIds": [
+            "8040b846-b062-4f1a-9847-8933b41f9a2b"
+          ]
+        },
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+      "version": 0,
+      "kind": "MILESTONE",
+      "content": {
+        "stage": null,
+        "milestone": {
+          "title": "方案设计成果验收",
+          "kind": "ACCEPTANCE",
+          "dueDate": "2026-11-08",
+          "ownerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+          "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+          "contractNodeId": null,
+          "sourceNote": "DG-01 中标通知与交付方案约定的验收边界。",
+          "acceptanceCriteria": "工作包全部成果通过独立核验。"
+        },
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "891af3d1-c826-4f75-8ad1-c9922b8c5f6c",
+      "version": 0,
+      "kind": "ITEM",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": {
+          "title": "控制与接口设计成果",
+          "category": "DELIVERABLE",
+          "specification": "按已明确范围交付，接口与数量可核验。",
+          "quantity": 1,
+          "unit": "项",
+          "acceptanceScope": "关联本阶段成果验收节点。",
+          "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+          "workPackageId": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+          "milestoneId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+          "procurementNeeded": false,
+          "procurementNote": null
+        },
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "f2187eb3-6692-43ac-89ce-2747984abba4",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "方案设计主计划",
+          "kind": "MASTER",
+          "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+          "workPackageId": null,
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-08",
+          "deliveryWindowStart": "2026-10-12",
+          "deliveryWindowEnd": "2026-11-08",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "480ad269-edf3-4fd9-8a62-114b477e20da",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "方案设计工作包计划",
+          "kind": "WORK_PACKAGE",
+          "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+          "workPackageId": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-08",
+          "deliveryWindowStart": "2026-10-12",
+          "deliveryWindowEnd": "2026-11-08",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "73026adc-3bc0-451e-840a-d43f1bb59860",
+      "version": 1,
+      "kind": "WORK_PACKAGE",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": {
+          "title": "采购集成专业工作包",
+          "scope": "采购集成范围与接口边界已明确，限定本项目交付内容。",
+          "deliverables": "采购集成成果资料、接口与验收清单",
+          "acceptanceCriteria": "成果齐备且经指定人员独立确认。",
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "resourceNotes": "按本包资源申请进行部门承诺，冲突需明确协调。",
+          "itemIds": [
+            "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52"
+          ],
+          "milestoneIds": [
+            "ae0540be-bd34-4d37-a3c7-63ca113f8116"
+          ]
+        },
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+      "version": 0,
+      "kind": "MILESTONE",
+      "content": {
+        "stage": null,
+        "milestone": {
+          "title": "采购集成成果验收",
+          "kind": "ACCEPTANCE",
+          "dueDate": "2026-11-15",
+          "ownerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "contractNodeId": null,
+          "sourceNote": "DG-01 中标通知与交付方案约定的验收边界。",
+          "acceptanceCriteria": "工作包全部成果通过独立核验。"
+        },
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "version": 0,
+      "kind": "ITEM",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": {
+          "title": "自动化控制设备",
+          "category": "EQUIPMENT",
+          "specification": "按已明确范围交付，接口与数量可核验。",
+          "quantity": 8,
+          "unit": "套",
+          "acceptanceScope": "关联本阶段成果验收节点。",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+          "milestoneId": "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+          "procurementNeeded": true,
+          "procurementNote": "需采购控制设备与安装附件。"
+        },
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "f8bfd24c-cab4-42b5-a52d-b19f9df74570",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "采购集成主计划",
+          "kind": "MASTER",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "workPackageId": null,
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "deliveryWindowStart": "2026-10-12",
+          "deliveryWindowEnd": "2026-11-15",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "02d51075-2cc3-4846-9b76-594bcb941030",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "采购集成工作包计划",
+          "kind": "WORK_PACKAGE",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "deliveryWindowStart": "2026-10-12",
+          "deliveryWindowEnd": "2026-11-15",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+      "version": 1,
+      "kind": "WORK_PACKAGE",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": {
+          "title": "现场实施专业工作包",
+          "scope": "现场实施范围与接口边界已明确，限定本项目交付内容。",
+          "deliverables": "现场实施成果资料、接口与验收清单",
+          "acceptanceCriteria": "成果齐备且经指定人员独立确认。",
+          "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+          "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+          "startsOn": "2026-11-16",
+          "endsOn": "2026-12-20",
+          "resourceNotes": "按本包资源申请进行部门承诺，冲突需明确协调。",
+          "itemIds": [
+            "d3e16a95-98bc-48bf-8470-ba76cca3a69c"
+          ],
+          "milestoneIds": [
+            "397c384d-208e-4b8a-a6f2-fc4d37805d4f"
+          ]
+        },
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "397c384d-208e-4b8a-a6f2-fc4d37805d4f",
+      "version": 0,
+      "kind": "MILESTONE",
+      "content": {
+        "stage": null,
+        "milestone": {
+          "title": "现场实施成果验收",
+          "kind": "ACCEPTANCE",
+          "dueDate": "2026-12-20",
+          "ownerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+          "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+          "contractNodeId": null,
+          "sourceNote": "DG-01 中标通知与交付方案约定的验收边界。",
+          "acceptanceCriteria": "工作包全部成果通过独立核验。"
+        },
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "d3e16a95-98bc-48bf-8470-ba76cca3a69c",
+      "version": 0,
+      "kind": "ITEM",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": {
+          "title": "现场联调交付成果",
+          "category": "DELIVERABLE",
+          "specification": "按已明确范围交付，接口与数量可核验。",
+          "quantity": 1,
+          "unit": "项",
+          "acceptanceScope": "关联本阶段成果验收节点。",
+          "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+          "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+          "milestoneId": "397c384d-208e-4b8a-a6f2-fc4d37805d4f",
+          "procurementNeeded": false,
+          "procurementNote": null
+        },
+        "workPackage": null,
+        "plan": null,
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "7dac48e8-e6d2-4df2-9eda-7bd1cb60a299",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "现场实施主计划",
+          "kind": "MASTER",
+          "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+          "workPackageId": null,
+          "startsOn": "2026-11-16",
+          "endsOn": "2026-12-20",
+          "deliveryWindowStart": "2026-11-16",
+          "deliveryWindowEnd": "2026-12-20",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "f98f8833-b4ff-4811-b0c1-acb64dbc8d21",
+      "version": 0,
+      "kind": "PLAN",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": {
+          "title": "现场实施工作包计划",
+          "kind": "WORK_PACKAGE",
+          "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+          "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+          "startsOn": "2026-11-16",
+          "endsOn": "2026-12-20",
+          "deliveryWindowStart": "2026-11-16",
+          "deliveryWindowEnd": "2026-12-20",
+          "dependsOnIds": [],
+          "resourceConstraints": "以已确认的人员资源与采购窗口为准。"
+        },
+        "budget": null
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    },
+    {
+      "id": "e03b55ec-f193-4332-b93a-c28189b09b49",
+      "version": 0,
+      "kind": "BUDGET",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": null,
+        "plan": null,
+        "budget": {
+          "mode": "FULL",
+          "scope": "覆盖三个适用阶段、专业人员、设备采购与现场分包实施。",
+          "authorizedStageIds": [],
+          "authorizedCap": null,
+          "expiresOn": null,
+          "nextCompletionOn": null,
+          "remainingScope": null,
+          "lines": [
+            {
+              "title": "方案设计人员预算",
+              "category": "PERSONNEL",
+              "amount": 30000,
+              "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+              "workPackageId": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+              "resourceRequestId": "effdc974-7cb0-475f-8627-e145fd05ae46",
+              "itemId": null,
+              "basis": "已知专业人员投入范围与资源申请。"
+            },
+            {
+              "title": "采购集成人员预算",
+              "category": "PERSONNEL",
+              "amount": 30000,
+              "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+              "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+              "resourceRequestId": "ce58f7c3-ca8c-4486-a50a-5fd5cbe4c50a",
+              "itemId": null,
+              "basis": "已知专业人员投入范围与资源申请。"
+            },
+            {
+              "title": "现场实施人员预算",
+              "category": "PERSONNEL",
+              "amount": 30000,
+              "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+              "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+              "resourceRequestId": "2614c216-8708-409b-9ac3-600ee7759a08",
+              "itemId": null,
+              "basis": "已知专业人员投入范围与资源申请。"
+            },
+            {
+              "title": "控制设备采购",
+              "category": "PROCUREMENT",
+              "amount": 200000,
+              "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+              "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+              "resourceRequestId": null,
+              "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+              "basis": "已知控制设备数量与采购估算。"
+            },
+            {
+              "title": "现场专业分包",
+              "category": "SUBCONTRACT",
+              "amount": 120000,
+              "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+              "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+              "resourceRequestId": null,
+              "itemId": null,
+              "basis": "现场专业实施范围估算。"
+            },
+            {
+              "title": "现场差旅",
+              "category": "TRAVEL",
+              "amount": 40000,
+              "stageId": "0ddc70b2-12fd-4183-b026-34e30ce8dc1d",
+              "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+              "resourceRequestId": null,
+              "itemId": null,
+              "basis": "现场投入窗口与出差计划。"
+            },
+            {
+              "title": "其他交付费用",
+              "category": "OTHER",
+              "amount": 30000,
+              "stageId": "cda8f340-3ede-4042-97b2-55539f38ad65",
+              "workPackageId": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+              "resourceRequestId": null,
+              "itemId": null,
+              "basis": "其他已知交付辅助费用。"
+            }
+          ]
+        }
+      },
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "archived": false,
+      "baselineVersion": 0
+    }
+  ],
+  "resources": [
+    {
+      "id": "effdc974-7cb0-475f-8627-e145fd05ae46",
+      "version": 2,
+      "request": {
+        "workPackageId": "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+        "personId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+        "committerId": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+        "startsOn": "2026-10-12",
+        "endsOn": "2026-11-08",
+        "dailyHours": 3,
+        "requestNote": "验证·申请本工作包专业人员投入。"
+      },
+      "status": "COMMITTED",
+      "commitment": {
+        "dailyCapacity": 8,
+        "conclusion": "验证·部门核对窗口与当前占用，确认承诺。",
+        "impact": null,
+        "escalationPath": null
+      },
+      "committedBy": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+      "committedAt": "2026-09-12T20:51:16.990904Z",
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "overlapHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ce58f7c3-ca8c-4486-a50a-5fd5cbe4c50a",
+      "version": 2,
+      "request": {
+        "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+        "personId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+        "committerId": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+        "startsOn": "2026-10-12",
+        "endsOn": "2026-11-15",
+        "dailyHours": 3,
+        "requestNote": "验证·申请本工作包专业人员投入。"
+      },
+      "status": "COMMITTED",
+      "commitment": {
+        "dailyCapacity": 8,
+        "conclusion": "验证·部门核对窗口与当前占用，确认承诺。",
+        "impact": null,
+        "escalationPath": null
+      },
+      "committedBy": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+      "committedAt": "2026-09-12T20:51:18.087823Z",
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "overlapHash": "7e5161d1146a72782602b84babef630d11c6671b8c7b4f74f6c239aef0612443"
+    },
+    {
+      "id": "2614c216-8708-409b-9ac3-600ee7759a08",
+      "version": 2,
+      "request": {
+        "workPackageId": "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0",
+        "personId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+        "committerId": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+        "startsOn": "2026-11-16",
+        "endsOn": "2026-12-20",
+        "dailyHours": 6,
+        "requestNote": "验证·申请本工作包专业人员投入。"
+      },
+      "status": "COMMITTED",
+      "commitment": {
+        "dailyCapacity": 8,
+        "conclusion": "验证·确认现场实施窗口内每天投入 6 小时，可用容量为 8 小时，按本项目工作包安排执行。",
+        "impact": null,
+        "escalationPath": null
+      },
+      "committedBy": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+      "committedAt": "2026-09-12T21:46:47.245482Z",
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "overlapHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "findings": [
+    {
+      "id": "6fdc9776-7162-486a-a749-d33bc9572e3b",
+      "version": 0,
+      "finding": {
+        "title": "验证·现场文档版式补齐",
+        "kind": "GAP",
+        "impactCategory": "DETAIL",
+        "riskLevel": "LOW",
+        "ownerId": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+        "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "dueDate": "2026-10-10",
+        "closingCriteria": "现场文档版式统一，资料目录与验收依据已逐项核对。",
+        "impactScope": "仅涉及文档版式细化，不改变范围、关键日期和首段资源条件。",
+        "escalationOwnerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "escalationPath": "未按期补齐时，由项目经理组织技术负责人明确处理安排。"
+      },
+      "status": "OPEN",
+      "blocking": false,
+      "preparedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "evidence": null,
+      "evidenceBy": null,
+      "evidenceAt": null,
+      "verification": null,
+      "verifiedBy": null,
+      "verifiedAt": null
+    }
+  ]
+}

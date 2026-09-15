@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>方案 1 矩阵细节对照</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #eef2f8; color: #1f2d47; font: 14px Aptos, "PingFang SC", sans-serif; }
+      header { display: flex; align-items: center; justify-content: space-between; height: 48px; padding: 0 24px; background: #fff; border-bottom: 1px solid #dce4ef; }
+      main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; padding: 14px; }
+      figure { margin: 0; border: 1px solid #d9e1ed; background: #fff; box-shadow: 0 2px 8px rgb(24 47 90 / 8%); }
+      figcaption { height: 34px; display: flex; align-items: center; padding: 0 12px; font-weight: 700; color: #354966; }
+      .crop { width: 100%; height: 620px; overflow: hidden; background: #fff; }
+      img { display: block; width: 169%; max-width: none; transform: translate(-40%, -18.9%); }
+    </style>
+  </head>
+  <body>
+    <header><strong>方案 1：权限矩阵细节对照</strong><span>同一裁切位置，便于核对编辑区与表格</span></header>
+    <main>
+      <figure><figcaption>选定参考图</figcaption><div class="crop"><img src="/qa/source-option-1.png" alt="参考图权限矩阵细节" /></div></figure>
+      <figure><figcaption>可点击原型</figcaption><div class="crop"><img src="/qa/implementation-1487x1058.png" alt="原型权限矩阵细节" /></div></figure>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统 P1 能力与成果物映射">
+  <title>P1 能力与成果物映射｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · P1 基线映射</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">12 / P1 映射</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 12｜P1 能力与成果物映射</h2>
+<p class="subtitle">把 PRD 3.4 的菜单级结构、P1 核心能力、业务结果回显和验收证据放在同一张蓝图中，作为后续 SPEC 的范围索引。</p>
+
+<div style="padding:15px 17px;border-left:4px solid #d19a32;background:#fffaf0;border-radius:8px;margin-bottom:18px;">
+  <strong>基线说明：</strong>原《项目规定动作与成果物主清单 V0.1》只保留为需求盘点底稿和来源追溯，不再把其中的 100 项动作、必做数量、个人日报或绩效条目视为 V0.4 的当前执行基线。当前产品范围以 <a href="../PRD.md" style="color:#2f67c7;font-weight:700;">PRD V0.4</a> 为准。
+</div>
+
+<div class="metric-grid">
+  <div class="metric-card"><strong>P1</strong><span>当前基线：客户/商机 → 售前 → DG-01</span></div>
+  <div class="metric-card"><strong>5</strong><span>一级菜单组：工作台、商机与客户、项目中心、管理看板、系统管理</span></div>
+  <div class="metric-card"><strong>4</strong><span>独立回显事实：主阶段、当前重点阶段、项目状态、业务结果</span></div>
+  <div class="metric-card"><strong>12</strong><span>项目空间固定入口，子功能按 P1—P4 逐步开放</span></div>
+</div>
+
+<div class="section">
+  <div class="label">一、菜单级功能结构｜页签不冒充菜单</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(5,minmax(180px,1fr));gap:12px;margin-top:12px;">
+    <div style="padding:17px;border-radius:12px;background:#eaf8f7;border-top:4px solid #31a6b8;">
+      <strong>工作台</strong><br><small>我的待办<br>消息中心<br>个人设置</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>商机与客户</strong><br><small>商机管理<br>客户管理<br>商机分析</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>项目中心</strong><br><small>项目台账<br>售前管理<br>交付准入<br>合同归档</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#f3efff;border-top:4px solid #7863ce;">
+      <strong>管理看板</strong><br><small>商务管理看板<br>管理层看板</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>系统管理</strong><br><small>组织用户 · 角色权限 · 字典参数<br>模板规则 · 消息配置 · 审计日志 · 集成任务</small>
+    </div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">项目空间固定入口为项目概览、项目阶段、里程碑、项目清单、需求池、资金计划、风险管理、问题管理、项目例会、日报周报、成员和项目资料；模板属于系统配置数据，不是项目空间菜单。</p>
+</div>
+
+<div class="section">
+  <div class="label">二、P1 能力—成果物—业务回显—验收证据</div>
+  <div class="table-scroll" style="margin-top:12px;max-height:none;">
+    <table class="gap-table">
+      <thead>
+        <tr><th>能力域</th><th>关键能力</th><th>系统成果物/事实</th><th>用户看到的业务结果</th><th>验收证据</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>工作台</strong></td>
+          <td>本人待办、消息、期限、状态、原对象深链和通知偏好</td>
+          <td>统一行动入口、已读/处理状态和来源关系</td>
+          <td>需要处理的进入待办，只告知变化的进入消息</td>
+          <td>原业务完成、取消或失效后同步；无权用户不能从摘要获取敏感信息</td>
+        </tr>
+        <tr>
+          <td><strong>客户与商机</strong></td>
+          <td>客户主档、商机建档、等级、销售进展、跟进、关闭/重开</td>
+          <td>唯一商机主档、客户关系、行动时间线、独立业务结果</td>
+          <td>商机台账与详情显示当前进展、状态和业务结果</td>
+          <td>30—50 条商机一次性 Excel 导入；新系统成为唯一事实源</td>
+        </tr>
+        <tr>
+          <td><strong>项目空间</strong></td>
+          <td>12 个固定入口；P1 开放概览、阶段售前视图、需求池、成员和资料等当前能力</td>
+          <td>同一协作容器；不新增业务对象层级</td>
+          <td>页头并列显示“主阶段｜当前重点阶段｜项目状态｜业务结果”</td>
+          <td>列表、页头、详情和分析使用同一数据源</td>
+        </tr>
+        <tr>
+          <td><strong>售前协同</strong></td>
+          <td>SG-01、调研、需求、方案、估算、报价、招投标、SG-02</td>
+          <td>投入授权、动作状态、成果版本、评审结论</td>
+          <td>动作可并行、反复、局部回退；不伪装成项目阶段</td>
+          <td>真实案例能重开动作并保留历史版本</td>
+        </tr>
+        <tr>
+          <td><strong>需求池</strong></td>
+          <td>多来源记录、澄清、影响评估、人工派生/关联、验证关闭</td>
+          <td>原需求、处理去向、工作包/任务/问题/变更关系、完成与验证证据</td>
+          <td>同一需求池贯穿售前、交付和维护</td>
+          <td>处理人不能自行关闭；验证角色和证据可追溯</td>
+        </tr>
+        <tr>
+          <td><strong>资料与分享</strong></td>
+          <td>统一入口、检索、版本、归档清单、链接＋密码</td>
+          <td>当前有效版本、文件关系、分享记录、完整性结果</td>
+          <td>有文件权限且另有分享权限的员工只分享所选文件</td>
+          <td>链接可过期、撤销、限制查看/下载并记录访问日志</td>
+        </tr>
+        <tr>
+          <td><strong>DG-01 与提前开工</strong></td>
+          <td>移交清单、缺项、正常准入、限定先行、承诺控制</td>
+          <td>移交包、DG-01 结论、最小承诺台账、停止/转正历史</td>
+          <td>提前开工可作为限定开工依据，但不自动显示 DG-01 已通过</td>
+          <td>到期、超范围或超预算时冻结新增承诺；P1 不越过 DG-02</td>
+        </tr>
+        <tr>
+          <td><strong>合同归档</strong></td>
+          <td>签署后合同主档、签署件、补充/变更/终止关系</td>
+          <td>当前有效合同及付款/验收节点</td>
+          <td>中标通知、委托函、提前开工审批仍是独立商务依据</td>
+          <td>没有合同审批、法务、电子签署或纸质原件流程</td>
+        </tr>
+        <tr>
+          <td><strong>分析与看板</strong></td>
+          <td>商机结构、推进、停滞、输赢、售前投入、下钻</td>
+          <td>同源指标、口径、更新时间和来源记录</td>
+          <td>管理层能区分未中标/未成交、客户取消和主动终止</td>
+          <td>汇总数与商机/项目空间明细一致</td>
+        </tr>
+        <tr>
+          <td><strong>系统管理</strong></td>
+          <td>组织账号、角色权限、字典参数、模板规则、消息配置、审计日志、数据任务和集成状态</td>
+          <td>统一身份、实际权限、配置版本、发送记录、审计记录和任务结果</td>
+          <td>账号和责任可管理；不同角色只看到授权范围；规则版本不改写历史</td>
+          <td>账号停用、项目换任、敏感隔离、临时授权失效、数据任务重试和关键操作追溯通过验证</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、业务结果不是关闭状态的附注，而是跨页面主事实</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:12px;">
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;text-align:center;"><strong>主阶段</strong><br><small>售前</small></div>
+    <div style="font-size:23px;color:#94a3b8;">＋</div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;text-align:center;"><strong>当前重点阶段</strong><br><small>投标评审</small></div>
+    <div style="font-size:23px;color:#94a3b8;">＋</div>
+    <div style="padding:17px;border-radius:12px;background:#f1f5f9;text-align:center;"><strong>项目状态</strong><br><small>已关闭</small></div>
+    <div style="font-size:23px;color:#94a3b8;">＋</div>
+    <div style="padding:17px;border-radius:12px;background:#fff0ed;text-align:center;"><strong>业务结果</strong><br><small>未中标</small></div>
+  </div>
+  <div style="margin-top:12px;padding:13px 15px;border-left:4px solid #d66b5f;background:#fff7f5;border-radius:8px;">
+    <strong>标准回显：</strong>售前｜投标评审｜已关闭｜未中标。该事实同时回显在商机台账/详情、项目台账、项目空间页头/概览、关闭与重开记录、商机分析和管理看板；任何页面都不能只显示“已关闭”。
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、P1/P2/P3/P4 边界</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:12px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>P1｜当前基线</strong><br><small>客户商机、售前、需求资料、合同最小主档、DG-01 和业务结果回显</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>P2｜交付立项</strong><br><small>从移交包接续，准备团队/阶段/清单/工作包/计划/预算草案，再通过 DG-02</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;border-top:4px solid #d19a32;"><strong>P3｜执行与归档</strong><br><small>阶段执行、清单、风险问题、日报周报、例会、验收和 NAS</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f3efff;border-top:4px solid #7863ce;"><strong>P4｜经营深化</strong><br><small>实际确认收入、回款/付款/采购计划及实际、合同履约和经营分析</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;"><strong>独立暂缓：</strong>绩效考核表、KPI/OKR、评分、校准、申诉和奖金联动不属于任何当前批次，未来如需另行讨论和立项。</p>
+</div>
+
+<div class="section">
+  <div class="label">五、V0.1 原始清单的落地校正</div>
+  <div class="table-scroll" style="margin-top:12px;max-height:none;">
+    <table class="gap-table">
+      <thead><tr><th>原始/易误解表达</th><th>V0.4 当前口径</th></tr></thead>
+      <tbody>
+        <tr><td>所有商机都做“销售立项”</td><td>所有商机都建档；只有发生实质售前投入时才进入 SG-01 售前投入立项。</td></tr>
+        <tr><td>售前动作按固定阶段串行</td><td>调研、需求、方案、估算、报价、招投标和技术交底准备可并行、反复、局部回退。</td></tr>
+        <tr><td>项目空间或“子项目”成为新业务层级</td><td>项目空间只做协作容器；取消交付单元，交付范围由项目清单、阶段、里程碑和工作包表达。</td></tr>
+        <tr><td>DG-04＝设计冻结</td><td>DG-04＝设计基线与采购/开发放行；后续变更通过版本和影响闭环处理。</td></tr>
+        <tr><td>所有成员强制个人日报</td><td>项目经理每天纯手写项目日报；成员按项目提交周报，系统汇总项目周报草稿并由项目经理补充审核。</td></tr>
+        <tr><td>项目事实自动成为绩效证据</td><td>绩效管理当前暂缓；项目事实只用于业务追溯，不形成评分、权重或奖金记录。</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div style="display:flex;gap:12px;flex-wrap:wrap;padding:14px 16px;border-radius:10px;background:#f8fafc;border:1px solid #dbe2ea;">
+  <strong>来源追溯：</strong>
+  <a href="../PRD.md" style="color:#2f67c7;font-weight:700;">PRD V0.4</a>
+  <a href="../BRD.md" style="color:#2f67c7;font-weight:700;">BRD V0.4</a>
+  <a href="../references/项目规定动作与成果物主清单_v0.1.xlsx" style="color:#2f67c7;font-weight:700;">V0.1 原始清单（非当前基线）</a>
+</div>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="11-mvp-rollout-acceptance.html"><small>上一页 · 11</small><strong>← P1/P2 边界、迁移与验收</strong></a>
+    <a class="disabled" href="#"><small>当前终点</small><strong>P1 能力映射已完成 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · P1 能力与成果物映射 · V0.4</footer>
+</body>
+</html>

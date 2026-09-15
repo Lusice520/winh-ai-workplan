@@ -1,0 +1,369 @@
+{
+  "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/tasks/88cff366-3747-45ec-9917-436fcda49824/commands",
+  "before": {
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "projectName": "验证·启明产线自动化改造（接口验证）",
+    "workPackage": {
+      "id": "73026adc-3bc0-451e-840a-d43f1bb59860",
+      "version": 3,
+      "kind": "WORK_PACKAGE",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": {
+          "title": "采购集成专业工作包",
+          "scope": "采购集成范围与接口边界已明确，限定本项目交付内容。",
+          "deliverables": "采购集成成果资料、接口与验收清单",
+          "acceptanceCriteria": "成果齐备且经指定人员独立确认。",
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "resourceNotes": "按本包资源申请进行部门承诺，冲突需明确协调。",
+          "itemIds": [
+            "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52"
+          ],
+          "milestoneIds": [
+            "ae0540be-bd34-4d37-a3c7-63ca113f8116"
+          ]
+        },
+        "plan": null,
+        "budget": null
+      },
+      "archived": false,
+      "baselineVersion": 1
+    },
+    "packageStatus": "OPEN",
+    "stage": {
+      "status": "IN_PROGRESS",
+      "startedOn": "2026-09-13"
+    },
+    "task": {
+      "id": "88cff366-3747-45ec-9917-436fcda49824",
+      "version": 1,
+      "workVersion": 1,
+      "title": "验证·通信点表联调",
+      "acceptanceCriteria": "验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。",
+      "status": "OPEN",
+      "needsReview": false,
+      "sourceRequirementId": null,
+      "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "ownerName": "验证·接任专业负责人",
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "verifierName": "验证·工作包验证人",
+      "startsOn": "2026-10-12",
+      "dueDate": "2026-11-05",
+      "estimatedDays": 1.5,
+      "progress": 65,
+      "actualStartedOn": "2026-09-13",
+      "actualCompletedOn": null,
+      "itemCount": 1,
+      "allowedActions": [
+        "EDIT",
+        "CANCEL"
+      ]
+    },
+    "description": "验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。",
+    "acceptanceCriteria": "验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。",
+    "itemIds": [
+      "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52"
+    ],
+    "items": [
+      {
+        "id": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+        "version": 1,
+        "kind": "ITEM",
+        "content": {
+          "stage": null,
+          "milestone": null,
+          "item": {
+            "title": "自动化控制设备",
+            "category": "EQUIPMENT",
+            "specification": "按已明确范围交付，接口与数量可核验。",
+            "quantity": 8,
+            "unit": "套",
+            "acceptanceScope": "关联本阶段成果验收节点。",
+            "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+            "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+            "milestoneId": "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+            "procurementNeeded": true,
+            "procurementNote": "需采购控制设备与安装附件。"
+          },
+          "workPackage": null,
+          "plan": null,
+          "budget": null
+        },
+        "archived": false,
+        "baselineVersion": 1
+      }
+    ],
+    "evidence": null,
+    "submittedBy": null,
+    "submitterName": null,
+    "verifiedBy": null,
+    "verifierName": null,
+    "verifiedAt": null,
+    "baselineVersion": 4,
+    "files": {
+      "files": [],
+      "restricted": 0
+    },
+    "history": [
+      {
+        "id": "cc100cec-e1f1-4656-b8dd-7c37af17f09f",
+        "taskId": "88cff366-3747-45ec-9917-436fcda49824",
+        "action": "PROGRESS",
+        "note": "验证·通信点表联调报告65",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T11:23:00.653312Z",
+        "before": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":0,\"actualStartedOn\":null,\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":65,\"actualStartedOn\":\"2026-09-13\",\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "21790a8a-e7ec-4c15-a863-c3ad2e0915e0",
+        "taskId": "88cff366-3747-45ec-9917-436fcda49824",
+        "action": "CREATE",
+        "note": "验证·原批准工作包内进行任务细化，不改合同、清单数量或已批准预算。",
+        "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "actorName": "验证·项目经理",
+        "at": "2026-09-13T11:23:00.088093Z",
+        "before": {
+          "json": "null",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":0,\"actualStartedOn\":null,\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "requestId": "437eb94c-dd0b-469e-85ea-44d5e85f32b2",
+      "input": {
+        "version": 1,
+        "workVersion": 1,
+        "action": "PROGRESS",
+        "progress": 66,
+        "occurredOn": "2026-09-13",
+        "note": "验证·并发提交 66，仅一个当前版本可以写入"
+      }
+    },
+    {
+      "requestId": "b4cf578d-e41f-4e3f-a155-84970a8a48ef",
+      "input": {
+        "version": 1,
+        "workVersion": 1,
+        "action": "PROGRESS",
+        "progress": 67,
+        "occurredOn": "2026-09-13",
+        "note": "验证·并发提交 67，仅一个当前版本可以写入"
+      }
+    }
+  ],
+  "winner": 1,
+  "after": {
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "projectName": "验证·启明产线自动化改造（接口验证）",
+    "workPackage": {
+      "id": "73026adc-3bc0-451e-840a-d43f1bb59860",
+      "version": 3,
+      "kind": "WORK_PACKAGE",
+      "content": {
+        "stage": null,
+        "milestone": null,
+        "item": null,
+        "workPackage": {
+          "title": "采购集成专业工作包",
+          "scope": "采购集成范围与接口边界已明确，限定本项目交付内容。",
+          "deliverables": "采购集成成果资料、接口与验收清单",
+          "acceptanceCriteria": "成果齐备且经指定人员独立确认。",
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+          "startsOn": "2026-10-12",
+          "endsOn": "2026-11-15",
+          "resourceNotes": "按本包资源申请进行部门承诺，冲突需明确协调。",
+          "itemIds": [
+            "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52"
+          ],
+          "milestoneIds": [
+            "ae0540be-bd34-4d37-a3c7-63ca113f8116"
+          ]
+        },
+        "plan": null,
+        "budget": null
+      },
+      "archived": false,
+      "baselineVersion": 1
+    },
+    "packageStatus": "OPEN",
+    "stage": {
+      "status": "IN_PROGRESS",
+      "startedOn": "2026-09-13"
+    },
+    "task": {
+      "id": "88cff366-3747-45ec-9917-436fcda49824",
+      "version": 2,
+      "workVersion": 2,
+      "title": "验证·通信点表联调",
+      "acceptanceCriteria": "验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。",
+      "status": "OPEN",
+      "needsReview": false,
+      "sourceRequirementId": null,
+      "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "ownerName": "验证·接任专业负责人",
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "verifierName": "验证·工作包验证人",
+      "startsOn": "2026-10-12",
+      "dueDate": "2026-11-05",
+      "estimatedDays": 1.5,
+      "progress": 67,
+      "actualStartedOn": "2026-09-13",
+      "actualCompletedOn": null,
+      "itemCount": 1,
+      "allowedActions": [
+        "EDIT",
+        "CANCEL"
+      ]
+    },
+    "description": "验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。",
+    "acceptanceCriteria": "验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。",
+    "itemIds": [
+      "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52"
+    ],
+    "items": [
+      {
+        "id": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+        "version": 1,
+        "kind": "ITEM",
+        "content": {
+          "stage": null,
+          "milestone": null,
+          "item": {
+            "title": "自动化控制设备",
+            "category": "EQUIPMENT",
+            "specification": "按已明确范围交付，接口与数量可核验。",
+            "quantity": 8,
+            "unit": "套",
+            "acceptanceScope": "关联本阶段成果验收节点。",
+            "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+            "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+            "milestoneId": "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+            "procurementNeeded": true,
+            "procurementNote": "需采购控制设备与安装附件。"
+          },
+          "workPackage": null,
+          "plan": null,
+          "budget": null
+        },
+        "archived": false,
+        "baselineVersion": 1
+      }
+    ],
+    "evidence": null,
+    "submittedBy": null,
+    "submitterName": null,
+    "verifiedBy": null,
+    "verifierName": null,
+    "verifiedAt": null,
+    "baselineVersion": 4,
+    "files": {
+      "files": [],
+      "restricted": 0
+    },
+    "history": [
+      {
+        "id": "908e455d-b63b-4e61-ab8f-d696092c8e56",
+        "taskId": "88cff366-3747-45ec-9917-436fcda49824",
+        "action": "PROGRESS",
+        "note": "验证·并发提交 67，仅一个当前版本可以写入",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T11:27:03.884052Z",
+        "before": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":65,\"actualStartedOn\":\"2026-09-13\",\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":67,\"actualStartedOn\":\"2026-09-13\",\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "cc100cec-e1f1-4656-b8dd-7c37af17f09f",
+        "taskId": "88cff366-3747-45ec-9917-436fcda49824",
+        "action": "PROGRESS",
+        "note": "验证·通信点表联调报告65",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T11:23:00.653312Z",
+        "before": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":0,\"actualStartedOn\":null,\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":65,\"actualStartedOn\":\"2026-09-13\",\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "21790a8a-e7ec-4c15-a863-c3ad2e0915e0",
+        "taskId": "88cff366-3747-45ec-9917-436fcda49824",
+        "action": "CREATE",
+        "note": "验证·原批准工作包内进行任务细化，不改合同、清单数量或已批准预算。",
+        "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "actorName": "验证·项目经理",
+        "at": "2026-09-13T11:23:00.088093Z",
+        "before": {
+          "json": "null",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "json": "{\"title\":\"验证·通信点表联调\",\"description\":\"验证·在采购集成包范围内核对设备、接口和资料，保留逐项实际结果。\",\"ownerId\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"ownerName\":\"验证·接任专业负责人\",\"verifierName\":\"验证·工作包验证人\",\"status\":\"OPEN\",\"dueDate\":\"2026-11-05\",\"evidence\":null,\"submittedBy\":null,\"verifiedBy\":null,\"verifiedAt\":null,\"startsOn\":\"2026-10-12\",\"acceptanceCriteria\":\"验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。\",\"estimatedDays\":1.5,\"itemIds\":[\"a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52\"],\"progress\":0,\"actualStartedOn\":null,\"actualCompletedOn\":null,\"scopeHash\":\"2660a083d5422df3c6d293d9e956343b61337048f3e1944288d1a8a4408fb3be\",\"baselineVersion\":4}",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      }
+    ]
+  }
+}

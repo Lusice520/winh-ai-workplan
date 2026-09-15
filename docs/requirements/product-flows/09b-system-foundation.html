@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统工作台与系统管理闭环">
+  <title>工作台与系统管理闭环｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 系统基础底座</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">09B / 系统底座</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 09B｜工作台与系统管理闭环</h2>
+<p class="subtitle">系统基础能力不是一组孤立的管理员页面：它从组织账号开始，支撑权限计算、项目责任、待办消息、规则版本、批量任务和全过程审计。</p>
+
+<div class="section">
+  <div class="label">一、P1 系统基础管理闭环</div>
+  <div class="system-loop">
+    <div><strong>组织与用户</strong><br><small>建立身份和组织归属</small></div>
+    <div><strong>角色与范围</strong><br><small>配置系统角色和数据范围</small></div>
+    <div><strong>项目成员</strong><br><small>分配项目与阶段责任</small></div>
+    <div><strong>实际权限</strong><br><small>联合计算对象与动作</small></div>
+    <div><strong>待办与消息</strong><br><small>把行动送达责任人</small></div>
+    <div><strong>业务处理</strong><br><small>回到原对象完成操作</small></div>
+    <div><strong>审计与复核</strong><br><small>关键过程统一追溯</small></div>
+  </div>
+  <div class="boundary-note">账号停用后立即阻止登录和新增操作，但历史责任、业务记录和审计关系继续保留；项目成员换任不得改写历史操作人。</div>
+</div>
+
+<div class="section">
+  <div class="label">二、工作台统一行动入口｜待办与消息不混用</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-top:10px;">
+    <div style="padding:18px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>我的待办</strong><br><small>需要本人处理的业务动作；按来源、项目、状态和期限筛选，完成、取消或失效后与原业务同步。</small>
+    </div>
+    <div style="padding:18px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>消息中心</strong><br><small>告知结果与变化；保留已读状态和原对象深链，不形成第二套业务处理结果。</small>
+    </div>
+    <div style="padding:18px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>个人设置</strong><br><small>维护展示信息和通知偏好；不能自行修改组织、系统角色、项目角色或敏感权限。</small>
+    </div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">用户无权访问原业务对象时，待办或消息摘要不得泄露客户、合同、金额、文件名称等敏感内容。</p>
+</div>
+
+<div class="section">
+  <div class="label">三、系统管理功能结构｜七个可运营入口</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;"><strong>组织与用户</strong><br><small>组织树、用户台账、账号启停、锁定、调动和离职回收</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;"><strong>角色与权限</strong><br><small>系统/项目/阶段角色、组织范围、字段与文件动作、权限预览</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f3efff;"><strong>字典与参数</strong><br><small>项目类型、分类、优先级、原因、提醒阈值和适用状态</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;"><strong>模板与规则</strong><br><small>商机、售前、DG-01、归档、编号及后续项目阶段模板</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eaf8f7;"><strong>消息与待办配置</strong><br><small>业务事件、接收角色、触发时点、提醒和升级规则</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff0ed;"><strong>审计日志</strong><br><small>账号权限、成员、数据变更、敏感访问和关键确认操作</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f1f5f9;"><strong>集成与任务</strong><br><small>导入导出任务、失败重试，以及外部连接和同步运行状态</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、字典、规则与模板必须保留历史口径</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch;margin-top:10px;min-width:820px;">
+    <div style="padding:16px;border-radius:11px;background:#f1f5f9;text-align:center;"><strong>草稿配置</strong><br><small>编辑字典、规则或模板</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;text-align:center;"><strong>发布版本</strong><br><small>记录版本、发布人和适用范围</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;text-align:center;"><strong>新业务采用</strong><br><small>新对象或明确升级对象生效</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;text-align:center;"><strong>历史继续可读</strong><br><small>不静默改写事实和项目快照</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">已被业务数据引用的字典值不得直接删除，可停用并继续供历史记录显示；运行中项目采用的模板快照不被后续版本覆盖。</p>
+</div>
+
+<div class="section">
+  <div class="label">五、审计、数据任务与外部集成的责任边界</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-top:10px;">
+    <div style="padding:18px;border-radius:12px;border:1px solid #9db6e5;background:#eef4ff;"><strong>审计中心</strong><br><small>记录谁在何时对什么对象执行了什么动作，以及必要的前后值；审计角色可查可导出，普通用户不可修改。</small></div>
+    <div style="padding:18px;border-radius:12px;border:1px solid #e8cb7f;background:#fff8e8;"><strong>数据任务中心</strong><br><small>展示导入导出进度、成功/失败数量和结果文件；单条错误不掩盖其他结果，失败明细可修正重试。</small></div>
+    <div style="padding:18px;border-radius:12px;border:1px solid #9dd8bc;background:#eef9f4;"><strong>集成运行状态</strong><br><small>按批次查看飞书、NAS 及后续系统的连接、最近同步、失败和重试；接口协议与凭证进入技术方案。</small></div>
+  </div>
+  <div class="boundary-note"><strong>不做：</strong>不建设完整 HR、通用工作流引擎或通用运维平台；只提供已经确认的业务管理、状态可见和失败恢复能力。</div>
+</div>
+
+<div class="section">
+  <div class="label">六、P1 基础能力验收证据</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;"><strong>AC-19｜账号生命周期</strong><br><small>停用账号不能继续登录或新增操作，历史责任仍可查询。</small></div>
+    <div style="padding:15px;border-radius:10px;background:#eef9f4;"><strong>AC-20｜分层角色</strong><br><small>系统、组织、项目和阶段权限分别生效，成员换任保留交接。</small></div>
+    <div style="padding:15px;border-radius:10px;background:#fff8e8;"><strong>AC-21｜敏感与临时授权</strong><br><small>资金摘要、成本利润和文件动作按授权隔离；临时授权到期失效。</small></div>
+    <div style="padding:15px;border-radius:10px;background:#f3efff;"><strong>AC-22｜工作台闭环</strong><br><small>待办消息回到原对象，业务状态同步且不产生第二套结果。</small></div>
+    <div style="padding:15px;border-radius:10px;background:#eaf8f7;"><strong>AC-23｜配置版本</strong><br><small>字典停用后历史可读，新版本不改写历史和运行中快照。</small></div>
+    <div style="padding:15px;border-radius:10px;background:#fff0ed;"><strong>AC-24｜审计与数据任务</strong><br><small>关键操作可追溯，批量任务进度、失败明细和重试完整。</small></div>
+  </div>
+</div>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="09-permissions-security.html"><small>上一页 · 09</small><strong>← 组织、账号、权限与安全</strong></a>
+    <a href="10-channels-integrations.html"><small>下一页 · 10</small><strong>Web、移动端与系统协同 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 工作台与系统管理闭环 · V0.4</footer>
+</body>
+</html>

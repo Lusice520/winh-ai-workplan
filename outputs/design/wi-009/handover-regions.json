@@ -1,0 +1,87 @@
+{
+  "reference": "handover-design-v1.png",
+  "css_viewport_width": 1505,
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/71a40e56-9908-4681-9ad8-95d1a8f64a08?tab=handover&handover=dg01",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "box": [
+        0,
+        0,
+        236,
+        1045
+      ],
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "box": [
+        236,
+        0,
+        1269,
+        65
+      ],
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "project-heading",
+      "box": [
+        261,
+        85,
+        1219,
+        65
+      ],
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "project-facts",
+      "box": [
+        261,
+        165,
+        1219,
+        79
+      ],
+      "selector": ".business-page--project > .business-facts"
+    },
+    {
+      "name": "handover-table",
+      "box": [
+        261,
+        361,
+        749,
+        440
+      ],
+      "selector": ".handover-checklist"
+    },
+    {
+      "name": "readiness-panel",
+      "box": [
+        1022,
+        306,
+        459,
+        195
+      ],
+      "selector": ".handover-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child"
+    },
+    {
+      "name": "first-checklist-row",
+      "box": [
+        274,
+        450,
+        721,
+        38
+      ],
+      "selector": ".handover-checklist .ant-table-tbody tr.ant-table-row:first-of-type"
+    }
+  ]
+}

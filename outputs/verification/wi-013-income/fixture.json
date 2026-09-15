@@ -1,0 +1,63 @@
+{
+  "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+  "period": "2026-09",
+  "currency": "CNY",
+  "people": {
+    "manager": {
+      "id": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "name": "验证·项目经理",
+      "loginName": "wi010dg2-manager-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-manager-session.json"
+    },
+    "successor": {
+      "id": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "name": "验证·接任专业负责人",
+      "loginName": "wi010dg2-successor-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-successor-session.json"
+    },
+    "verifier": {
+      "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "name": "验证·工作包验证人",
+      "loginName": "wi010dg2-verifier-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-verifier-session.json"
+    },
+    "reviewer": {
+      "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+      "name": "验证·专业会签人",
+      "loginName": "wi010dg2-reviewer-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-reviewer-session.json"
+    }
+  },
+  "roles": {
+    "SYNTHETIC_WI013_FORECAST": {
+      "id": "60797f95-3221-423b-a781-31d2d9b4ec5e",
+      "codes": [
+        "FINANCE_READ",
+        "FINANCE_FORECAST_EDIT"
+      ]
+    },
+    "SYNTHETIC_WI013_SUBMIT": {
+      "id": "b21eaee1-9462-4189-9304-d1d1fc96ca72",
+      "codes": [
+        "FINANCE_READ",
+        "FINANCE_INCOME_SUBMIT",
+        "CONTRACT_READ",
+        "CONTRACT_SENSITIVE_READ",
+        "FILE_CONTRACT_READ"
+      ]
+    },
+    "SYNTHETIC_WI013_CONFIRM": {
+      "id": "6acb0c21-afb8-42d5-b4c1-0a3b5c205703",
+      "codes": [
+        "FINANCE_READ",
+        "FINANCE_INCOME_CONFIRM",
+        "CONTRACT_READ",
+        "CONTRACT_SENSITIVE_READ",
+        "FILE_CONTRACT_READ"
+      ]
+    }
+  },
+  "checks": [
+    "Only exact synthetic enabled project actors received separate finance role assignments; standard roles and migration grant nobody."
+  ]
+}

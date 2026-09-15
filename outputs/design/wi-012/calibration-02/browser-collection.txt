@@ -1,0 +1,62 @@
+### Result
+{"measurement_sha256":"9a545f3293e8e719a815bac21702d07e3f38a29a5d4176530a8454ea9c01a64b","url":"http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks","title":"工作计划系统 · 本地基线","viewport":{"width":1522,"height":1033},"dpr":1,"scroll":{"x":0,"y":0},"document_height":1449,"fonts_ready":true,"images_ready":true,"document_overflow_x":false,"captured_at":"2026-09-13T11:35:21.843Z","elements":[{"name":"page-heading","selector":".task-page .business-page-heading","count":1,"status":"measured","box":[260,74,1229,56.21875],"text":"采购集成专业工作包 · 任务执行验证·启明产线自动化改造（接口验证）","computed":{"display":"flex","visibility":"visible","opacity":"1","fontFamily":"Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif","fontSize":"14px","lineHeight":"22px","fontWeight":"400","color":"rgb(40, 54, 77)","backgroundColor":"rgba(0, 0, 0, 0)"},"viewport_intersects":true},{"name":"task-facts","selector":".task-facts","count":1,"status":"measured","box":[260,180.21875,1229,93.984375],"text":"有效任务61 项已取消，单独保留已独立验证2 / 6完成比例 33%待验证1报告完成后仍需独立核验需复核计划0原范围或验收依据有变化","computed":{"display":"block","visibility":"visible","opacity":"1","fontFamily":"Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif","fontSize":"14px","lineHeight":"22px","fontWeight":"400","color":"rgb(40, 54, 77)","backgroundColor":"rgba(0, 0, 0, 0)"},"viewport_intersects":true},{"name":"task-table","selector":".task-list-panel","count":1,"status":"measured","box":[260,288.203125,897,866.9921875],"text":"任务列表7 项匹配全部状态重 置计划日期筛选开始不早于 完成不晚于 任务 / 完成标准负责人 / 验证人计划 / 实际本人报告进度状态操作任务 / 完成标准负责人 / 验证人计划 / 实际本人报告进度状态操作验证·移动端临时检查安排验证·逐项检查原范围和资料，由指定其他人独立确认。验证·接任专业负责人验证：验证·工作包验证人2026-10-12至 11-150%已取消查看验证·通信点表联调验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。验证·接任专业负责人验证：验证·工作包验证人2026-10-12至 11-0565%进行中查看验证·设备接口核对验证·逐项核对八套控制设备接","computed":{"display":"block","visibility":"visible","opacity":"1","fontFamily":"Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif","fontSize":"14px","lineHeight":"22px","fontWeight":"400","color":"rgb(40, 54, 77)","backgroundColor":"rgb(255, 255, 255)"},"viewport_intersects":true},{"name":"review-queue","selector":".task-review-panel","count":1,"status":"measured","box":[1171,288.203125,318,302.9921875],"text":"本人待核验（1）只展示当前指定给你的验证事项。待验证验证·联锁模拟测试验证·接任专业负责人 提交 · 报告进度 100%验证·逐项核对本任务成果，由指定其他人独立确认，问题补齐后重新验证。查看成果并核验","computed":{"display":"block","visibility":"visible","opacity":"1","fontFamily":"Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif","fontSize":"14px","lineHeight":"22px","fontWeight":"400","color":"rgb(40, 54, 77)","backgroundColor":"rgb(255, 255, 255)"},"viewport_intersects":true},{"name":"package-criteria","selector":".task-criteria-panel","count":1,"status":"measured","box":[1171,605.1953125,318,350.140625],"text":"原工作包验收依据交付成果采购集成成果资料、接口与验收清单验收条件成果齐备且经指定人员独立确认。清单范围1 项批准清单 · 查看清单返回原阶段执行 →任务完成后，工作包仍由原责任人提交并独立验证。","computed":{"display":"block","visibility":"visible","opacity":"1","fontFamily":"Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif","fontSize":"14px","lineHeight":"22px","fontWeight":"400","color":"rgb(40, 54, 77)","backgroundColor":"rgb(255, 255, 255)"},"viewport_intersects":true}],"assets":{},"full_page":false,"screenshot_scale":"css"}
+### Ran Playwright code
+```js
+await (async (page) => {
+ await page.setViewportSize({width:1522,height:1033});
+ await page.goto("http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks");
+ await page.getByRole("link",{name:"验证·移动端临时检查安排",exact:true}).waitFor();
+ await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(im=>im.decode().catch(()=>{})));window.scrollTo(0,0);});
+ const capture=await page.evaluate(()=>(/* 由 prepare_capture.py 绑定测量基线。只读取主文档，不导航、不操作页面。 */
+(plan) => {
+  const elements = plan.targets.map(({name, selector}) => {
+    let matches;
+    try { matches = document.querySelectorAll(selector); }
+    catch { return {name, selector, status: 'invalid_selector', count: 0}; }
+    if (matches.length !== 1) return {name, selector, count: matches.length, status: matches.length ? 'ambiguous' : 'missing'};
+    const el = matches[0];
+    const rect = el.getBoundingClientRect();
+    const style = getComputedStyle(el);
+    let hidden = ['hidden', 'collapse'].includes(style.visibility);
+    for (let parent = el; parent; parent = parent.parentElement) {
+      const s = getComputedStyle(parent);
+      if (s.display === 'none' || Number(s.opacity) === 0) hidden = true;
+    }
+    const hasBox = el.getClientRects().length > 0 && rect.width > 0 && rect.height > 0;
+    const result = {
+      name, selector, count: 1,
+      status: hidden ? 'hidden' : hasBox ? 'measured' : 'unmeasurable',
+      box: [rect.left + scrollX, rect.top + scrollY, rect.width, rect.height],
+      text: (el.textContent || '').trim().slice(0, 300),
+      computed: {display: style.display, visibility: style.visibility, opacity: style.opacity, fontFamily: style.fontFamily, fontSize: style.fontSize, lineHeight: style.lineHeight, fontWeight: style.fontWeight, color: style.color, backgroundColor: style.backgroundColor},
+      viewport_intersects: rect.bottom > 0 && rect.right > 0 && rect.top < innerHeight && rect.left < innerWidth
+    };
+    if (el instanceof HTMLImageElement) result.asset = {src: el.currentSrc, natural_width: el.naturalWidth, natural_height: el.naturalHeight, version: el.dataset.version || null};
+    return result;
+  });
+  return {
+    measurement_sha256: plan.measurement_sha256,
+    url: location.href, title: document.title,
+    viewport: {width: innerWidth, height: innerHeight}, dpr: devicePixelRatio,
+    scroll: {x: scrollX, y: scrollY}, document_height: document.documentElement.scrollHeight,
+    fonts_ready: document.fonts.status === 'loaded',
+    images_ready: [...document.images].every(im => im.complete && im.naturalWidth > 0),
+    document_overflow_x: document.documentElement.scrollWidth > innerWidth,
+    captured_at: new Date().toISOString(), elements,
+    assets: Object.fromEntries(elements.filter(el => el.asset).map(el => [el.name, el.asset]))
+  };
+}
+)({"measurement_sha256": "9a545f3293e8e719a815bac21702d07e3f38a29a5d4176530a8454ea9c01a64b", "targets": [{"name": "page-heading", "selector": ".task-page .business-page-heading"}, {"name": "task-facts", "selector": ".task-facts"}, {"name": "task-table", "selector": ".task-list-panel"}, {"name": "review-queue", "selector": ".task-review-panel"}, {"name": "package-criteria", "selector": ".task-criteria-panel"}]})); capture.full_page=false;capture.screenshot_scale="css";
+ await page.screenshot({path:"outputs/design/wi-012/calibration-02/candidate.png",fullPage:false,scale:"css",animations:"disabled"});
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/desktop-task-list.png",fullPage:true,scale:"css",animations:"disabled"});
+ return capture;
+})(page);
+```
+### Open tabs
+- 0: (current) [工作计划系统 · 本地基线](http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks)
+- 1: [工作计划系统 · 本地基线](http://127.0.0.1:5173/login)
+### Page
+- Page URL: http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks
+- Page Title: 工作计划系统 · 本地基线
+### Events
+- New console entries: .playwright-cli/console-2026-09-13T00-11-16-819Z.log#L43

@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-13T09:43:12.486Z",
+  "checks": [
+    "V4 original scope and four execution stages retained",
+    "removed and outside members receive 404",
+    "ordinary project reader receives no budget data",
+    "unstarted package completion hidden and rejected",
+    "stage predecessors checked and rejected writes leave no execution history"
+  ]
+}

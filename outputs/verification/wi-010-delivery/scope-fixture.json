@@ -1,0 +1,21 @@
+{
+  "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+  "scopeId": "5867ceb6-8060-451a-b4ef-fcc045cb9d1b",
+  "stageId": "084ab46a-3d9a-4dcc-8e1b-2716ed5ee4ec",
+  "packageId": "0d035903-80b0-4ba0-b0b9-67d6dc5a46fc",
+  "milestoneId": "5518530d-6677-4524-bfc1-063149c73499",
+  "itemId": "fde886e9-3867-402b-9b9c-f170b708e945",
+  "masterId": "aa553910-6ed5-46d0-a820-249b2ac83ad6",
+  "planId": "1e487ede-861c-4e9c-b664-7fe8fd993fb3",
+  "resourceIds": [
+    "9cdcb1eb-8189-49f9-99b7-efdc80d527e6",
+    "a7c9dc56-aa77-422e-a64c-731d7231883b"
+  ],
+  "budgetId": "e03b55ec-f193-4332-b93a-c28189b09b49",
+  "checks": [
+    "浏览器建立范围草案与新增阶段；同一项目 V3 保持有效",
+    "七项关联对象与两项资源逐步补齐，新增工作包未提前创建",
+    "未参与者读取、无权写入、非经理提交、未签认提交、错误版本、未知字段均拒绝",
+    "预算正文与财务说明按当前权限投影，已完成工作包及旧基线保持不变"
+  ]
+}

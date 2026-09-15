@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>总体业务架构｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">01 / 架构</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 01｜总体业务架构</h2>
+<p class="subtitle">业务对象收敛为“商机—主合同—项目空间”，项目空间以主阶段、并行执行阶段、项目清单和工作包承载售前、交付与维护，不重复建档。</p>
+
+<div class="section">
+  <div class="label">一、项目对象层级</div>
+  <div style="display:grid;grid-template-columns:1.05fr auto 1.2fr auto 1.1fr auto 1.2fr auto 1.1fr;gap:8px;align-items:stretch;margin-top:10px;">
+    <div style="padding:16px 12px;border-radius:12px;background:#eaf2ff;border:1px solid #9dbdff;">
+      <strong>商机主档</strong><br><small>所有 A–D 商机<br>销售进展、投入与业务结果</small>
+    </div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#f0f3ff;border:1px solid #a8b3ee;">
+      <strong>主合同</strong><br><small>合同、客户、付款节点与经营目标<br>签约后沿用商机数据</small>
+    </div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#eef9f4;border:1px solid #9dd8bc;">
+      <strong>项目空间</strong><br><small>全周期固定入口<br>沿用同一项目与历史</small>
+    </div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#fff8e8;border:1px solid #e8cb7f;">
+      <strong>阶段 / 清单 / 工作包</strong><br><small>并行执行阶段<br>设备物料与专业执行</small>
+    </div>
+    <div style="align-self:center;color:#94a3b8;font-size:22px;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#fff0ed;border:1px solid #e6aea4;">
+      <strong>任务与成果</strong><br><small>责任人、期限、工时<br>文件、问题与审批凭证</small>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:10px 12px;border-left:4px solid #64748b;background:#f8fafc;border-radius:6px;">
+    <small><strong>关键规则：</strong>项目空间不新增业务主档层级，固定提供概览、阶段、里程碑、项目清单、需求池、资金、风险、问题、例会、日报周报、成员和资料入口。多设备、多现场及采购/到货/安装/验收统一由项目清单管理，不设置交付单元或批次对象。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、生命周期与关键阶段门</div>
+  <div style="display:flex;align-items:stretch;gap:7px;margin-top:10px;overflow-x:auto;padding-bottom:6px;">
+    <div style="min-width:120px;padding:15px 11px;border-radius:10px;background:#e8f0ff;border-top:4px solid #4f7ddd;"><strong>商机登记</strong><br><small>确定性 A–D<br>进展与业务结果</small></div>
+    <div style="align-self:center;color:#7c8ca3;"><small>创建空间 / SG-01</small><br><div style="text-align:center;font-size:20px;">→</div></div>
+    <div style="min-width:145px;padding:15px 11px;border-radius:10px;background:#edf4ff;border-top:4px solid #5d8ee3;"><strong>项目空间·售前</strong><br><small>调研、需求、方案、估算、招投标<br>并行反复＋SG-02</small></div>
+    <div style="align-self:center;color:#7c8ca3;"><small>中标/成交；或限定提前开工</small><br><div style="text-align:center;font-size:20px;">→</div></div>
+    <div style="min-width:135px;padding:15px 11px;border-radius:10px;background:#f3efff;border-top:4px solid #7863ce;"><strong>DG-01 交付准入</strong><br><small>提前开工不自动通过<br>P1 输出移交包</small></div>
+    <div style="align-self:center;color:#7c8ca3;"><small>P2 · 先准备 DG-02</small><br><div style="text-align:center;font-size:20px;">→</div></div>
+    <div style="min-width:155px;padding:15px 11px;border-radius:10px;background:#eaf8f1;border-top:4px solid #3d9d73;"><strong>P2 交付立项</strong><br><small>先建团队、阶段、清单、工作包、计划预算草案<br>DG-02 通过后转批准基线，P3 沿用执行</small></div>
+    <div style="align-self:center;color:#7c8ca3;"><small>验收就绪门</small><br><div style="text-align:center;font-size:20px;">→</div></div>
+    <div style="min-width:120px;padding:15px 11px;border-radius:10px;background:#fff7e6;border-top:4px solid #d19a32;"><strong>验收归档</strong><br><small>签署、结算资料<br>归档清单</small></div>
+    <div style="align-self:center;color:#7c8ca3;"><small>维护移交门</small><br><div style="text-align:center;font-size:20px;">→</div></div>
+    <div style="min-width:120px;padding:15px 11px;border-radius:10px;background:#fff0ee;border-top:4px solid #d66b5f;"><strong>维护</strong><br><small>质保与运维<br>关闭流程暂缓</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、四个独立事实｜任何界面不能混成一个状态</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>主阶段</strong><br><small>售前、交付、维护</small></div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>当前重点阶段</strong><br><small>从并行执行阶段中指定一个<br>用于默认回显</small></div>
+    <div style="padding:17px;border-radius:12px;background:#f1f5f9;border-top:4px solid #64748b;"><strong>项目状态</strong><br><small>待立项、进行中、暂停、已关闭<br>待立项＝等待 SG-01 售前投入立项</small></div>
+    <div style="padding:17px;border-radius:12px;background:#fff0ed;border-top:4px solid #d66b5f;"><strong>业务结果</strong><br><small>待定、成功、失败、客户取消、主动终止<br>按场景显示中标/成交、未中标/未成交</small></div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#fff7f5;border-left:4px solid #d66b5f;">
+    <small><strong>未中标示例：</strong>售前｜已关闭｜未中标。结果在商机、项目空间和分析看板同步回显；招投标延期仍为待定，不得误判为未中标。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、系统边界</div>
+  <div style="display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:12px;margin-top:10px;align-items:stretch;">
+    <div style="padding:18px;border-radius:12px;background:#eef8f4;border:2px solid #5aac84;">
+      <h3 style="margin-top:0;">新项目管理系统｜唯一事实来源</h3>
+      <p style="margin-bottom:0;">客户商机、主阶段/重点阶段/状态/结果、售前协同、需求与风险、项目清单、报告例会、当前有效资料及后续项目执行事实。</p>
+    </div>
+    <div style="padding:18px;border-radius:12px;background:#eef4ff;border:1px solid #91afe6;">
+      <h3 style="margin-top:0;">飞书｜协同入口</h3>
+      <p style="margin-bottom:0;">沟通、消息提醒和深度链接；商机多维表迁移后停用，不再作为主表。</p>
+    </div>
+    <div style="padding:18px;border-radius:12px;background:#fff8e8;border:1px solid #e8cb7f;">
+      <h3 style="margin-top:0;">Excel｜一次性迁移</h3>
+      <p style="margin-bottom:0;">一次性导入全部约 30—50 条商机的结构化当前字段，迁移后不再双向同步。</p>
+    </div>
+    <div style="padding:18px;border-radius:12px;background:#f8f1ff;border:1px solid #b8a0dd;">
+      <h3 style="margin-top:0;">NAS｜验收后档案库</h3>
+      <p style="margin-bottom:0;">不承担过程协作；项目验收后接收完整、可校验的只读归档包。</p>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:10px;background:#fff8e6;border:1px solid #efd28a;">
+  <strong>访问边界</strong>
+  <span>仅公司员工建立账号；有文件权限且另有分享权限的员工可生成外网链接＋密码，链接只访问所选文件。客户、供应商和分包商不建立项目空间账号。</span>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">本节只确认总体业务结构；菜单级功能结构见 PRD 3.4，页面交互和技术架构由后续 SPEC 与总体技术方案细化。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="00b-glossary.html"><small>上一页 · 术语</small><strong>← 核心术语表</strong></a>
+    <a href="02-handover-gate.html"><small>下一页 · 02</small><strong>DG-01 商务移交与提前开工 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 总体业务架构 · V0.4</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "measurement_sha256": "9a545f3293e8e719a815bac21702d07e3f38a29a5d4176530a8454ea9c01a64b",
+  "targets": [
+    {
+      "name": "page-heading",
+      "selector": ".task-page .business-page-heading"
+    },
+    {
+      "name": "task-facts",
+      "selector": ".task-facts"
+    },
+    {
+      "name": "task-table",
+      "selector": ".task-list-panel"
+    },
+    {
+      "name": "review-queue",
+      "selector": ".task-review-panel"
+    },
+    {
+      "name": "package-criteria",
+      "selector": ".task-criteria-panel"
+    }
+  ]
+}

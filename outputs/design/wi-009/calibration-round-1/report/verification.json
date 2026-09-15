@@ -1,0 +1,465 @@
+{
+  "status": "截图身份与渲染前提通过；视觉仍需复核",
+  "manifest": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-009/calibration-round-1/run.json",
+  "capture": {
+    "measurement_sha256": "20d8d471498b37c1b1e3c4d59fb647a52c10bb0c10c99544191b612fc0957754",
+    "url": "http://127.0.0.1:5173/contracts/7728baa6-0152-4ffa-8957-08f3e85ccf5b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "document_height": 1677,
+    "fonts_ready": true,
+    "images_ready": true,
+    "document_overflow_x": false,
+    "captured_at": "2026-09-12T15:21:46.598Z",
+    "elements": [
+      {
+        "name": "sidebar",
+        "selector": ".workspace-sider",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          0,
+          0,
+          236,
+          1045
+        ],
+        "text": "项目工作台Project workspace项目中心项目台账合同台账",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "header",
+        "selector": ".workspace-header",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          236,
+          0,
+          1260,
+          58
+        ],
+        "text": "项目中心/合同台账搜索项目、客户、商机…",
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "80px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "contract-heading",
+        "selector": ".business-page-heading",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          74,
+          1212,
+          56.21875
+        ],
+        "text": "验证·自动化升级项目合同CT-VERIFY-mtygvjr3 · 客户：验证·合同归档客户 mtygvjr3 · 责任商务：验证·合同责任商务合同台账",
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "contract-facts",
+        "selector": ".contract-workspace > .business-facts",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          144.21875,
+          1212,
+          68.3515625
+        ],
+        "text": "履约状态已生效项目当前主合同归档状态已归档上次归档 09/12 22:28合同金额¥1,380,000.00按实际签署事实登记签署日期2026-09-12生效日期 2026-09-12",
+        "computed": {
+          "display": "grid",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "contract-nodes",
+        "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:first-child",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          288.5703125,
+          858,
+          419.421875
+        ],
+        "text": "合同与验收节点6 个约定节点 · 完成证据与资金实际分别记录节点类型约定日期金额（元）状态操作节点类型约定日期金额（元）状态操作签约预付款付款约定2026-09-12¥384,000.00已完成查 看设计确认款付款约定2026-09-12¥256,000.00待完成查 看到货付款付款约定2026-09-12¥256,000.00待完成查 看联调验收款付款约定2026-09-12¥256,000.00待完成查 看质保款付款约定2026-09-12¥128,000.00待完成查 看最终验收验收节点2026-09-12—待完成查 看",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "contract-files",
+        "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:nth-child(2)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          721.9921875,
+          858,
+          358.9375
+        ],
+        "text": "签署文件项目资料签署文件版本引用状态操作签署文件版本引用状态操作验证·浏览器签署技术附件技术附件 · 合同敏感v1当前已发布查 看下载验证·补充协议补充协议 · 合同敏感v1当前已发布查 看下载验证·主合同签署件主合同签署件 · 合同敏感v2当前已发布查 看下载验证·主合同签署件主合同签署件 · 合同敏感v1历史引用查 看下载",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "archive-progress",
+        "selector": ".contract-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          1132,
+          288.5703125,
+          340,
+          316.7421875
+        ],
+        "text": "归档进度营销登记验证·合同责任商务 · 2026-09-12签署资料核验当前文件核验齐备综合管理接收已归档 · 验证·综合管理归档最近意见：核对主合同、补充协议和技术附件，接收本轮归档。",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      }
+    ],
+    "assets": {},
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "section_positions": [],
+  "comparison": "outputs/design/wi-009/calibration-round-1/report/verify-metrics.json",
+  "geometry": {
+    "measurement_sha256": "20d8d471498b37c1b1e3c4d59fb647a52c10bb0c10c99544191b612fc0957754",
+    "complete": true,
+    "unavailable_regions": [],
+    "regions": [
+      {
+        "name": "sidebar",
+        "selector": ".workspace-sider",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          0,
+          0,
+          236,
+          1045
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          0.0,
+          0.0,
+          237.0,
+          1045.0
+        ],
+        "delta_css": [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "max_abs_delta_css": 1.0
+      },
+      {
+        "name": "header",
+        "selector": ".workspace-header",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          236,
+          0,
+          1260,
+          58
+        ],
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "80px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          237.0,
+          0.0,
+          1268.0,
+          65.0
+        ],
+        "delta_css": [
+          -1.0,
+          0.0,
+          -8.0,
+          -7.0
+        ],
+        "max_abs_delta_css": 8.0
+      },
+      {
+        "name": "contract-heading",
+        "selector": ".business-page-heading",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          74,
+          1212,
+          56.21875
+        ],
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "reference_css_box": [
+          261.0,
+          85.0,
+          1219.0,
+          65.0
+        ],
+        "delta_css": [
+          -1.0,
+          -11.0,
+          -7.0,
+          -8.781
+        ],
+        "max_abs_delta_css": 11.0
+      },
+      {
+        "name": "contract-facts",
+        "selector": ".contract-workspace > .business-facts",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          144.21875,
+          1212,
+          68.3515625
+        ],
+        "computed": {
+          "display": "grid",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          261.0,
+          160.0,
+          1219.0,
+          81.0
+        ],
+        "delta_css": [
+          -1.0,
+          -15.781,
+          -7.0,
+          -12.648
+        ],
+        "max_abs_delta_css": 15.781
+      },
+      {
+        "name": "contract-nodes",
+        "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:first-child",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          288.5703125,
+          858,
+          419.421875
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          261.0,
+          302.0,
+          752.0,
+          280.0
+        ],
+        "delta_css": [
+          -1.0,
+          -13.43,
+          106.0,
+          139.422
+        ],
+        "max_abs_delta_css": 139.422
+      },
+      {
+        "name": "contract-files",
+        "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:nth-child(2)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          721.9921875,
+          858,
+          358.9375
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          261.0,
+          593.0,
+          752.0,
+          212.0
+        ],
+        "delta_css": [
+          -1.0,
+          128.992,
+          106.0,
+          146.938
+        ],
+        "max_abs_delta_css": 146.938
+      },
+      {
+        "name": "archive-progress",
+        "selector": ".contract-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          1132,
+          288.5703125,
+          340,
+          316.7421875
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          1025.0,
+          298.0,
+          455.0,
+          251.0
+        ],
+        "delta_css": [
+          107.0,
+          -9.43,
+          -115.0,
+          65.742
+        ],
+        "max_abs_delta_css": 115.0
+      }
+    ],
+    "note": "偏差是 CSS 像素，不是还原率；布局可测量不证明未遮挡、字体正确或交互可用。"
+  }
+}

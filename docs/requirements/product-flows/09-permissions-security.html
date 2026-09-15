@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>角色、权限与安全｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">09 / 治理</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 09｜组织、账号、权限与数据安全</h2>
+<p class="subtitle">系统先建立可管理的组织与账号，再联合计算系统角色、组织范围、项目/阶段角色、数据密级、记录状态和临时授权；加入项目不等于获得全部敏感信息。</p>
+
+<div class="section">
+  <div class="label">一、实际权限由五类条件联合计算</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(5,1fr);gap:11px;margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>① 系统角色＋组织范围</strong><br><small>决定通用菜单、操作，以及本人/本部门/授权组织的数据范围</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>② 项目＋阶段角色</strong><br><small>项目经理、售前负责人、阶段负责人、成员等<br>决定项目内职责权限</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#f3efff;border-top:4px solid #7863ce;">
+      <strong>③ 数据密级</strong><br><small>一般、项目内部、商务敏感、核心技术<br>决定字段与文件可见范围</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>④ 数据状态</strong><br><small>草稿、评审中、已批准、已归档<br>决定可编辑、可下载和可替换范围</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#fff0ed;border-top:4px solid #d66b5f;">
+      <strong>⑤ 临时授权</strong><br><small>限定对象、动作和期限<br>到期自动失效并完整留痕</small>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#f8fafc;border-left:4px solid #64748b;">
+    <small><strong>权限结果：</strong>系统按对象和动作联合判断菜单、记录、字段、文件查看、下载与分享；管理员可预览指定用户对指定对象的实际权限及主要来源。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、账号与项目成员生命周期</div>
+  <div class="system-loop">
+    <div><strong>建立身份</strong><br><small>创建或导入用户</small></div>
+    <div><strong>启用账号</strong><br><small>验证身份并允许登录</small></div>
+    <div><strong>授予角色</strong><br><small>系统角色＋组织范围</small></div>
+    <div><strong>加入项目</strong><br><small>项目角色＋阶段角色</small></div>
+    <div><strong>责任交接</strong><br><small>调动、换任和未完事项</small></div>
+    <div><strong>停用回收</strong><br><small>锁定、离职或停用</small></div>
+    <div><strong>历史保留</strong><br><small>责任、操作和审计不删除</small></div>
+  </div>
+  <div class="boundary-note"><strong>边界：</strong>这里只维护系统身份、组织归属、账号状态和责任关系，不建设考勤、薪酬、绩效或完整人事档案。</div>
+</div>
+
+<div class="section">
+  <div class="label">三、主要角色的数据视角</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:15px;border-radius:11px;background:#eef4ff;"><strong>商务 / 售前</strong><br><small>商机、客户、合同、移交，以及参与项目的资金摘要、风险、问题和成员<br>成本、采购价格、利润和内部费率默认隐藏</small></div>
+    <div style="padding:15px;border-radius:11px;background:#eef9f4;"><strong>项目经理</strong><br><small>计划、资源、风险、预算执行、交付资料<br>不能查看个人薪酬等无关敏感数据</small></div>
+    <div style="padding:15px;border-radius:11px;background:#fff8e8;"><strong>工作包负责人 / 成员</strong><br><small>本专业任务、资料、问题和必要接口<br>按需查看相关成本与采购状态</small></div>
+    <div style="padding:15px;border-radius:11px;background:#f3efff;"><strong>部门负责人 / PMO / 管理层</strong><br><small>部门资源、项目组合、重大异常和经营汇总<br>管理层按授权穿透敏感信息</small></div>
+    <div style="padding:15px;border-radius:11px;background:#fff0ed;"><strong>采购</strong><br><small>采购需求、预算校验结果、供应商、合同和到货<br>不修改技术验收结论</small></div>
+    <div style="padding:15px;border-radius:11px;background:#f8fafc;"><strong>财务</strong><br><small>预算口径、付款节点、开票、实际成本和对账<br>不修改项目执行进度</small></div>
+    <div style="padding:15px;border-radius:11px;background:#eaf8f7;"><strong>知识库管理员</strong><br><small>目录、模板、发布与归档规则<br>不自动获得所有敏感文件内容</small></div>
+    <div style="padding:15px;border-radius:11px;background:#f1f5f9;"><strong>系统管理员</strong><br><small>组织账号、角色权限、字典规则和集成配置<br>不自动获得敏感业务数据</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、敏感数据分层</div>
+  <div class="responsive-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:15px;border-radius:11px;border:1px solid #a7d7bd;background:#eef9f4;"><strong>L1 一般项目资料</strong><br><small>计划、普通任务、公开手册<br>项目成员按角色查看</small></div>
+    <div style="padding:15px;border-radius:11px;border:1px solid #9db6e5;background:#eef4ff;"><strong>L2 项目内部</strong><br><small>现场资料、设计过程、问题记录<br>限定项目成员</small></div>
+    <div style="padding:15px;border-radius:11px;border:1px solid #e2c06d;background:#fff8e8;"><strong>L3 商务/经营敏感</strong><br><small>合同价格、利润、采购价格、回款与预算明细<br>按授权角色查看</small></div>
+    <div style="padding:15px;border-radius:11px;border:1px solid #e4a196;background:#fff0ed;"><strong>L4 核心技术/严格限制</strong><br><small>核心算法、源代码、密钥与受控图纸<br>最小范围、下载控制与全量审计</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">五、两种互联网访问路径</div>
+  <div class="split" style="margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border:1px solid #9db6e5;">
+      <strong>公司员工登录</strong><br><small>仅公司员工建立账号；使用统一身份、会话/设备控制、操作审计和离职即时停权访问完整系统。</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#fff8e8;border:1px solid #e8cb7f;">
+      <strong>文件分享链接＋密码</strong><br><small>只有同时具备目标文件查看/下载权和对应密级分享权的员工才能生成；访问者无需系统账号，且只能访问所选文件。支持有效期、主动撤销、查看/下载方式和访问日志；首期所有文件类型技术上可分享，不增加额外审批。</small>
+    </div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">客户、供应商和分包商不建立项目空间账号。分享链接主要用于员工互联网受控访问，不开放项目目录或空间权限；如确需对外提供资料，由员工下载后自行发送。</p>
+</div>
+
+<div class="section">
+  <div class="label">六、项目经营信息可见性边界</div>
+  <div class="split" style="margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border:1px solid #8fcaae;">
+      <strong>项目经理应看到</strong><br><small>批准预算、已承诺、实际成本、完工预测、成本分类和偏差；足以承担项目经营责任。</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#fff8e8;border:1px solid #e8cb7f;">
+      <strong>项目经理默认不看到</strong><br><small>个人工资、公司内部费率明细、无关供应商底价及其他项目的敏感经营数据。</small>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#eef4ff;border-left:4px solid #5d8ee3;">
+    <small><strong>售前保留查看权：</strong>参与项目的资金计划与实际摘要、风险、问题、成员可见；成本明细、采购价格、利润和内部费率不可见，除非另行授权。</small>
+  </div>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">已批准或已归档数据原则上不可直接修改；需要更正时通过变更或冲销机制保留原记录。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="08-delivery-stage-gates.html"><small>上一页 · 08</small><strong>← 交付阶段门与项目模板</strong></a>
+    <a href="09b-system-foundation.html"><small>下一页 · 09B</small><strong>工作台与系统管理闭环 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 组织、账号、权限与安全 · V0.4</footer>
+</body>
+</html>

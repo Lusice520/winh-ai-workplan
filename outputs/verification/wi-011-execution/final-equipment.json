@@ -1,0 +1,444 @@
+{
+  "object": {
+    "id": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+    "version": 1,
+    "kind": "ITEM",
+    "content": {
+      "stage": null,
+      "milestone": null,
+      "item": {
+        "title": "自动化控制设备",
+        "category": "EQUIPMENT",
+        "specification": "按已明确范围交付，接口与数量可核验。",
+        "quantity": 8,
+        "unit": "套",
+        "acceptanceScope": "关联本阶段成果验收节点。",
+        "stageId": "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+        "workPackageId": "73026adc-3bc0-451e-840a-d43f1bb59860",
+        "milestoneId": "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+        "procurementNeeded": true,
+        "procurementNote": "需采购控制设备与安装附件。"
+      },
+      "workPackage": null,
+      "plan": null,
+      "budget": null
+    },
+    "archived": false,
+    "baselineVersion": 1
+  },
+  "item": {
+    "id": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+    "profile": {
+      "version": 8,
+      "requiresReceipt": true,
+      "requiresInstallation": true,
+      "brand": "验证·工业控制系列",
+      "model": "CTRL-08",
+      "supplier": "验证·设备供货单位"
+    },
+    "totals": {
+      "received": 8,
+      "installed": 4,
+      "accepted": 2,
+      "pending": 1,
+      "needsReview": 0
+    },
+    "allowedActions": [
+      "RECEIVED",
+      "INSTALLED",
+      "ACCEPTED"
+    ]
+  },
+  "events": [
+    {
+      "id": "8877204b-01d0-4925-9233-850d534f4408",
+      "version": 0,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ACCEPTED",
+      "status": "PENDING",
+      "quantity": 1,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·第三套调试完成待独立核验，尚不计入已验收。",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "verifierName": "验证·工作包验证人",
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:48:42.521083Z",
+      "allowedActions": []
+    },
+    {
+      "id": "a03f33e9-2f88-4161-bfa6-fc59566fe7f1",
+      "version": 0,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "RECEIVED",
+      "status": "RECORDED",
+      "quantity": 2,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·补录已核对装箱单的第二批两套，保留原错误记录及冲回依据。",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": null,
+      "verifierName": null,
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:48:42.479173Z",
+      "allowedActions": [
+        "REVERSE"
+      ]
+    },
+    {
+      "id": "4dae596e-2be5-40a4-b930-f821086868ba",
+      "version": 0,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "REVERSAL",
+      "status": "RECORDED",
+      "quantity": 2,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·错误的第二批到货记录明确冲回",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": null,
+      "verifierName": null,
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": "21dbfc6f-1df4-4edc-9e11-8884aaef573d",
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:48:42.367546Z",
+      "allowedActions": []
+    },
+    {
+      "id": "21dbfc6f-1df4-4edc-9e11-8884aaef573d",
+      "version": 1,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "RECEIVED",
+      "status": "REVERSED",
+      "quantity": 2,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·第二批两套设备到货（并发容量校验）",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": null,
+      "verifierName": null,
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:48:42.206283Z",
+      "allowedActions": []
+    },
+    {
+      "id": "6718ea3b-4b42-4dcc-b053-da162d99cd7a",
+      "version": 1,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ACCEPTED",
+      "status": "VERIFIED",
+      "quantity": 2,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·首批两套设备完成安装调试，请指定验证人核对功能、接口和现场记录后确认。",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "verifierName": "验证·工作包验证人",
+      "decidedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "decisionName": "验证·工作包验证人",
+      "decidedAt": "2026-09-13T09:50:43.009780Z",
+      "decision": "验证·独立核对首批两套设备的安装、调试和接口记录，确认满足原批准验收范围。",
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:47:24.740307Z",
+      "allowedActions": []
+    },
+    {
+      "id": "5d965488-f06b-4981-9b33-55b184046f88",
+      "version": 0,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "INSTALLED",
+      "status": "RECORDED",
+      "quantity": 4,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·首批四套完成接线、安装与现场联调，记录待独立核验。",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": null,
+      "verifierName": null,
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:45:50.195803Z",
+      "allowedActions": [
+        "REVERSE"
+      ]
+    },
+    {
+      "id": "8e7e36b9-5332-4679-b92d-e9eac668b7b2",
+      "version": 0,
+      "itemId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "RECEIVED",
+      "status": "RECORDED",
+      "quantity": 6,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·第一批六套控制设备到货，型号、装箱与外观已经逐台核对。",
+      "files": [],
+      "restrictedFileCount": 0,
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "verifierId": null,
+      "verifierName": null,
+      "decidedBy": null,
+      "decisionName": null,
+      "decidedAt": null,
+      "decision": null,
+      "reversalOfId": null,
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "createdAt": "2026-09-13T09:45:50.144909Z",
+      "allowedActions": [
+        "REVERSE"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": "acc2773c-8966-4f0f-a7cd-b704a87c7ea7",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_VERIFY",
+      "note": "验证·独立核对首批两套设备的安装、调试和接口记录，确认满足原批准验收范围。",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "actorName": "验证·工作包验证人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "{\"id\":\"6718ea3b-4b42-4dcc-b053-da162d99cd7a\",\"kind\":\"ACCEPTED\",\"status\":\"PENDING\",\"quantity\":2.0,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·首批两套设备完成安装调试，请指定验证人核对功能、接口和现场记录后确认。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "afterJson": "{\"id\":\"6718ea3b-4b42-4dcc-b053-da162d99cd7a\",\"kind\":\"ACCEPTED\",\"status\":\"VERIFIED\",\"quantity\":2.0,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·首批两套设备完成安装调试，请指定验证人核对功能、接口和现场记录后确认。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedAt\":\"2026-09-13T09:50:43.009780Z\",\"decision\":\"验证·独立核对首批两套设备的安装、调试和接口记录，确认满足原批准验收范围。\",\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:50:43.011605Z"
+    },
+    {
+      "id": "cf57b1d1-dc7a-4eb4-b5c1-9c4597175561",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_ACCEPTED",
+      "note": "验证·第三套调试完成待独立核验，尚不计入已验收。",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"8877204b-01d0-4925-9233-850d534f4408\",\"kind\":\"ACCEPTED\",\"status\":\"PENDING\",\"quantity\":1,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·第三套调试完成待独立核验，尚不计入已验收。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:48:42.522366Z"
+    },
+    {
+      "id": "a47a753c-ea65-47ff-8004-4ba2485d0918",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_RECEIVED",
+      "note": "验证·补录已核对装箱单的第二批两套，保留原错误记录及冲回依据。",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"a03f33e9-2f88-4161-bfa6-fc59566fe7f1\",\"kind\":\"RECEIVED\",\"status\":\"RECORDED\",\"quantity\":2,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·补录已核对装箱单的第二批两套，保留原错误记录及冲回依据。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:48:42.480305Z"
+    },
+    {
+      "id": "33d9d295-3abb-433b-bd77-49a324e59756",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_REVERSE",
+      "note": "验证·错误的第二批到货记录明确冲回",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "{\"id\":\"21dbfc6f-1df4-4edc-9e11-8884aaef573d\",\"kind\":\"RECEIVED\",\"status\":\"RECORDED\",\"quantity\":2.0,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·第二批两套设备到货（并发容量校验）\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "afterJson": "{\"id\":\"21dbfc6f-1df4-4edc-9e11-8884aaef573d\",\"kind\":\"RECEIVED\",\"status\":\"REVERSED\",\"quantity\":2.0,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·第二批两套设备到货（并发容量校验）\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:48:42.369004Z"
+    },
+    {
+      "id": "7ca24660-1df9-4840-8b5b-6a5bb61831c9",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_RECEIVED",
+      "note": "验证·第二批两套设备到货（并发容量校验）",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"21dbfc6f-1df4-4edc-9e11-8884aaef573d\",\"kind\":\"RECEIVED\",\"status\":\"RECORDED\",\"quantity\":2,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·第二批两套设备到货（并发容量校验）\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:48:42.208691Z"
+    },
+    {
+      "id": "ee229a7e-55e3-431b-9011-df5a27e9459b",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_ACCEPTED",
+      "note": "验证·首批两套设备完成安装调试，请指定验证人核对功能、接口和现场记录后确认。",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"6718ea3b-4b42-4dcc-b053-da162d99cd7a\",\"kind\":\"ACCEPTED\",\"status\":\"PENDING\",\"quantity\":2,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·首批两套设备完成安装调试，请指定验证人核对功能、接口和现场记录后确认。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:47:24.745016Z"
+    },
+    {
+      "id": "17549fba-3553-476c-b2ef-bcabb476d77d",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_INSTALLED",
+      "note": "验证·首批四套完成接线、安装与现场联调，记录待独立核验。",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"5d965488-f06b-4981-9b33-55b184046f88\",\"kind\":\"INSTALLED\",\"status\":\"RECORDED\",\"quantity\":4,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·首批四套完成接线、安装与现场联调，记录待独立核验。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:45:50.197170Z"
+    },
+    {
+      "id": "f5f39a51-c75b-459a-8ef2-020058ec0497",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_RECEIVED",
+      "note": "验证·第一批六套控制设备到货，型号、装箱与外观已经逐台核对。",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"id\":\"8e7e36b9-5332-4679-b92d-e9eac668b7b2\",\"kind\":\"RECEIVED\",\"status\":\"RECORDED\",\"quantity\":6,\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·第一批六套控制设备到货，型号、装箱与外观已经逐台核对。\",\"submittedBy\":\"dd4bafa5-bcce-431a-9d53-637f8fff762a\",\"verifierId\":null,\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"reversalOfId\":null}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:45:50.146589Z"
+    },
+    {
+      "id": "48ac1bd0-09b4-452d-90ff-552ff5eb0bb6",
+      "objectId": "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+      "kind": "ITEM",
+      "action": "ITEM_PROFILE",
+      "note": "验证·八套控制设备按批次到货、安装后独立验收。",
+      "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "actorName": "验证·项目经理",
+      "occurredOn": "2026-09-13",
+      "beforeJson": "null",
+      "afterJson": "{\"requiresReceipt\":true,\"requiresInstallation\":true,\"brand\":\"验证·工业控制系列\",\"model\":\"CTRL-08\",\"supplier\":\"验证·设备供货单位\"}",
+      "beforeFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "afterFiles": {
+        "files": [],
+        "restricted": 0
+      },
+      "objectVersion": 1,
+      "baselineVersion": 4,
+      "at": "2026-09-13T09:45:50.014338Z"
+    }
+  ]
+}

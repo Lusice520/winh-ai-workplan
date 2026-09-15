@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-12T18:34:10.276Z",
+  "origin": "http://127.0.0.1:8081",
+  "formalSecurityRoleAssigned": true,
+  "formalPermissionsPresent": true,
+  "unknownPermissionHttpStatus": 404,
+  "hardConstraintDenied": true,
+  "syntheticUserCreated": true,
+  "createdUserId": "f2ccd92c-f040-4706-9875-4a5d77c32141",
+  "roleCount": 13
+}

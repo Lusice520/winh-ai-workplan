@@ -1,0 +1,95 @@
+{
+  "reference": "outputs/design/wi-012/calibration-02/../task-workspace-design-v1.png",
+  "candidate": "outputs/design/wi-012/calibration-02/candidate.png",
+  "reference_size": [
+    1522,
+    1033
+  ],
+  "candidate_size_original": [
+    1522,
+    1033
+  ],
+  "candidate_size_compared": [
+    1522,
+    1033
+  ],
+  "resized": false,
+  "geometry_match": true,
+  "height_delta": 0,
+  "unmatched_tails": {},
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1522,
+        1033
+      ],
+      "rms_diff": 35.952,
+      "mean_abs_diff": 13.032,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-full-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-full-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-full-heatmap.png"
+    },
+    {
+      "name": "region-000",
+      "size": [
+        1254,
+        64
+      ],
+      "rms_diff": 53.851,
+      "mean_abs_diff": 18.947,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-region-000-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-region-000-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-region-000-heatmap.png"
+    },
+    {
+      "name": "region-001",
+      "size": [
+        1254,
+        87
+      ],
+      "rms_diff": 29.23,
+      "mean_abs_diff": 10.334,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-region-001-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-region-001-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-region-001-heatmap.png"
+    },
+    {
+      "name": "region-002",
+      "size": [
+        893,
+        579
+      ],
+      "rms_diff": 35.482,
+      "mean_abs_diff": 13.906,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-region-002-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-region-002-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-region-002-heatmap.png"
+    },
+    {
+      "name": "region-003",
+      "size": [
+        349,
+        324
+      ],
+      "rms_diff": 57.873,
+      "mean_abs_diff": 27.168,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-region-003-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-region-003-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-region-003-heatmap.png"
+    },
+    {
+      "name": "region-004",
+      "size": [
+        349,
+        303
+      ],
+      "rms_diff": 45.261,
+      "mean_abs_diff": 17.922,
+      "candidate": "outputs/design/wi-012/calibration-02/report/verify-region-004-candidate.png",
+      "diff": "outputs/design/wi-012/calibration-02/report/verify-region-004-diff.png",
+      "heatmap": "outputs/design/wi-012/calibration-02/report/verify-region-004-heatmap.png"
+    }
+  ],
+  "note": "误差不等于还原度；字体、摄影和位置分别判断。尺寸一致也不代表视觉通过。"
+}

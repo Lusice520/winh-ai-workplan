@@ -1,0 +1,33 @@
+{
+  "measurement_sha256": "97f32a12d52617a35567fe1b9d8bd5eac1cfd3bdd1f70e830b548cdc5bf5b865",
+  "targets": [
+    {
+      "name": "sidebar",
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "project-heading",
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "project-facts",
+      "selector": ".business-page--project > .business-facts"
+    },
+    {
+      "name": "actions-panel",
+      "selector": ".presales-workspace > .business-split > .business-stack:first-child > .business-panel:first-child"
+    },
+    {
+      "name": "action-row-1",
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(2)"
+    },
+    {
+      "name": "action-row-2",
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(3)"
+    }
+  ]
+}

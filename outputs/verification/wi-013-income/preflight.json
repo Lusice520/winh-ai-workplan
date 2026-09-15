@@ -1,0 +1,75 @@
+{
+  "finance": {
+    "actions": [
+      "FINANCE_FORECAST_EDIT"
+    ],
+    "confirmers": [
+      {
+        "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "name": "验证·专业会签人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      },
+      {
+        "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "name": "验证·工作包验证人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "nodes": []
+  },
+  "pmo": {
+    "actions": [
+      "FINANCE_INCOME_SUBMIT"
+    ],
+    "confirmers": [
+      {
+        "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "name": "验证·专业会签人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      },
+      {
+        "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "name": "验证·工作包验证人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "nodes": []
+  },
+  "marketing": {
+    "actions": [
+      "FINANCE_INCOME_CONFIRM"
+    ],
+    "confirmers": [
+      {
+        "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "name": "验证·专业会签人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "nodes": []
+  },
+  "reviewer": {
+    "actions": [
+      "FINANCE_INCOME_CONFIRM"
+    ],
+    "confirmers": [
+      {
+        "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "name": "验证·工作包验证人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "nodes": []
+  },
+  "files": {
+    "storageConfigured": true,
+    "actions": [
+      "FILE_UPLOAD",
+      "FILE_CONTRACT_READ"
+    ]
+  }
+}

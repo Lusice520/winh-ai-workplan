@@ -1,0 +1,199 @@
+{
+  "measurement_sha256": "3e9ada9d4771eeb1a6a0c8442e4141691057d597bb39a98d2e962e9641d99e8c",
+  "url": "http://127.0.0.1:5173/projects/71a40e56-9908-4681-9ad8-95d1a8f64a08?tab=handover&handover=dg01",
+  "title": "工作计划系统 · 本地基线",
+  "viewport": {
+    "width": 1505,
+    "height": 1045
+  },
+  "dpr": 1,
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document_height": 1712,
+  "fonts_ready": true,
+  "images_ready": true,
+  "document_overflow_x": false,
+  "captured_at": "2026-09-12T16:59:28.042Z",
+  "elements": [
+    {
+      "name": "sidebar",
+      "selector": ".workspace-sider",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        0,
+        0,
+        236,
+        1045
+      ],
+      "text": "项目工作台Project workspace商机与客户客户管理商机台账项目中心项目台账售前管理需求池合同台账",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 34, 53)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "header",
+      "selector": ".workspace-header",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        236,
+        0,
+        1260,
+        58
+      ],
+      "text": "项目中心/项目空间搜索项目、客户、商机…",
+      "computed": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "80px",
+        "fontWeight": "400",
+        "color": "rgb(24, 34, 53)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "project-heading",
+      "selector": ".business-page-heading",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        74,
+        1212,
+        56.21875
+      ],
+      "text": "验证·DG01 联调项目 主线 mtymchjoPRJ-71A40E56 · 验证·移交客户 mtymchjo进行中查看商机编辑项目",
+      "computed": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "project-facts",
+      "selector": ".business-page--project > .business-facts",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        144.21875,
+        1212,
+        67.9921875
+      ],
+      "text": "项目阶段售前阶段当前重点 · 待明确营销负责人验证·移交协调招投标项目售前负责人验证·移交协调3 位有效成员经营结果待定以商机确认结果为准",
+      "computed": {
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "handover-table",
+      "selector": ".handover-checklist",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        423.7734375,
+        858,
+        671.1875
+      ],
+      "text": "移交清单完成度由当前版本与评审状态计算商务依据提交 DG-01全部 10待补齐 1必需 10清单项适用性负责人 / 期限当前依据校验操作清单项适用性负责人 / 期限当前依据校验操作项目基础资料项目基础必需验证·移交协调2026-09-20原项目基础资料已齐备维 护商务依据商务依据必需验证·移交协调2026-09-20验证·中标通知与委托依据 · v1已齐备维 护范围边界确认范围与技术必需验证·移交协调2026-09-20验证·完整交付方案与验收计划 · v2已齐备维 护技术方案范围与技术必需验证·移交协调2026-09-20验证·完整交付方案与验收计划 · v2已齐备维 护验收目标验收与计划必",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 34, 53)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "readiness-panel",
+      "selector": ".handover-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1132,
+        423.7734375,
+        340,
+        325
+      ],
+      "text": "准入进度商务依据中标通知DG-01 交付移交1 项待补齐或核验DG-02 交付立项等待当前有效移交包DG-01 通过后，主阶段仍为售前。",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 34, 53)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "first-checklist-row",
+      "selector": ".handover-checklist .ant-table-tbody tr.ant-table-row:nth-of-type(2)",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        261,
+        587.625,
+        856,
+        50.1484375
+      ],
+      "text": "项目基础资料项目基础必需验证·移交协调2026-09-20原项目基础资料已齐备维 护",
+      "computed": {
+        "display": "table-row",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 34, 53)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "viewport_intersects": true
+    }
+  ],
+  "assets": {},
+  "full_page": false,
+  "screenshot_scale": "css"
+}

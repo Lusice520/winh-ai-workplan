@@ -1,0 +1,212 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-009/handover-design-v1.png",
+  "source_sha256": "9f046118355c3a60fed302aabd07aa4850951cb0a32844ee953cc830680f3fa7",
+  "source_size": [
+    1505,
+    1045
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1505,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        0,
+        0,
+        236,
+        1045
+      ],
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.156811,
+        1.0
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        0.0,
+        0.0,
+        236.0,
+        1045.0
+      ],
+      "selector": ".workspace-sider",
+      "dom_comparable": true
+    },
+    {
+      "name": "header",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        236,
+        0,
+        1269,
+        65
+      ],
+      "normalized_box": [
+        0.156811,
+        0.0,
+        0.843189,
+        0.062201
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        236.0,
+        0.0,
+        1269.0,
+        65.0
+      ],
+      "selector": ".workspace-header",
+      "dom_comparable": true
+    },
+    {
+      "name": "project-heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        85,
+        1219,
+        65
+      ],
+      "normalized_box": [
+        0.173422,
+        0.08134,
+        0.809967,
+        0.062201
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        85.0,
+        1219.0,
+        65.0
+      ],
+      "selector": ".business-page-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "project-facts",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        165,
+        1219,
+        79
+      ],
+      "normalized_box": [
+        0.173422,
+        0.157895,
+        0.809967,
+        0.075598
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        165.0,
+        1219.0,
+        79.0
+      ],
+      "selector": ".business-page--project > .business-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "handover-table",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        361,
+        749,
+        440
+      ],
+      "normalized_box": [
+        0.173422,
+        0.345455,
+        0.497674,
+        0.421053
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        361.0,
+        749.0,
+        440.0
+      ],
+      "selector": ".handover-checklist",
+      "dom_comparable": true
+    },
+    {
+      "name": "readiness-panel",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1022,
+        306,
+        459,
+        195
+      ],
+      "normalized_box": [
+        0.67907,
+        0.292823,
+        0.304983,
+        0.186603
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1022.0,
+        306.0,
+        459.0,
+        195.0
+      ],
+      "selector": ".handover-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child",
+      "dom_comparable": true
+    },
+    {
+      "name": "first-checklist-row",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        274,
+        450,
+        721,
+        38
+      ],
+      "normalized_box": [
+        0.18206,
+        0.430622,
+        0.47907,
+        0.036364
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        274.0,
+        450.0,
+        721.0,
+        38.0
+      ],
+      "selector": ".handover-checklist .ant-table-tbody tr.ant-table-row:nth-of-type(2)",
+      "dom_comparable": true
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/71a40e56-9908-4681-9ad8-95d1a8f64a08?tab=handover&handover=dg01",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "6e51b4f1bd40cbfca81addc4223a13dcd67251d1738e3001cc80d9825bd43c6c"
+}

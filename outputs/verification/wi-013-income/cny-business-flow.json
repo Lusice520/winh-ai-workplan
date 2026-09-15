@@ -1,0 +1,1280 @@
+{
+  "at": "2026-09-13T13:37:10.787Z",
+  "workspace": {
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "projectName": "验证·启明产线自动化改造（接口验证）",
+    "period": "2026-09",
+    "currency": "CNY",
+    "book": {
+      "id": "d041271f-2d9d-4bd4-8c89-a031fa238c95",
+      "version": 9,
+      "period": "2026-09",
+      "currency": "CNY",
+      "currentRevisionId": "38c04f71-32a9-42d9-af20-6c205783b734",
+      "draftRevisionId": null,
+      "revisions": [
+        {
+          "id": "38c04f71-32a9-42d9-af20-6c205783b734",
+          "version": 1,
+          "number": 3,
+          "status": "PUBLISHED",
+          "reason": "验证·forecast-v3-publish",
+          "editedByName": "验证·项目经理",
+          "publishedByName": "验证·项目经理",
+          "publishedAt": "2026-09-13T13:37:10.634282Z",
+          "updatedAt": "2026-09-13T13:37:10.634283Z",
+          "total": "1200000.00",
+          "lines": [
+            {
+              "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+              "title": "方案设计计划收入",
+              "plannedOn": "2026-09-05",
+              "amount": "450000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+              "title": "采购与集成计划收入",
+              "plannedOn": "2026-09-10",
+              "amount": "600000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "748c3c30-5427-4541-87b4-243d678eb8a7",
+              "title": "设备接口计划收入",
+              "plannedOn": "2026-09-20",
+              "amount": "100000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": {
+                "id": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+                "version": 1,
+                "title": "验证·设备接口确认收入",
+                "amount": "100000.00",
+                "status": "SUBMITTED"
+              },
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "0a4e6427-0f84-4082-aa5e-137fbf857f30",
+              "title": "现场准备计划收入",
+              "plannedOn": "2026-09-22",
+              "amount": "50000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": {
+                "id": "51a589a6-4e22-4b76-8751-76ca42f856b0",
+                "version": 1,
+                "title": "验证·现场准备收入",
+                "amount": "50000.00",
+                "status": "SUBMITTED"
+              },
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "9019652c-e038-49aa-b0b1-026a3a99a861",
+          "version": 1,
+          "number": 2,
+          "status": "PUBLISHED",
+          "reason": "验证·forecast-v2-publish",
+          "editedByName": "验证·项目经理",
+          "publishedByName": "验证·项目经理",
+          "publishedAt": "2026-09-13T13:37:10.406544Z",
+          "updatedAt": "2026-09-13T13:37:10.406545Z",
+          "total": "1100000.00",
+          "lines": [
+            {
+              "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+              "title": "方案设计计划收入",
+              "plannedOn": "2026-09-05",
+              "amount": "450000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+              "title": "采购与集成计划收入",
+              "plannedOn": "2026-09-10",
+              "amount": "600000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "748c3c30-5427-4541-87b4-243d678eb8a7",
+              "title": "设备接口计划收入",
+              "plannedOn": "2026-09-20",
+              "amount": "50000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": {
+                "id": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+                "version": 1,
+                "title": "验证·设备接口确认收入",
+                "amount": "100000.00",
+                "status": "SUBMITTED"
+              },
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+          "version": 1,
+          "number": 1,
+          "status": "PUBLISHED",
+          "reason": "验证·forecast-v1-publish",
+          "editedByName": "验证·项目经理",
+          "publishedByName": "验证·项目经理",
+          "publishedAt": "2026-09-13T13:37:08.237724Z",
+          "updatedAt": "2026-09-13T13:37:08.237727Z",
+          "total": "1000000.00",
+          "lines": [
+            {
+              "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+              "title": "方案设计计划收入",
+              "plannedOn": "2026-09-05",
+              "amount": "400000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            },
+            {
+              "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+              "title": "采购与集成计划收入",
+              "plannedOn": "2026-09-10",
+              "amount": "600000.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·按项目交付与经营安排制定计划",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "totals": {
+      "planned": "1200000.00",
+      "confirmedNet": "850000.00",
+      "pendingIncome": "150000.00",
+      "pendingReversal": "0",
+      "count": 6
+    },
+    "incomes": [
+      {
+        "id": "9dad68eb-8f2d-4483-875d-2c3debf6929a",
+        "version": 2,
+        "kind": "INCOME",
+        "status": "RETURNED",
+        "title": "验证·补充技术服务收入",
+        "amount": "120000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-12",
+        "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:10.162411Z",
+        "confirmedBy": null,
+        "confirmedByName": null,
+        "confirmedAt": null,
+        "files": {
+          "files": [],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "51a589a6-4e22-4b76-8751-76ca42f856b0",
+        "version": 1,
+        "kind": "INCOME",
+        "status": "SUBMITTED",
+        "title": "验证·现场准备收入",
+        "amount": "50000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-12",
+        "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:10.101752Z",
+        "confirmedBy": null,
+        "confirmedByName": null,
+        "confirmedAt": null,
+        "files": {
+          "files": [
+            {
+              "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+              "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+              "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+              "title": "验证·收入确认依据",
+              "filename": "验证收入确认依据.txt",
+              "versionNumber": 2,
+              "classification": "INTERNAL",
+              "status": "PUBLISHED",
+              "current": true,
+              "stateVersion": 3,
+              "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+            }
+          ],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+        "version": 1,
+        "kind": "INCOME",
+        "status": "SUBMITTED",
+        "title": "验证·设备接口确认收入",
+        "amount": "100000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-11",
+        "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": {
+          "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+          "revisionNumber": 1,
+          "lineId": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+          "title": "采购与集成计划收入",
+          "plannedOn": "2026-09-10",
+          "amount": "600000.00"
+        },
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:10.035701Z",
+        "confirmedBy": null,
+        "confirmedByName": null,
+        "confirmedAt": null,
+        "files": {
+          "files": [
+            {
+              "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+              "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+              "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+              "title": "验证·收入确认依据",
+              "filename": "验证收入确认依据.txt",
+              "versionNumber": 2,
+              "classification": "INTERNAL",
+              "status": "PUBLISHED",
+              "current": true,
+              "stateVersion": 3,
+              "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+            }
+          ],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "ac046b34-82f5-43fd-aff0-63b47852585c",
+        "version": 3,
+        "kind": "REVERSAL",
+        "status": "CONFIRMED",
+        "title": "验证·原设备调试收入冲销",
+        "amount": "50000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-11",
+        "sourceNote": "验证·按复核结果整笔冲销8月误记设备调试收入",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": "49e7708f-8995-4bb6-a50a-3697f9a3155d",
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:09.916283Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:37:09.970059Z",
+        "files": {
+          "files": [
+            {
+              "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+              "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+              "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+              "title": "验证·收入确认依据",
+              "filename": "验证收入确认依据.txt",
+              "versionNumber": 2,
+              "classification": "INTERNAL",
+              "status": "PUBLISHED",
+              "current": true,
+              "stateVersion": 3,
+              "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+            }
+          ],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "7a28d508-6150-4bbf-a40e-6878371586e9",
+        "version": 2,
+        "kind": "INCOME",
+        "status": "CONFIRMED",
+        "title": "验证·采购集成阶段收入",
+        "amount": "500000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-10",
+        "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": {
+          "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+          "revisionNumber": 1,
+          "lineId": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+          "title": "采购与集成计划收入",
+          "plannedOn": "2026-09-10",
+          "amount": "600000.00"
+        },
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:09.793939Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:37:09.845927Z",
+        "files": {
+          "files": [
+            {
+              "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+              "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+              "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+              "title": "验证·收入确认依据",
+              "filename": "验证收入确认依据.txt",
+              "versionNumber": 2,
+              "classification": "INTERNAL",
+              "status": "PUBLISHED",
+              "current": true,
+              "stateVersion": 3,
+              "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+            }
+          ],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+        "version": 5,
+        "kind": "INCOME",
+        "status": "CONFIRMED",
+        "title": "验证·方案设计成果收入",
+        "amount": "400000.00",
+        "currency": "CNY",
+        "occurredOn": "2026-09-05",
+        "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": {
+          "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+          "revisionNumber": 1,
+          "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+          "title": "方案设计计划收入",
+          "plannedOn": "2026-09-05",
+          "amount": "400000.00"
+        },
+        "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:37:09.594939Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:37:09.664901Z",
+        "files": {
+          "files": [
+            {
+              "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+              "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+              "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+              "title": "验证·收入确认依据",
+              "filename": "验证收入确认依据.txt",
+              "versionNumber": 2,
+              "classification": "INTERNAL",
+              "status": "PUBLISHED",
+              "current": true,
+              "stateVersion": 3,
+              "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+            }
+          ],
+          "restricted": 0
+        },
+        "allowedActions": []
+      }
+    ],
+    "confirmers": [
+      {
+        "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "name": "验证·专业会签人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      },
+      {
+        "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "name": "验证·工作包验证人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "contractNodes": [],
+    "allowedActions": [
+      "FINANCE_FORECAST_EDIT"
+    ]
+  },
+  "designDetail": {
+    "income": {
+      "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+      "version": 5,
+      "kind": "INCOME",
+      "status": "CONFIRMED",
+      "title": "验证·方案设计成果收入",
+      "amount": "400000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-05",
+      "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+      "source": {
+        "value": null,
+        "restricted": false
+      },
+      "forecast": {
+        "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+        "revisionNumber": 1,
+        "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+        "title": "方案设计计划收入",
+        "plannedOn": "2026-09-05",
+        "amount": "400000.00"
+      },
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "reversed": false,
+      "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "creatorName": "验证·接任专业负责人",
+      "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "ownerName": "验证·接任专业负责人",
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "confirmerName": "验证·工作包验证人",
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "submittedAt": "2026-09-13T13:37:09.594939Z",
+      "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "confirmedByName": "验证·工作包验证人",
+      "confirmedAt": "2026-09-13T13:37:09.664901Z",
+      "files": {
+        "files": [
+          {
+            "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+            "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+            "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+            "title": "验证·收入确认依据",
+            "filename": "验证收入确认依据.txt",
+            "versionNumber": 2,
+            "classification": "INTERNAL",
+            "status": "PUBLISHED",
+            "current": true,
+            "stateVersion": 3,
+            "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+          }
+        ],
+        "restricted": 0
+      },
+      "allowedActions": []
+    },
+    "history": [
+      {
+        "id": "8964206a-8ee6-4421-a3d4-ccc9eec16fe4",
+        "action": "CREATE",
+        "reason": "验证·填报实际收入",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T13:37:09.205517Z",
+        "before": null,
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 0,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "80520482-627e-400a-bdea-f3821bd2353d",
+        "action": "SUBMIT",
+        "reason": "验证·design-first-submit",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T13:37:09.259399Z",
+        "before": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 0,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 1,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.250501Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "5e88845e-ddda-4cf7-994e-73ea2af622d7",
+        "action": "RETURN",
+        "reason": "验证·design-return-for-evidence",
+        "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "actorName": "验证·工作包验证人",
+        "at": "2026-09-13T13:37:09.378669Z",
+        "before": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 1,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.250501Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 2,
+          "kind": "INCOME",
+          "status": "RETURNED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.250501Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "3580d049-c929-46df-b7ca-9560dda4d77c",
+        "action": "EDIT",
+        "reason": "验证·填报实际收入",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T13:37:09.541637Z",
+        "before": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 2,
+          "kind": "INCOME",
+          "status": "RETURNED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.250501Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 1,
+                "classification": "INTERNAL",
+                "status": "SUPERSEDED",
+                "current": false,
+                "stateVersion": 3,
+                "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+              }
+            ],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 3,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 2,
+                "classification": "INTERNAL",
+                "status": "PUBLISHED",
+                "current": true,
+                "stateVersion": 3,
+                "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "2b5bfb4d-663f-4be2-95d2-7feb00a2df49",
+        "action": "SUBMIT",
+        "reason": "验证·design-second-submit",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T13:37:09.601200Z",
+        "before": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 3,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 2,
+                "classification": "INTERNAL",
+                "status": "PUBLISHED",
+                "current": true,
+                "stateVersion": 3,
+                "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+              }
+            ],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 4,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.594939Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 2,
+                "classification": "INTERNAL",
+                "status": "PUBLISHED",
+                "current": true,
+                "stateVersion": 3,
+                "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "6c1255f2-078f-43f7-a91a-0adb3e124255",
+        "action": "CONFIRM",
+        "reason": "验证·design-second-confirm",
+        "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "actorName": "验证·工作包验证人",
+        "at": "2026-09-13T13:37:09.665621Z",
+        "before": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 4,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.594939Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 2,
+                "classification": "INTERNAL",
+                "status": "PUBLISHED",
+                "current": true,
+                "stateVersion": 3,
+                "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+              }
+            ],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+          "version": 5,
+          "kind": "INCOME",
+          "status": "CONFIRMED",
+          "title": "验证·方案设计成果收入",
+          "amount": "400000.00",
+          "currency": "CNY",
+          "occurredOn": "2026-09-05",
+          "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": {
+            "revisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+            "revisionNumber": 1,
+            "lineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+            "title": "方案设计计划收入",
+            "plannedOn": "2026-09-05",
+            "amount": "400000.00"
+          },
+          "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T13:37:09.594939Z",
+          "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmedByName": "验证·工作包验证人",
+          "confirmedAt": "2026-09-13T13:37:09.664901Z",
+          "files": {
+            "files": [
+              {
+                "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+                "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+                "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+                "title": "验证·收入确认依据",
+                "filename": "验证收入确认依据.txt",
+                "versionNumber": 2,
+                "classification": "INTERNAL",
+                "status": "PUBLISHED",
+                "current": true,
+                "stateVersion": 3,
+                "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+              }
+            ],
+            "restricted": 0
+          }
+        }
+      }
+    ]
+  }
+}

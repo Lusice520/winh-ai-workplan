@@ -1,0 +1,107 @@
+{
+  "reference": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/../income-design-v2.png",
+  "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/candidate.png",
+  "reference_size": [
+    1523,
+    1033
+  ],
+  "candidate_size_original": [
+    1523,
+    1033
+  ],
+  "candidate_size_compared": [
+    1523,
+    1033
+  ],
+  "resized": false,
+  "geometry_match": true,
+  "height_delta": 0,
+  "unmatched_tails": {},
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1523,
+        1033
+      ],
+      "rms_diff": 34.07,
+      "mean_abs_diff": 11.69,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-full-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-full-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-full-heatmap.png"
+    },
+    {
+      "name": "region-000",
+      "size": [
+        1235,
+        61
+      ],
+      "rms_diff": 55.281,
+      "mean_abs_diff": 20.009,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-000-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-000-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-000-heatmap.png"
+    },
+    {
+      "name": "region-001",
+      "size": [
+        889,
+        90
+      ],
+      "rms_diff": 50.281,
+      "mean_abs_diff": 18.588,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-001-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-001-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-001-heatmap.png"
+    },
+    {
+      "name": "region-002",
+      "size": [
+        889,
+        487
+      ],
+      "rms_diff": 37.784,
+      "mean_abs_diff": 14.766,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-002-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-002-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-002-heatmap.png"
+    },
+    {
+      "name": "region-003",
+      "size": [
+        889,
+        176
+      ],
+      "rms_diff": 37.846,
+      "mean_abs_diff": 15.071,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-003-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-003-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-003-heatmap.png"
+    },
+    {
+      "name": "region-004",
+      "size": [
+        333,
+        443
+      ],
+      "rms_diff": 39.288,
+      "mean_abs_diff": 14.766,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-004-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-004-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-004-heatmap.png"
+    },
+    {
+      "name": "region-005",
+      "size": [
+        333,
+        305
+      ],
+      "rms_diff": 42.511,
+      "mean_abs_diff": 17.821,
+      "candidate": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-005-candidate.png",
+      "diff": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-005-diff.png",
+      "heatmap": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/calibration-03/report/verify-region-005-heatmap.png"
+    }
+  ],
+  "note": "误差不等于还原度；字体、摄影和位置分别判断。尺寸一致也不代表视觉通过。"
+}

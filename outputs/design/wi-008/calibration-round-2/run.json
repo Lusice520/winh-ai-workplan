@@ -1,0 +1,29 @@
+{
+  "reference": "../presales-design-v2-compact.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/a5fbb927-8ca0-41ad-b927-6e59d98d768b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurements-v2/measurements.json",
+  "measurement_sha256": "97f32a12d52617a35567fe1b9d8bd5eac1cfd3bdd1f70e830b548cdc5bf5b865",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:0,0,237,1045",
+    "region-001:237,0,1268,64",
+    "region-002:262,87,1217,63",
+    "region-003:262,166,1217,54",
+    "region-004:262,290,829,477",
+    "region-005:275,426,802,47",
+    "region-006:275,473,802,47"
+  ]
+}

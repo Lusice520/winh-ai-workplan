@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "action": "取消任务",
+      "status": 200,
+      "taskStatus": "CANCELLED",
+      "history": 2
+    },
+    {
+      "action": "明确重开",
+      "status": 200,
+      "taskStatus": "OPEN",
+      "history": 3
+    },
+    {
+      "action": "取消任务",
+      "status": 200,
+      "taskStatus": "CANCELLED",
+      "history": 4
+    }
+  ],
+  "overflow": false
+}

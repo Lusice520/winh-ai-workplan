@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>知识、版本与归档｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · P1 资料能力 / P3 NAS 归档</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">05 / 知识</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 05｜项目知识库、文件版本与验收归档</h2>
+<p class="subtitle">项目空间是资料查找、分享和过程协作的唯一入口；NAS 只接收验收后的长期归档快照。</p>
+
+<div style="padding:14px 16px;border-left:4px solid #3d9d73;background:#f3fbf7;border-radius:8px;margin-bottom:16px;">
+  <strong>分批边界：</strong>P1 实现统一资料入口、检索、版本、受控分享和归档清单；不可变快照与 NAS 自动同步属于 P3，不进入 P1 验收。
+</div>
+
+<div class="section">
+  <div class="label">一、每个项目空间都有固定、可检索的资料入口</div>
+  <div style="display:grid;grid-template-columns:1.1fr 2.4fr;gap:14px;margin-top:10px;align-items:stretch;">
+    <div style="padding:18px;border-radius:12px;background:#eef4ff;border:1px solid #9db6e5;">
+      <strong>项目资料</strong><br><small>按项目权限隔离<br>在项目空间固定可见<br>按阶段、售前动作、工作包、类型、状态和关键词检索</small>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px;">
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">00 基础与合同</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">01 商务移交</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">02 计划与预算</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">03 调研资料</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">04 设计评审</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">05 采购到货</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">06 开发版本</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">07 测试与FAT</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">08 安装调试</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">09 验收维护</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、文件不只是附件，而是有状态的受控成果物</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:8px;align-items:stretch;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;text-align:center;"><strong>草稿</strong><br><small>编制人、关联任务<br>可协作修改</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#fff8e8;text-align:center;"><strong>评审中</strong><br><small>评审意见、退回修改<br>记录每次提交</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#eef9f4;text-align:center;"><strong>已批准 / 已发布</strong><br><small>当前有效版本<br>供执行和验收使用</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#f1f5f9;text-align:center;"><strong>已替代 / 已作废</strong><br><small>保留历史但禁止误用<br>指向新版本</small></div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(6,minmax(130px,1fr));gap:8px;margin-top:10px;">
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>商机 / 项目空间</small></div>
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>阶段 / 售前动作 / 工作包</small></div>
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>版本与生效日期</small></div>
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>编制 / 审核 / 批准</small></div>
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>密级、下载与独立分享权限</small></div>
+    <div style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><small>关联任务 / 问题 / 变更</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、项目知识与公司知识双向流动，但不能自动混入</div>
+  <div style="display:grid;grid-template-columns:1.1fr auto 1.3fr auto 1.1fr;gap:10px;align-items:stretch;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#f3efff;text-align:center;"><strong>公司知识库</strong><br><small>制度、模板、安全手册<br>产品说明、标准配置</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;text-align:center;"><strong>项目引用与执行</strong><br><small>引用受控模板形成项目成果<br>保持来源和版本关系</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;text-align:center;"><strong>评审后沉淀</strong><br><small>复盘确认可复用内容<br>再发布到公司知识库</small></div>
+  </div>
+  <div style="margin-top:10px;padding:10px 12px;border-left:4px solid #7863ce;background:#faf8ff;border-radius:6px;">
+    <small>项目原始资料不会自动成为全公司知识；涉及客户、合同和现场信息的内容需脱敏、评审后才能复用。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、互联网受控分享：链接＋密码，不开放外部账号</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1.2fr auto 1fr;gap:10px;align-items:stretch;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;text-align:center;"><strong>有权成员发起</strong><br><small>同时具备文件权限＋对应密级分享权限<br>所有文件类型技术上可分享</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;text-align:center;"><strong>生成外网链接＋密码</strong><br><small>有效期、查看/下载方式、可主动撤销</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;text-align:center;"><strong>文件级访问留痕</strong><br><small>只访问所选文件，不开放目录/空间<br>时间、结果和访问日志</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">分享权限与查看/下载权限分开授予，L3/L4 仍按最小范围控制谁能发起；首期不增加按密级区分的分享审批，也不建设客户/供应商门户。链接主要用于员工互联网访问；如确需对外提供，由员工下载后自行发送。</p>
+</div>
+
+<div class="section">
+  <div class="label">五、验收归档门｜P1 判定清单，P3 生成快照并同步 NAS</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1.2fr auto 1.1fr auto 1fr;gap:8px;align-items:stretch;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;text-align:center;"><strong>系统自动判断</strong><br><small>适用性＋当前有效版本＋必要评审/发布</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#fff8e8;text-align:center;"><strong>补齐或说明例外</strong><br><small>缺文件、未批准、版本错误生成待办<br>豁免必须有理由</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#eef9f4;text-align:center;"><strong>生成归档快照</strong><br><small>文件目录、有效版本、审批记录、校验信息</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#f3efff;text-align:center;"><strong>同步至 NAS</strong><br><small>长期只读档案与移交记录</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">六、双份保留：系统在线只读＋NAS长期归档</div>
+  <div class="split" style="margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border:1px solid #8fcaae;">
+      <strong>新系统继续保留在线只读版本</strong><br><small>供维护、问题追溯、知识引用和权限内查询；归档后不能直接覆盖。</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#f3efff;border:1px solid #b8a5e8;">
+      <strong>NAS保留独立归档副本</strong><br><small>用于长期保存、灾备和审计；项目空间“项目资料”内固定显示有权限可访问的 NAS 路径/链接、快照号、同步时间和结果。</small>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">人工最终核验不能替代有效文件和必要评审；任何下载、分享、替换、作废和归档操作均进入审计日志。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="04-issue-risk-change-safety.html"><small>上一页 · 04</small><strong>← 需求、问题、风险、变更与安全</strong></a>
+    <a href="06-cost-procurement-forecast.html"><small>下一页 · 06</small><strong>成本、采购与项目经营台账 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 知识、版本与归档 · V0.4</footer>
+</body>
+</html>

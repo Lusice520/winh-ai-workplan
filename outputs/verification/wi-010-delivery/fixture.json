@@ -1,0 +1,111 @@
+{
+  "run": "mtyv14oy",
+  "people": {
+    "company": {
+      "id": "4c861b96-8bb0-4d93-9798-d81055cb6e70",
+      "name": "验证·已有业务授权的测试管理者",
+      "loginName": "wi010dg2-company-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-company-session.json"
+    },
+    "manager": {
+      "id": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+      "name": "验证·项目经理",
+      "loginName": "wi010dg2-manager-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-manager-session.json"
+    },
+    "reviewer": {
+      "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+      "name": "验证·专业会签人",
+      "loginName": "wi010dg2-reviewer-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-reviewer-session.json"
+    },
+    "approver": {
+      "id": "80bbcc8b-3a7d-4e20-912d-e9d6a12039f5",
+      "name": "验证·公司最终批准人",
+      "loginName": "wi010dg2-approver-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-approver-session.json"
+    },
+    "worker": {
+      "id": "e6b62e0c-815a-42e7-8527-c492c7f83302",
+      "name": "验证·专业工作包负责人",
+      "loginName": "wi010dg2-worker-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-worker-session.json"
+    },
+    "verifier": {
+      "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "name": "验证·工作包验证人",
+      "loginName": "wi010dg2-verifier-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-verifier-session.json"
+    },
+    "committer": {
+      "id": "b323a033-5ee0-4c84-ad68-f041d114bf17",
+      "name": "验证·部门资源承诺人",
+      "loginName": "wi010dg2-committer-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-committer-session.json"
+    },
+    "outside": {
+      "id": "fffbaa4c-7fb8-472d-9908-a2976048a78c",
+      "name": "验证·未参与项目人员",
+      "loginName": "wi010dg2-outside-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-outside-session.json"
+    },
+    "successor": {
+      "id": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "name": "验证·接任专业负责人",
+      "loginName": "wi010dg2-successor-mtyv14oy",
+      "stateFile": ".local-data/wi010-dg2-successor-session.json"
+    }
+  },
+  "companyAuthorityFixture": "Only the exact new synthetic company account was seeded with pre-existing authority; application delegation rules remain unchanged.",
+  "templateId": "c95818ef-7ce4-4e4d-a831-486bd00ab7b8",
+  "policyId": "9f829493-34c1-4cfe-8826-cd9353440b27",
+  "projects": [
+    {
+      "suffix": "api",
+      "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+      "stageIds": [
+        "cda8f340-3ede-4042-97b2-55539f38ad65",
+        "414cc1ca-73a7-48f9-81c5-21c4955f6269",
+        "0ddc70b2-12fd-4183-b026-34e30ce8dc1d"
+      ],
+      "packageIds": [
+        "7cfa7a10-bea1-44f8-8a06-9f2ff7311c90",
+        "73026adc-3bc0-451e-840a-d43f1bb59860",
+        "62c6f35d-b8dd-4eb4-b23a-3093e0a9bef0"
+      ],
+      "milestoneIds": [
+        "8040b846-b062-4f1a-9847-8933b41f9a2b",
+        "ae0540be-bd34-4d37-a3c7-63ca113f8116",
+        "397c384d-208e-4b8a-a6f2-fc4d37805d4f"
+      ],
+      "itemIds": [
+        "891af3d1-c826-4f75-8ad1-c9922b8c5f6c",
+        "a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52",
+        "d3e16a95-98bc-48bf-8470-ba76cca3a69c"
+      ],
+      "resourceIds": [
+        "effdc974-7cb0-475f-8627-e145fd05ae46",
+        "ce58f7c3-ca8c-4486-a50a-5fd5cbe4c50a",
+        "2614c216-8708-409b-9ac3-600ee7759a08"
+      ],
+      "planIds": [
+        "f2187eb3-6692-43ac-89ce-2747984abba4",
+        "480ad269-edf3-4fd9-8a62-114b477e20da",
+        "f8bfd24c-cab4-42b5-a52d-b19f9df74570",
+        "02d51075-2cc3-4846-9b76-594bcb941030",
+        "7dac48e8-e6d2-4df2-9eda-7bd1cb60a299",
+        "f98f8833-b4ff-4811-b0c1-acb64dbc8d21"
+      ],
+      "packageId": "f6d06aba-c05b-4927-b8ba-072961692223",
+      "generalDocumentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+      "requirementId": "2aca3168-4069-4f71-8c7b-030817b73fa1",
+      "budgetId": "e03b55ec-f193-4332-b93a-c28189b09b49",
+      "caseId": "bd45ffea-2036-427d-9bef-d1aeac8d12ef",
+      "caseVersion": 30
+    }
+  ],
+  "checks": [
+    "建立独立合成业务人员；实际职责经现行授权接口分配，未更改真实账号",
+    "api：真实 SG-01 → 文件发布 → DG-01 → 原对象准备完成，8 / 9 项通过，保留资源待办"
+  ]
+}

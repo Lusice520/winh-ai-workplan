@@ -1,0 +1,45 @@
+{
+  "at": "2026-09-13T11:42:52.028Z",
+  "databases": [
+    {
+      "database": "winh_workplan",
+      "migrations": 20,
+      "success": true
+    },
+    {
+      "database": "winh_wi012_tasks_clean_20260913",
+      "migrations": 20,
+      "success": true
+    },
+    {
+      "database": "winh_wi012_tasks_v20_fresh_20260913",
+      "migrations": 20,
+      "success": true
+    }
+  ],
+  "byteChecks": [
+    {
+      "round": 1,
+      "versionId": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+      "sizeBytes": 160,
+      "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea"
+    },
+    {
+      "round": 2,
+      "versionId": "de175124-e4e6-42e7-bf82-2893e7408b86",
+      "sizeBytes": 181,
+      "sha256": "6b6b14fb1a1427dbe71fc497178234c437daf66cc4fb58748629f1cb765c325c"
+    }
+  ],
+  "checks": [
+    "all task and requirement facts equal after backend restart",
+    "six active tasks, two independently DONE, one pending, one separately cancelled",
+    "same original requirement/task identity, source requirement remains IN_PROGRESS",
+    "both result rounds, old file V1 and current V2 bytes retained",
+    "original V4 scope, stage/item/milestone execution and completed design work unchanged",
+    "parent completion unavailable while child work remains",
+    "outside and removed readers rejected",
+    "existing databases upgraded and zero-table database migrated through V20"
+  ],
+  "health": "8080 and 8082 UP"
+}

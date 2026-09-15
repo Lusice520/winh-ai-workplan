@@ -1,0 +1,116 @@
+{
+  "document": {
+    "id": "b0f0b63e-3f73-4169-bbb0-036eb274b21a",
+    "version": 5,
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "title": "验证·设备接口核对报告",
+    "kind": "OTHER",
+    "mainStage": "DELIVERY",
+    "classification": "INTERNAL",
+    "currentVersionId": "de175124-e4e6-42e7-bf82-2893e7408b86",
+    "latestVersion": {
+      "id": "de175124-e4e6-42e7-bf82-2893e7408b86",
+      "version": 3,
+      "versionNumber": 2,
+      "filename": "验证设备接口核对报告.txt",
+      "sizeBytes": 181,
+      "sha256": "6b6b14fb1a1427dbe71fc497178234c437daf66cc4fb58748629f1cb765c325c",
+      "status": "PUBLISHED",
+      "changeNote": "验证·按任务退回要求补齐异常点位和逐项确认",
+      "uploadedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "uploaderName": "验证·接任专业负责人",
+      "reviewerName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:21:25.432366Z",
+      "reviewedAt": "2026-09-13T11:21:25.642106Z",
+      "reviewComment": "验证·独立核对第 2 轮资料并发布；任务完成仍另行核验"
+    },
+    "updatedAt": "2026-09-13T11:21:25.643246Z"
+  },
+  "versions": [
+    {
+      "id": "de175124-e4e6-42e7-bf82-2893e7408b86",
+      "version": 3,
+      "versionNumber": 2,
+      "filename": "验证设备接口核对报告.txt",
+      "sizeBytes": 181,
+      "sha256": "6b6b14fb1a1427dbe71fc497178234c437daf66cc4fb58748629f1cb765c325c",
+      "status": "PUBLISHED",
+      "changeNote": "验证·按任务退回要求补齐异常点位和逐项确认",
+      "uploadedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "uploaderName": "验证·接任专业负责人",
+      "reviewerName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:21:25.432366Z",
+      "reviewedAt": "2026-09-13T11:21:25.642106Z",
+      "reviewComment": "验证·独立核对第 2 轮资料并发布；任务完成仍另行核验"
+    },
+    {
+      "id": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+      "version": 3,
+      "versionNumber": 1,
+      "filename": "验证设备接口核对报告.txt",
+      "sizeBytes": 160,
+      "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea",
+      "status": "SUPERSEDED",
+      "changeNote": "验证·第一轮接口核对结果",
+      "uploadedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "uploaderName": "验证·接任专业负责人",
+      "reviewerName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:13:33.219649Z",
+      "reviewedAt": "2026-09-13T11:13:33.751861Z",
+      "reviewComment": "验证·独立核对第 1 轮资料并发布；任务完成仍另行核验"
+    }
+  ],
+  "history": [
+    {
+      "id": "e65125de-8272-456f-a41c-7995da3304b0",
+      "action": "FILE_PUBLISHED",
+      "description": "资料 v2：PUBLISHED；验证·独立核对第 2 轮资料并发布；任务完成仍另行核验",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "actorName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:21:25.643988Z"
+    },
+    {
+      "id": "fff5c5e3-4650-458c-a341-f5b83c95d102",
+      "action": "FILE_IN_REVIEW",
+      "description": "资料 v2：IN_REVIEW；验证·第 2 轮成果资料提交独立发布",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:21:25.589918Z"
+    },
+    {
+      "id": "a9d7806b-8ebb-49aa-8b9d-00b7fac16b3a",
+      "action": "FILE_UPLOADED",
+      "description": "上传资料 v2；验证·按任务退回要求补齐异常点位和逐项确认",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:21:25.495956Z"
+    },
+    {
+      "id": "c284755c-18e6-403e-87bd-9704059322a6",
+      "action": "FILE_PUBLISHED",
+      "description": "资料 v1：PUBLISHED；验证·独立核对第 1 轮资料并发布；任务完成仍另行核验",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "actorName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:13:33.753397Z"
+    },
+    {
+      "id": "a466d539-e97f-4e95-9490-ac97d376584b",
+      "action": "FILE_IN_REVIEW",
+      "description": "资料 v1：IN_REVIEW；验证·第 1 轮成果资料提交独立发布",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:13:33.686882Z"
+    },
+    {
+      "id": "fc1c7029-4416-422f-9ec2-d2029e40070e",
+      "action": "FILE_UPLOADED",
+      "description": "上传资料 v1；验证·第一轮接口核对结果",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:13:33.577395Z"
+    }
+  ],
+  "allowedActions": [
+    "FILE_PUBLISH"
+  ]
+}

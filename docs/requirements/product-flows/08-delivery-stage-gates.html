@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>交付阶段门与项目模板｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · P2 立项 / P3 执行归档</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">08 / 交付</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 08｜主阶段、并行执行阶段与项目模板</h2>
+<p class="subtitle">P2 在原项目空间完成 DG-02 交付立项与项目基线；通过后同一批对象转为批准基线，再由 P3 沿用执行。</p>
+
+<div style="padding:14px 16px;border-left:4px solid #3d9d73;background:#f3fbf7;border-radius:8px;margin-bottom:16px;">
+  <strong>P1/P2/P3 边界：</strong>P1 的 DG-01 只形成交付可接收移交包。P2 从该移交包接续，先开放团队、执行阶段、项目清单、专业工作包、主计划和预算草案用于准备 DG-02；DG-02 通过后同一批对象转为批准基线、主阶段变为“交付”。P3 沿用该基线开展完整执行，不重复建对象。
+</div>
+
+<div class="section">
+  <div class="label">零、DG-02 核心流程｜先准备、按轮评审、原位转基线</div>
+  <div style="display:flex;gap:7px;align-items:stretch;margin-top:10px;overflow-x:auto;padding-bottom:5px;">
+    <div style="min-width:135px;padding:13px 9px;border-radius:9px;background:#f3efff;text-align:center;"><strong>DG-01 已通过</strong><br><small>引用当前有效移交包</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:20px;">→</div>
+    <div style="min-width:155px;padding:13px 9px;border-radius:9px;background:#eef4ff;text-align:center;"><strong>P2 准备中</strong><br><small>团队、阶段、里程碑、清单、工作包、计划、预算草案</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:20px;">→</div>
+    <div style="min-width:140px;padding:13px 9px;border-radius:9px;background:#fff8e8;text-align:center;"><strong>提交并冻结本轮</strong><br><small>预检通过，生成评审快照</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:20px;">→</div>
+    <div style="min-width:130px;padding:13px 9px;border-radius:9px;background:#fff4e8;text-align:center;"><strong>联合评审</strong><br><small>按项目类型/预算/风险配置会签</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:20px;">→</div>
+    <div style="min-width:135px;padding:13px 9px;border-radius:9px;background:#fff0ed;text-align:center;"><strong>退回或撤回</strong><br><small>解锁工作对象，补齐后新轮重提</small></div>
+    <div style="align-self:center;color:#94a3b8;font-size:20px;">／</div>
+    <div style="min-width:145px;padding:13px 9px;border-radius:9px;background:#eef9f4;text-align:center;"><strong>DG-02 通过</strong><br><small>原对象转批准基线，主阶段切换交付</small></div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:11px;">
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>团队与责任</strong><br><small>角色、资源承诺、会签范围</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>阶段与里程碑</strong><br><small>模板快照、并行关系、主计划</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>清单与工作包</strong><br><small>交付范围、专业责任、验收关系</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>实施预算</strong><br><small>批准范围、分阶段额度与后续节点</small></div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#fff7f5;border-left:4px solid #d66b5f;">
+    <small><strong>状态与遗留：</strong>准备中 → 待评审/评审中 → 已退回或已撤回 → 重提；通过后不可撤回结论。阻断项不得通过，非阻断遗留必须带责任人、期限、关闭标准、影响对象和验证证据进入 P3。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">一、交付主流程｜阶段内可并行，阶段门控制关键成果</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:16px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>① 交付立项与基线</strong><br><small>项目组、执行阶段、项目清单、启动会、主计划、工作包、实施预算</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#dce9ff;"><small><strong>DG-02：</strong>交付立项与项目基线批准</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>② 深化调研与需求</strong><br><small>在售前调研基础上完成现场踏勘、正式资料包、接口与验收边界</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#dcf2e7;"><small><strong>DG-03：</strong>深化需求基线确认</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#f3efff;border-top:4px solid #7863ce;">
+      <strong>③ 设计与评审</strong><br><small>机械、电气、软件、验收标准；内部评审与必要的外部确认</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#e8e0ff;"><small><strong>DG-04：</strong>设计基线与采购/开发放行</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>④ 采购与开发</strong><br><small>采购执行、机械电气制造、PLC、通用软件、算法与接口开发并行</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#fff0c9;"><small><strong>DG-05：</strong>出厂/进场就绪</small></div>
+    </div>
+
+    <div style="padding:16px;border-radius:12px;background:#fff4e8;border-top:4px solid #d88b3f;">
+      <strong>⑤ 到货与测试</strong><br><small>到货验收、软件测试、接口测试、FAT、缺陷关闭</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#ffe9ce;"><small><strong>DG-06 前置：</strong>到货验收、软件/接口测试与缺陷关闭</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#fff0ed;border-top:4px solid #d66b5f;">
+      <strong>⑥ 安装与配置</strong><br><small>安全准入、技术交底、施工、通电通网、设备配置与完工复核</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#ffe1dc;"><small><strong>DG-06：</strong>调试条件具备</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#eaf8f7;border-top:4px solid #319a93;">
+      <strong>⑦ 调试与试运行</strong><br><small>按范围启用手动、半自动、全自动、ECS；空重载记录、培训与试运行</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#d7f0ee;"><small><strong>DG-07：</strong>验收就绪</small></div>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#f1f5f9;border-top:4px solid #64748b;">
+      <strong>⑧ 验收与交付复盘</strong><br><small>验收会、签署、归档、离场、交付复盘与维护移交</small>
+      <div style="margin-top:9px;padding:7px;border-radius:7px;background:#e2e8f0;"><small><strong>DG-08：</strong>验收归档与维护移交；DG-09 暂缓</small></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、采购与开发并行，但由设计基线和接口依赖约束</div>
+  <div style="display:grid;grid-template-columns:1fr auto 2.4fr auto 1fr;gap:12px;align-items:center;margin-top:10px;">
+    <div style="padding:17px;border-radius:11px;background:#f3efff;text-align:center;"><strong>设计基线与放行</strong><br><small>供货清单、接口、受控版本、验收标准</small></div>
+    <div style="font-size:24px;color:#94a3b8;">→</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+      <div style="padding:13px;border-radius:9px;background:#fff8e8;text-align:center;">采购 / 制造</div>
+      <div style="padding:13px;border-radius:9px;background:#eef4ff;text-align:center;">PLC / 电控开发</div>
+      <div style="padding:13px;border-radius:9px;background:#eef9f4;text-align:center;">软件 / 算法 / ECS</div>
+      <div style="grid-column:1/4;padding:11px;border:1px dashed #94a3b8;border-radius:8px;text-align:center;"><small>接口版本、前置依赖、联调窗口和变更记录贯穿三条并行线</small></div>
+    </div>
+    <div style="font-size:24px;color:#94a3b8;">→</div>
+    <div style="padding:17px;border-radius:11px;background:#fff4e8;text-align:center;"><strong>集成测试</strong><br><small>到货、软件测试、FAT与缺陷关闭</small></div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#fff7f5;border-left:4px solid #d66b5f;">
+    <small><strong>基线不是永久不变：</strong>到货、测试或现场阶段发现问题时，项目保持当前主阶段，只对受影响的执行阶段、项目清单项、工作包、采购项和验证活动开启变更分支；批准后发布新版本并保留替代历史。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、调试能力按合同范围逐级启用</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:15px;border-radius:11px;background:#eef4ff;border:1px solid #9db6e5;"><strong>远程手动</strong><br><small>前置条件、安全培训、接口准备、空重载调试记录</small></div>
+    <div style="padding:15px;border-radius:11px;background:#eef9f4;border:1px solid #9dd8bc;"><strong>远程半自动</strong><br><small>流程组合、空重载验证、异常与人工接管</small></div>
+    <div style="padding:15px;border-radius:11px;background:#fff8e8;border:1px solid #e8cb7f;"><strong>远程全自动</strong><br><small>自动作业流程、效率、安全联锁与重载验证</small></div>
+    <div style="padding:15px;border-radius:11px;background:#f3efff;border:1px solid #b8a5e8;"><strong>全流程 ECS</strong><br><small>系统间协议、PLC联调、流程级异常与全链路记录</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">未纳入合同或项目范围的等级不生成强制任务；已启用等级必须满足自己的前置条件、测试用例和通过证据。</p>
+</div>
+
+<div class="section">
+  <div class="label">四、版本化项目阶段模板</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:10px;">
+    <div style="padding:16px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>标准复用</strong><br><small>引用已批准产品基线<br>聚焦现场差异、配置、安装、回归测试与验收</small>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>配置 / 迭代</strong><br><small>建立差异清单<br>只启用受影响的设计、开发、评审和回归工作包</small>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>非标定制</strong><br><small>完整调研、设计、评审、开发、测试与现场交付流程</small>
+    </div>
+    <div style="padding:16px;border-radius:12px;background:#fff0ed;border-top:4px solid #d66b5f;">
+      <strong>首台套 / 特殊</strong><br><small>在完整流程上增加公司级评审、原型验证、专项风险、预备金与资源保护</small>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#f8fafc;border-left:4px solid #64748b;">
+    <small><strong>模板规则：</strong>配置必选/可选/条件启用阶段、默认负责人、前置条件、并行规则、里程碑、规定动作、成果物和完成条件。项目创建时形成模板快照，新模板版本不覆盖运行项目；项目经理控制阶段启停及主阶段，阶段负责人只维护本阶段内容。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">五、每个阶段门都使用同一组判断维度</div>
+  <div style="display:grid;grid-template-columns:repeat(6,minmax(125px,1fr));gap:8px;margin-top:10px;">
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>输入</strong><br><small>前置条件</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>规定动作</strong><br><small>必做/条件必做</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>成果物</strong><br><small>有效版本</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>责任角色</strong><br><small>负责/审核/批准</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>通过标准</strong><br><small>质量与证据</small></div>
+    <div style="padding:12px;border:1px solid #cbd5e1;border-radius:8px;text-align:center;"><strong>例外规则</strong><br><small>豁免与升级</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">六、DG-02 角色、消息与审计</div>
+  <div class="split" style="margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border:1px solid #9db6e5;">
+      <strong>责任不混用</strong><br><small>项目经理组织和提交/撤回；技术及工作包负责人确认专业内容；部门负责人承诺资源；PMO组织治理检查；授权人按配置通过/退回。系统管理员不因配置权限取得业务批准权。</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border:1px solid #8fcaae;">
+      <strong>待办回到原对象</strong><br><small>接续、提交、退回、重提、撤回、通过、遗留到期和基线变更均产生消息/待办；各轮快照、意见、对象版本、主阶段切换和后续变更保留审计。</small>
+    </div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">具体会签部门、金额阈值、重大变化触发复审的规则在 P2 试点前配置确认；页面不把尚未确认的组织假设写死。</p>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">PMO Excel V0.1 只作为原始动作来源继续校正，不直接成为当前执行基线；P2/P3 的后续 SPEC 决定哪些项目必须执行、由谁执行以及怎样证明已经完成。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="07-ledgers-dashboard-performance.html"><small>上一页 · 07</small><strong>← 台账与角色化看板</strong></a>
+    <a href="09-permissions-security.html"><small>下一页 · 09</small><strong>角色、权限与安全 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 交付阶段门与项目模板 · V0.4</footer>
+</body>
+</html>

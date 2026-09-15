@@ -1,0 +1,32 @@
+[
+  {
+    "phase": "template",
+    "checkedAt": "2026-09-12T19:53:19.953Z",
+    "id": "2f4c1d18-320a-4ab3-96ac-cfc94974ce60",
+    "status": "PUBLISHED",
+    "edition": 3,
+    "originalTemplateUnchanged": true,
+    "browserStageChangesPersisted": true,
+    "publishedHash": "a2e6895ee5ab7d4f187cc46c7c03d05463ceb709e304cb029531edb60b0b0127"
+  },
+  {
+    "phase": "retire",
+    "checkedAt": "2026-09-12T19:54:57.343Z",
+    "id": "2f4c1d18-320a-4ab3-96ac-cfc94974ce60",
+    "status": "RETIRED",
+    "edition": 3,
+    "originalTemplateUnchanged": true,
+    "browserStageChangesPersisted": true,
+    "publishedHash": "a2e6895ee5ab7d4f187cc46c7c03d05463ceb709e304cb029531edb60b0b0127",
+    "nextDraftId": "4d90cf17-3b94-45b2-871f-86ff5844183d"
+  },
+  {
+    "phase": "policy",
+    "checkedAt": "2026-09-12T20:03:48.835Z",
+    "id": "e7ab03cb-48f9-41cd-a55d-bb979c03d9d0",
+    "status": "PUBLISHED",
+    "edition": 2,
+    "originalTemplateUnchanged": true,
+    "independentPublisherVerified": true
+  }
+]

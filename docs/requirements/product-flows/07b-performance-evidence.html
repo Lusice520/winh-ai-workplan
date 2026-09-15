@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>绩效证据链（暂缓专题）｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>历史讨论 · 已移出当前蓝图主线</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">07B / 暂缓专题</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>绩效设计历史讨论｜当前暂缓</h2>
+<p class="subtitle">本页保留早期讨论供后续参考，不属于 BRD V0.4、P1 MVP 或当前产品验收范围。</p>
+
+<div style="padding:14px 16px;border-left:4px solid #d19a32;background:#fffaf0;border-radius:8px;margin-bottom:16px;">
+  <strong>当前决定：</strong>绩效考核表、KPI/OKR、评分、校准、申诉和奖金联动全部暂缓。系统当前只保存真实业务事实；未来如需绩效能力，再重新讨论并单独立项。
+</div>
+
+<div class="section">
+  <div class="label">一、绩效数据证据层</div>
+  <div style="display:grid;grid-template-columns:2fr auto 1.2fr;gap:14px;align-items:center;margin-top:10px;">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+      <div style="padding:12px;border-radius:8px;background:#eef4ff;">里程碑 / 任务 / 交付物</div>
+      <div style="padding:12px;border-radius:8px;background:#eef9f4;">工时 / 资源承诺 / 协作</div>
+      <div style="padding:12px;border-radius:8px;background:#fff8e8;">质量 / 问题 / 返工 / 变更</div>
+      <div style="padding:12px;border-radius:8px;background:#f3efff;">预算 / 采购 / 成本预测</div>
+      <div style="padding:12px;border-radius:8px;background:#fff0ed;">安全 / 合规 / 资料完整度</div>
+      <div style="padding:12px;border-radius:8px;background:#f8fafc;">复盘 / 改进 / 知识沉淀</div>
+    </div>
+    <div style="font-size:25px;color:#94a3b8;">→</div>
+    <div style="padding:19px;border-radius:12px;background:#f1f5f9;border:1px solid #94a3b8;text-align:center;">
+      <strong>统一证据档案</strong><br><small>指标定义、数据来源、计算口径、目标值、实际值、成果证据、人工调整原因与审核记录</small>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、KPI 与 OKR 使用不同的管理闭环</div>
+  <div class="split" style="margin-top:10px;">
+    <div class="mockup" style="border:2px solid #5d8ee3;">
+      <div class="mockup-header mockup-header--light" style="background:#eef4ff;"><strong>KPI｜交付基准线与岗位履职</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:center;text-align:center;">
+          <div style="padding:10px 6px;border-radius:8px;background:#f6f9ff;"><small>岗位指标</small></div>
+          <div style="color:#94a3b8;">→</div>
+          <div style="padding:10px 6px;border-radius:8px;background:#f6f9ff;"><small>目标与口径</small></div>
+          <div style="color:#94a3b8;">→</div>
+          <div style="padding:10px 6px;border-radius:8px;background:#e5efff;"><small>结果确认</small></div>
+        </div>
+        <ul style="margin-bottom:0;">
+          <li>面向稳定、可衡量、必须达成的职责</li>
+          <li>通常按月度、季度或项目阶段结算</li>
+          <li>目标、公式和数据快照在周期开始时锁定</li>
+          <li>结果完成确认后形成正式绩效记录</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mockup" style="border:2px solid #7863ce;">
+      <div class="mockup-header mockup-header--light" style="background:#f3efff;"><strong>OKR｜目标管理、协同与突破</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px;align-items:center;text-align:center;">
+          <div style="padding:10px 6px;border-radius:8px;background:#faf8ff;"><small>目标对齐</small></div>
+          <div style="color:#94a3b8;">→</div>
+          <div style="padding:10px 6px;border-radius:8px;background:#faf8ff;"><small>持续检查</small></div>
+          <div style="color:#94a3b8;">→</div>
+          <div style="padding:10px 6px;border-radius:8px;background:#eee8ff;"><small>复盘沉淀</small></div>
+        </div>
+        <ul style="margin-bottom:0;">
+          <li>面向产品化、首台套、能力建设和流程改善</li>
+          <li>关注关键结果、信心变化、障碍和协同贡献</li>
+          <li>允许目标在有依据时调整，但必须保留过程</li>
+          <li>闭环以复盘、学习和下一周期承接结束</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、适用角色由模板配置，不强迫所有人使用同一种体系</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>一般岗位</strong><br><small>以岗位KPI和项目贡献为主<br>必要时参与团队OKR</small></div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;border-top:4px solid #3d9d73;"><strong>项目经理 / 工作包负责人</strong><br><small>交付KPI＋项目目标<br>对结果和闭环负责</small></div>
+    <div style="padding:16px;border-radius:11px;background:#f3efff;border-top:4px solid #7863ce;"><strong>部门与管理岗位</strong><br><small>经营/资源KPI＋组织OKR<br>关注跨项目能力建设</small></div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;border-top:4px solid #d19a32;"><strong>创新 / 首台套团队</strong><br><small>基础交付KPI＋专项OKR<br>强调验证、学习和产品化</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、数据可信与可追溯</div>
+  <div style="display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));gap:9px;margin-top:10px;">
+    <div style="padding:13px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>统一口径</strong><br><small>指标名称、公式、周期</small></div>
+    <div style="padding:13px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>自动取数</strong><br><small>优先来自项目事实</small></div>
+    <div style="padding:13px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>人工补充</strong><br><small>必须上传证据</small></div>
+    <div style="padding:13px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>调整审计</strong><br><small>原因、人员、时间</small></div>
+    <div style="padding:13px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;"><strong>周期快照</strong><br><small>确认后不可覆盖</small></div>
+  </div>
+</div>
+
+<div style="margin-top:14px;padding:13px 15px;border-left:4px solid #d66b5f;background:#fff7f5;border-radius:7px;">
+  <strong>边界：</strong>项目任务不是天然的KPI或OKR；只有进入指标模板、明确口径和责任后，项目事实才转化为绩效证据。
+</div>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="index.html"><small>当前基线</small><strong>← 返回蓝图目录</strong></a>
+    <a class="disabled" href="#"><small>线性导航已移除</small><strong>绩效专题不参与当前流程 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 绩效证据链暂缓专题 · V0.4</footer>
+</body>
+</html>

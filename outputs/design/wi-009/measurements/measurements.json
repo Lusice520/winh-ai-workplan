@@ -1,0 +1,212 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-009/contract-design-v1.png",
+  "source_sha256": "5e569b565905bf31177a6ef129f137e0fe4fff5be235091051501f4dd3cd1593",
+  "source_size": [
+    1505,
+    1045
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1505,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        0,
+        0,
+        237,
+        1045
+      ],
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.157475,
+        1.0
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        0.0,
+        0.0,
+        237.0,
+        1045.0
+      ],
+      "selector": ".workspace-sider",
+      "dom_comparable": true
+    },
+    {
+      "name": "header",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        237,
+        0,
+        1268,
+        65
+      ],
+      "normalized_box": [
+        0.157475,
+        0.0,
+        0.842525,
+        0.062201
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        237.0,
+        0.0,
+        1268.0,
+        65.0
+      ],
+      "selector": ".workspace-header",
+      "dom_comparable": true
+    },
+    {
+      "name": "contract-heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        85,
+        1219,
+        65
+      ],
+      "normalized_box": [
+        0.173422,
+        0.08134,
+        0.809967,
+        0.062201
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        85.0,
+        1219.0,
+        65.0
+      ],
+      "selector": ".business-page-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "contract-facts",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        160,
+        1219,
+        81
+      ],
+      "normalized_box": [
+        0.173422,
+        0.15311,
+        0.809967,
+        0.077512
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        160.0,
+        1219.0,
+        81.0
+      ],
+      "selector": ".contract-workspace > .business-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "contract-nodes",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        302,
+        752,
+        280
+      ],
+      "normalized_box": [
+        0.173422,
+        0.288995,
+        0.499668,
+        0.267943
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        302.0,
+        752.0,
+        280.0
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:first-child",
+      "dom_comparable": true
+    },
+    {
+      "name": "contract-files",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        261,
+        593,
+        752,
+        212
+      ],
+      "normalized_box": [
+        0.173422,
+        0.567464,
+        0.499668,
+        0.202871
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        261.0,
+        593.0,
+        752.0,
+        212.0
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:nth-child(2)",
+      "dom_comparable": true
+    },
+    {
+      "name": "archive-progress",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1025,
+        298,
+        455,
+        251
+      ],
+      "normalized_box": [
+        0.681063,
+        0.285167,
+        0.302326,
+        0.240191
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1025.0,
+        298.0,
+        455.0,
+        251.0
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child",
+      "dom_comparable": true
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/contracts/7728baa6-0152-4ffa-8957-08f3e85ccf5b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "007c135852959b41effbefa6695a4e98e7bd48f8ab9302abf1d361873e060f2f"
+}

@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-13T09:45:50.366Z",
+  "fileVersionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+  "checks": [
+    "prior-day date rejected",
+    "acceptance above installation rejected",
+    "failed facts do not append history"
+  ]
+}

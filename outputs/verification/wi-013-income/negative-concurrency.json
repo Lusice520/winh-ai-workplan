@@ -1,0 +1,282 @@
+{
+  "at": "2026-09-13T13:43:55.174Z",
+  "checks": [
+    "invalid amounts/currency/future dates, mixed references, stale/missing files, own/non-designated reviews and outside/removed readers reject without changed CNY facts",
+    "two real concurrent reversal confirmations produced exactly one 200 and one 409; original month intact, USD net24.75 never mixed into CNY850000",
+    "concurrent forecast saves preserve one winner; draft discard keeps the published version and CNY ledger unchanged"
+  ],
+  "reversalRace": [
+    {
+      "id": "7a62ca89-bc61-4a13-a85e-0d99f4a6fffc",
+      "status": 200,
+      "income": {
+        "id": "7a62ca89-bc61-4a13-a85e-0d99f4a6fffc",
+        "version": 3,
+        "kind": "REVERSAL",
+        "status": "CONFIRMED",
+        "title": "验证·美元冲销申请A",
+        "amount": "75.25",
+        "currency": "USD",
+        "occurredOn": "2026-09-13",
+        "sourceNote": "验证·明确收入依据",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·补录依据",
+        "originalIncomeId": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:43:55.960845Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:43:56.016154Z",
+        "files": {
+          "files": [],
+          "restricted": 0
+        },
+        "allowedActions": []
+      }
+    },
+    {
+      "id": "de72f8af-8933-4c35-961d-e3c15f829dbd",
+      "status": 409
+    }
+  ],
+  "forecastRace": [
+    {
+      "status": 200,
+      "total": "200.01"
+    },
+    {
+      "status": 409
+    }
+  ],
+  "cnyTotals": {
+    "planned": "1200000.00",
+    "confirmedNet": "850000.00",
+    "pendingIncome": "150000.00",
+    "pendingReversal": "0",
+    "count": 6
+  },
+  "usdWorkspace": {
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "projectName": "验证·启明产线自动化改造（接口验证）",
+    "period": "2026-09",
+    "currency": "USD",
+    "book": {
+      "id": "e47fafb4-98cb-4eca-aafa-75d6eb866a1e",
+      "version": 6,
+      "period": "2026-09",
+      "currency": "USD",
+      "currentRevisionId": "dbd69015-11e4-4515-8e87-2f839610fa12",
+      "draftRevisionId": null,
+      "revisions": [
+        {
+          "id": "ae32366b-7bfc-4566-85f1-3ffb7fde020a",
+          "version": 1,
+          "number": 2,
+          "status": "DISCARDED",
+          "reason": "验证·放弃草案，旧发布版继续有效",
+          "editedByName": "验证·项目经理",
+          "publishedByName": null,
+          "publishedAt": null,
+          "updatedAt": "2026-09-13T13:43:56.481137Z",
+          "total": "400.00",
+          "lines": [
+            {
+              "id": "62de42bc-8325-4a4a-a9d5-4150b86f9fd5",
+              "title": "验证·美元预测",
+              "plannedOn": "2026-09-20",
+              "amount": "400.00",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·单独币种预测",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "dbd69015-11e4-4515-8e87-2f839610fa12",
+          "version": 2,
+          "number": 1,
+          "status": "PUBLISHED",
+          "reason": "验证·并发后核对并发布唯一有效版",
+          "editedByName": "验证·项目经理",
+          "publishedByName": "验证·项目经理",
+          "publishedAt": "2026-09-13T13:43:56.448944Z",
+          "updatedAt": "2026-09-13T13:43:56.448945Z",
+          "total": "200.01",
+          "lines": [
+            {
+              "id": "62de42bc-8325-4a4a-a9d5-4150b86f9fd5",
+              "title": "验证·美元预测",
+              "plannedOn": "2026-09-20",
+              "amount": "200.01",
+              "sourceType": "PROJECT",
+              "source": {
+                "value": null,
+                "restricted": false
+              },
+              "sourceNote": "验证·单独币种预测",
+              "incomeReference": null,
+              "files": {
+                "files": [],
+                "restricted": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "totals": {
+      "planned": "200.01",
+      "confirmedNet": "24.75",
+      "pendingIncome": "0",
+      "pendingReversal": "0",
+      "count": 3
+    },
+    "incomes": [
+      {
+        "id": "42d4c59d-620e-46c8-ad0e-e19869b6bd4c",
+        "version": 2,
+        "kind": "INCOME",
+        "status": "CONFIRMED",
+        "title": "验证·美元本月收入",
+        "amount": "100.00",
+        "currency": "USD",
+        "occurredOn": "2026-09-13",
+        "sourceNote": "验证·明确收入依据",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·补录依据",
+        "originalIncomeId": null,
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:43:56.113959Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:43:56.143245Z",
+        "files": {
+          "files": [],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "de72f8af-8933-4c35-961d-e3c15f829dbd",
+        "version": 4,
+        "kind": "REVERSAL",
+        "status": "CANCELLED",
+        "title": "验证·美元冲销申请B",
+        "amount": "75.25",
+        "currency": "USD",
+        "occurredOn": "2026-09-13",
+        "sourceNote": "验证·明确收入依据",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·补录依据",
+        "originalIncomeId": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": null,
+        "submitterName": null,
+        "submittedAt": null,
+        "confirmedBy": null,
+        "confirmedByName": null,
+        "confirmedAt": null,
+        "files": {
+          "files": [],
+          "restricted": 0
+        },
+        "allowedActions": []
+      },
+      {
+        "id": "7a62ca89-bc61-4a13-a85e-0d99f4a6fffc",
+        "version": 3,
+        "kind": "REVERSAL",
+        "status": "CONFIRMED",
+        "title": "验证·美元冲销申请A",
+        "amount": "75.25",
+        "currency": "USD",
+        "occurredOn": "2026-09-13",
+        "sourceNote": "验证·明确收入依据",
+        "source": {
+          "value": null,
+          "restricted": false
+        },
+        "forecast": null,
+        "unplannedReason": "验证·补录依据",
+        "originalIncomeId": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+        "reversed": false,
+        "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "creatorName": "验证·接任专业负责人",
+        "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "ownerName": "验证·接任专业负责人",
+        "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmerName": "验证·工作包验证人",
+        "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "submitterName": "验证·接任专业负责人",
+        "submittedAt": "2026-09-13T13:43:55.960845Z",
+        "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "confirmedByName": "验证·工作包验证人",
+        "confirmedAt": "2026-09-13T13:43:56.016154Z",
+        "files": {
+          "files": [],
+          "restricted": 0
+        },
+        "allowedActions": []
+      }
+    ],
+    "confirmers": [
+      {
+        "id": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "name": "验证·专业会签人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      },
+      {
+        "id": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "name": "验证·工作包验证人",
+        "organizationUnitId": "fc0b7f0f-a4dd-4d63-a464-082b5d222f88"
+      }
+    ],
+    "contracts": [],
+    "contractNodes": [],
+    "allowedActions": [
+      "FINANCE_FORECAST_EDIT"
+    ]
+  }
+}

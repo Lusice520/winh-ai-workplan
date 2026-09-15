@@ -1,0 +1,87 @@
+[
+  {
+    "at": "2026-09-12T21:49:21.533Z",
+    "stage": "frozen",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 35,
+    "checks": [
+      "第 1 轮通过浏览器提交并冻结；拒绝修改、提交人批准和提前批准；快照预算仍隔离"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:50:34.888Z",
+    "stage": "returned",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 36,
+    "checks": [
+      "第一轮冻结快照和内容指纹保持不变，原对象标识连续",
+      "指定独立会签人退回，经理可补齐，原工作包恢复准备状态，项目保持售前"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:51:37.839Z",
+    "stage": "resubmitted",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 39,
+    "checks": [
+      "第 2 轮通过浏览器提交并冻结；拒绝修改、提交人批准和提前批准；快照预算仍隔离",
+      "第一轮冻结快照和内容指纹保持不变，原对象标识连续"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:52:52.430Z",
+    "stage": "agreed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 40,
+    "checks": [
+      "第一轮冻结快照和内容指纹保持不变，原对象标识连续",
+      "第二轮必要会签完成，尚未最终批准，不提前切换项目阶段"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:53:39.872Z",
+    "stage": "approved",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 41,
+    "checks": [
+      "第一轮冻结快照和内容指纹保持不变，原对象标识连续",
+      "浏览器独立最终批准后，原项目进入交付，原工作包 V1 生效且仍待执行，需求来源不变"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:55:32.137Z",
+    "stage": "finding-closed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 43,
+    "checks": [
+      "遗留责任人经浏览器提交证据，指定的另一名验证人独立关闭并保留意见"
+    ]
+  },
+  {
+    "at": "2026-09-12T21:57:53.087Z",
+    "stage": "budget-revised",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 46,
+    "checks": [
+      "经理通过浏览器直接修订原预算为 481,000 元并形成 V2；V1 与第二轮提交快照保持不变"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:02:44.057Z",
+    "stage": "scope-proposed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 47,
+    "checks": [
+      "浏览器提出原阶段范围变更后当前 V2 未变化；提出人不能自行批准"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:03:38.738Z",
+    "stage": "scope-confirmed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "caseVersion": 50,
+    "checks": [
+      "独立授权人通过浏览器确认范围变更，原阶段形成 V3；V1/V2 不变，交付项目不能误设售前重点"
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "status": 200,
+  "income": {
+    "id": "28ac6f30-c808-4be1-a03c-09a547b473ab",
+    "version": 5,
+    "kind": "INCOME",
+    "status": "CONFIRMED",
+    "title": "验证·移动端补充服务收入",
+    "amount": "123.45",
+    "currency": "EUR",
+    "occurredOn": "2026-09-13",
+    "sourceNote": "验证·9月13日已完成接口补充服务及现场复核，本轮补齐服务范围和日期",
+    "source": {
+      "value": null,
+      "restricted": false
+    },
+    "forecast": {
+      "revisionId": "742db223-3398-4394-9f3f-3fc34f748e81",
+      "revisionNumber": 1,
+      "lineId": "316cbc46-354f-497c-b616-e62bb7260f4a",
+      "title": "验证·桌面收入计划",
+      "plannedOn": "2026-09-20",
+      "amount": "100.01"
+    },
+    "unplannedReason": null,
+    "originalIncomeId": null,
+    "reversed": false,
+    "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+    "creatorName": "验证·接任专业负责人",
+    "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+    "ownerName": "验证·接任专业负责人",
+    "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "confirmerName": "验证·工作包验证人",
+    "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+    "submitterName": "验证·接任专业负责人",
+    "submittedAt": "2026-09-13T14:30:03.798900Z",
+    "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "confirmedByName": "验证·工作包验证人",
+    "confirmedAt": "2026-09-13T14:30:55.055649Z",
+    "files": {
+      "files": [],
+      "restricted": 0
+    },
+    "allowedActions": []
+  },
+  "history": [
+    {
+      "action": "CREATE",
+      "reason": "验证·桌面录入并发起移动端独立确认",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a"
+    },
+    {
+      "action": "SUBMIT",
+      "reason": "验证·提交第一轮补充服务收入，请营销核对",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a"
+    },
+    {
+      "action": "RETURN",
+      "reason": "验证·手机退回第一轮，请补充服务完成范围和核对日期",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9"
+    },
+    {
+      "action": "EDIT",
+      "reason": "验证·按第一轮退回意见补充依据",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a"
+    },
+    {
+      "action": "SUBMIT",
+      "reason": "验证·手机第二轮提交，已补齐服务范围与日期",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a"
+    },
+    {
+      "action": "CONFIRM",
+      "reason": "验证·营销手机核对第二轮依据、金额和日期一致，确认收入",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9"
+    }
+  ],
+  "overflow": false
+}

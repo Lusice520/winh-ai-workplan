@@ -1,0 +1,374 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-010/delivery-initiation-design-v1.png",
+  "source_sha256": "1b59a1eae8a634d988a6453c87a01beb45089f66728e207c09957c39f54e17f2",
+  "source_size": [
+    1522,
+    1033
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1522,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        251,
+        69,
+        1246,
+        72
+      ],
+      "normalized_box": [
+        0.164915,
+        0.066796,
+        0.81866,
+        0.0697
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        251.0,
+        69.0,
+        1246.0,
+        72.0
+      ],
+      "selector": ".delivery-initiation-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "readiness-strip",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        251,
+        146,
+        1246,
+        74
+      ],
+      "normalized_box": [
+        0.164915,
+        0.141336,
+        0.81866,
+        0.071636
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        251.0,
+        146.0,
+        1246.0,
+        74.0
+      ],
+      "selector": ".delivery-initiation-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "readiness-checklist",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        251,
+        234,
+        721,
+        373
+      ],
+      "normalized_box": [
+        0.164915,
+        0.226525,
+        0.473719,
+        0.361084
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        251.0,
+        234.0,
+        721.0,
+        373.0
+      ],
+      "selector": ".delivery-checklist-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "stage-plan",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        251,
+        621,
+        721,
+        192
+      ],
+      "normalized_box": [
+        0.164915,
+        0.601162,
+        0.473719,
+        0.185866
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        251.0,
+        621.0,
+        721.0,
+        192.0
+      ],
+      "selector": ".delivery-plan-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "work-packages",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        251,
+        825,
+        721,
+        185
+      ],
+      "normalized_box": [
+        0.164915,
+        0.798645,
+        0.473719,
+        0.17909
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        251.0,
+        825.0,
+        721.0,
+        185.0
+      ],
+      "selector": ".delivery-work-package-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "current-task",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        987,
+        234,
+        510,
+        172
+      ],
+      "normalized_box": [
+        0.648489,
+        0.226525,
+        0.335085,
+        0.166505
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        987.0,
+        234.0,
+        510.0,
+        172.0
+      ],
+      "selector": ".delivery-current-task-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "review-path",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        987,
+        416,
+        510,
+        233
+      ],
+      "normalized_box": [
+        0.648489,
+        0.402711,
+        0.335085,
+        0.225557
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        987.0,
+        416.0,
+        510.0,
+        233.0
+      ],
+      "selector": ".delivery-review-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "budget-composition",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        987,
+        661,
+        510,
+        210
+      ],
+      "normalized_box": [
+        0.648489,
+        0.639884,
+        0.335085,
+        0.203291
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        987.0,
+        661.0,
+        510.0,
+        210.0
+      ],
+      "selector": ".delivery-budget-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "followups",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        987,
+        883,
+        510,
+        127
+      ],
+      "normalized_box": [
+        0.648489,
+        0.854792,
+        0.335085,
+        0.122943
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        987.0,
+        883.0,
+        510.0,
+        127.0
+      ],
+      "selector": ".delivery-followups-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "canvas-color",
+      "kind": "color",
+      "box_type": "sample",
+      "box": [
+        972,
+        240,
+        14,
+        350
+      ],
+      "normalized_box": [
+        0.638633,
+        0.232333,
+        0.009198,
+        0.338819
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        972.0,
+        240.0,
+        14.0,
+        350.0
+      ],
+      "dom_comparable": false,
+      "color": {
+        "median_hex": "#F0F8FE",
+        "rgb_channels": [
+          {
+            "median": 240.0,
+            "p10": 239.0,
+            "p90": 241.0
+          },
+          {
+            "median": 248.0,
+            "p10": 247.0,
+            "p90": 248.0
+          },
+          {
+            "median": 254.0,
+            "p10": 253.0,
+            "p90": 254.0
+          }
+        ],
+        "opaque_samples": 3460,
+        "excluded_nonopaque": 0,
+        "sample_box": [
+          974,
+          242,
+          10,
+          346
+        ],
+        "max_channel_p90_minus_p10": 2.0,
+        "meaning": "局部像素统计，不证明原始色值、纯色或渐变模型"
+      }
+    },
+    {
+      "name": "panel-color",
+      "kind": "color",
+      "box_type": "sample",
+      "box": [
+        1180,
+        429,
+        120,
+        18
+      ],
+      "normalized_box": [
+        0.775296,
+        0.415295,
+        0.078844,
+        0.017425
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1180.0,
+        429.0,
+        120.0,
+        18.0
+      ],
+      "dom_comparable": false,
+      "color": {
+        "median_hex": "#FEFEFE",
+        "rgb_channels": [
+          {
+            "median": 254.0,
+            "p10": 253.0,
+            "p90": 254.0
+          },
+          {
+            "median": 254.0,
+            "p10": 253.0,
+            "p90": 255.0
+          },
+          {
+            "median": 254.0,
+            "p10": 253.0,
+            "p90": 255.0
+          }
+        ],
+        "opaque_samples": 1624,
+        "excluded_nonopaque": 0,
+        "sample_box": [
+          1182,
+          431,
+          116,
+          14
+        ],
+        "max_channel_p90_minus_p10": 2.0,
+        "meaning": "局部像素统计，不证明原始色值、纯色或渐变模型"
+      }
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "31510c3756fdce3f4af9cfc2670bba1dc53fe484ef25d1ec35afa8d30c23ee05"
+}

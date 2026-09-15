@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-13T14:56:44.393Z",
+  "databases": [
+    {
+      "database": "winh_workplan",
+      "migrations": 21,
+      "success": true
+    },
+    {
+      "database": "winh_wi013_income_v21_fresh_20260913",
+      "migrations": 21,
+      "success": true
+    }
+  ],
+  "byteChecks": [
+    {
+      "domain": "income",
+      "round": 1,
+      "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+      "sizeBytes": 122,
+      "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+    },
+    {
+      "domain": "income",
+      "round": 2,
+      "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+      "sizeBytes": 179,
+      "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+    },
+    {
+      "domain": "tasks",
+      "round": 1,
+      "versionId": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+      "sizeBytes": 160,
+      "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea"
+    },
+    {
+      "domain": "tasks",
+      "round": 2,
+      "versionId": "de175124-e4e6-42e7-bf82-2893e7408b86",
+      "sizeBytes": 181,
+      "sha256": "6b6b14fb1a1427dbe71fc497178234c437daf66cc4fb58748629f1cb765c325c"
+    }
+  ],
+  "oldTasksUnchanged": 11,
+  "oldTaskProfilesUnchanged": 7,
+  "checks": [
+    "all income/forecast/history JSON unchanged after backend and object-store restart",
+    "CNY 1200000.00 planned / 850000.00 confirmed / 150000.00 pending; original August income retained",
+    "USD 45.00 and EUR 123.45 confirmed without mixed-currency aggregation",
+    "independent two-round confirmation, full reversal uniqueness and formal responsibility handoff retained",
+    "old income and task file V1/V2 byte hashes equal",
+    "11 original work items, 7 task profiles, original execution, approved scope and source requirement unchanged",
+    "outside and removed readers rejected; V20-to-V21 and zero-to-V21 migrations successful"
+  ],
+  "health": "8080 and 8082 UP"
+}

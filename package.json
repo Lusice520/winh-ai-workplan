@@ -1,0 +1,24 @@
+{
+  "name": "winh-ai-workplan",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": "24.19.x",
+    "pnpm": "11.5.x"
+  },
+  "scripts": {
+    "local:bootstrap": "./scripts/development/bootstrap-local-runtime.sh",
+    "database:bootstrap": "./scripts/development/bootstrap-local-postgresql.sh",
+    "database:start": "./scripts/development/local-postgres.sh start",
+    "database:stop": "./scripts/development/local-postgres.sh stop",
+    "database:status": "./scripts/development/local-postgres.sh status",
+    "web:dev": "./scripts/development/local-runtime.sh -- pnpm --dir apps/web dev",
+    "web:build": "./scripts/development/local-runtime.sh -- pnpm --dir apps/web build",
+    "web:check": "./scripts/development/local-runtime.sh -- pnpm --dir apps/web check",
+    "web:test": "./scripts/development/local-runtime.sh -- pnpm --dir apps/web test",
+    "backend:dev": "./scripts/development/local-runtime.sh --java -- ./apps/backend/mvnw -f apps/backend/pom.xml spring-boot:run",
+    "backend:test": "./scripts/development/local-runtime.sh --java -- ./apps/backend/mvnw -f apps/backend/pom.xml test",
+    "local:check": "./scripts/development/local-runtime.sh -- pnpm web:check && ./scripts/development/local-runtime.sh -- pnpm backend:test"
+  }
+}

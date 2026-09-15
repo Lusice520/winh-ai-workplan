@@ -1,0 +1,29 @@
+{
+  "measurement_sha256": "c62a7faa04b46968f9e203f4dfeb847e6dbadc360f5800a1d41b1da587ebc401",
+  "targets": [
+    {
+      "name": "heading",
+      "selector": ".income-page .business-page-heading"
+    },
+    {
+      "name": "facts",
+      "selector": ".income-facts"
+    },
+    {
+      "name": "ledger",
+      "selector": ".income-ledger-panel"
+    },
+    {
+      "name": "revisions",
+      "selector": ".income-revisions-panel"
+    },
+    {
+      "name": "review",
+      "selector": ".income-review-panel"
+    },
+    {
+      "name": "sources",
+      "selector": ".income-source-panel"
+    }
+  ]
+}

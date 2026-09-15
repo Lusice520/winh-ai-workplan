@@ -1,0 +1,249 @@
+{
+  "measurement_sha256": "483f8be2a26ee4ddb957fea52e80df55122c13fcd36329ea45873595310f8ed8",
+  "url": "http://127.0.0.1:5173/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+  "title": "工作计划系统 · 本地基线",
+  "viewport": {
+    "width": 1522,
+    "height": 1033
+  },
+  "dpr": 1,
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document_height": 1033,
+  "fonts_ready": true,
+  "images_ready": true,
+  "document_overflow_x": false,
+  "captured_at": "2026-09-12T21:39:15.903Z",
+  "elements": [
+    {
+      "name": "heading",
+      "selector": ".delivery-initiation-heading",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        252,
+        74,
+        1246,
+        65
+      ],
+      "text": "验证·启明产线自动化改造（接口验证）立项准备PRJ-C2EBB10C客户：验证·启明智能制造 mtyv14oy项目经理：验证·项目经理系统集成打开项目空间提交评审",
+      "computed": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "readiness-strip",
+      "selector": ".delivery-initiation-facts",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        252,
+        151,
+        1246,
+        74.1328125
+      ],
+      "text": "项目主阶段售前阶段DG-01 状态已接收 · HG-F6D06ABA立项准入检查8 / 9 通过1 项待处理",
+      "computed": {
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "readiness-checklist",
+      "selector": ".delivery-checklist-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        252,
+        237.1328125,
+        721.640625,
+        364
+      ],
+      "text": "立项准入检查查看检查说明#检查项当前依据状态操作1交付依据HG-F6D06ABA通过查 看2商务与范围商务范围与验收边界已确认通过查 看3团队与资源现场实施专业工作包：资源申请尚未获得明确承诺。待补齐去处理4阶段模板验证·自动化项目交付阶段 mtyv14oy · V1通过查 看5里程碑与计划3 个里程碑 · 6 条计划通过查 看6清单与工作包3 项清单 · 3 个工作包通过查 看7实施预算¥480,000.00 · 全范围通过查 看8遗留事项0 项阻断 · 1 项跟踪通过查 看9版本与权限验证·交付立项授权分工 mtyv14oy · V1通过查 看",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "stage-plan",
+      "selector": ".delivery-plan-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        252,
+        613.1328125,
+        721.640625,
+        190
+      ],
+      "text": "阶段与主计划查看计划 适用阶段与计划时间窗口阶段开始日期结束日期10-1212-20方案设计●2026-10-122026-11-08方案设计采购集成2026-10-122026-11-15采购集成现场实施2026-11-162026-12-20现场实施",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "work-packages",
+      "selector": ".delivery-work-package-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        252,
+        815.1328125,
+        721.640625,
+        195
+      ],
+      "text": "专业工作包查看全部工作包名称负责人所属阶段计划完成状态操作方案设计专业工作包验证·专业工作包负责人方案设计2026-11-08立项准备查 看采购集成专业工作包验证·专业工作包负责人采购集成2026-11-15立项准备查 看现场实施专业工作包验证·专业工作包负责人现场实施2026-12-20立项准备查 看",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "current-task",
+      "selector": ".delivery-current-task-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        987.640625,
+        237.1328125,
+        510.359375,
+        175.796875
+      ],
+      "text": "当前待办查看全部确认专业实施资源现场实施专业工作包：每天 6 小时，待部门签认。责任人验证·部门资源承诺人需求开始2026-11-16查看资源申请",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "review-path",
+      "selector": ".delivery-review-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        987.640625,
+        424.9296875,
+        510.359375,
+        224.28125
+      ],
+      "text": "评审安排查看流程详情环节责任人状态项目经理提交验证·项目经理待提交技术会签验证·专业会签人待处理独立最终批准验证·公司最终批准人待处理提交后锁定本轮范围、预算、计划与责任安排。",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "budget-composition",
+      "selector": ".delivery-budget-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        987.640625,
+        661.2109375,
+        510.359375,
+        216.28125
+      ],
+      "text": "预算构成总额 ¥480,000.00实施预算费用构成，总额 ¥480,000.00费用项构成金额占比设备采购¥200,000.0041.7%分包实施¥120,000.0025.0%人员成本¥90,000.0018.8%差旅费用¥40,000.008.3%其他费用¥30,000.006.3%",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "followups",
+      "selector": ".delivery-followups-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        987.640625,
+        889.4921875,
+        510.359375,
+        118
+      ],
+      "text": "跟踪事项查看全部事项责任人期限状态验证·现场文档版式补齐验证·专业工作包负责人2026-10-10待处理",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(39, 59, 98)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    }
+  ],
+  "assets": {},
+  "full_page": false,
+  "screenshot_scale": "css"
+}

@@ -1,0 +1,224 @@
+{
+  "start-integration": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/414cc1ca-73a7-48f9-81c5-21c4955f6269/actions",
+    "input": {
+      "version": -1,
+      "objectVersion": 3,
+      "action": "START",
+      "occurredOn": "2026-09-13",
+      "note": "验证·启动采购集成阶段，按批准的八套设备范围登记执行。"
+    },
+    "requestId": "d71d0e09-96f4-45fb-9ee5-7d0900682624"
+  },
+  "design-profile": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/891af3d1-c826-4f75-8ad1-c9922b8c5f6c/profile",
+    "input": {
+      "version": -1,
+      "objectVersion": 1,
+      "requiresReceipt": false,
+      "requiresInstallation": false,
+      "brand": "",
+      "model": "",
+      "supplier": "",
+      "reason": "验证·设计资料直接按成果验收，不适用实物到货和安装。"
+    },
+    "requestId": "44eb05b6-3b32-4520-9856-ad0c39770c9f"
+  },
+  "equipment-profile": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52/profile",
+    "input": {
+      "version": -1,
+      "objectVersion": 1,
+      "requiresReceipt": true,
+      "requiresInstallation": true,
+      "brand": "验证·工业控制系列",
+      "model": "CTRL-08",
+      "supplier": "验证·设备供货单位",
+      "reason": "验证·八套控制设备按批次到货、安装后独立验收。"
+    },
+    "requestId": "43f233ee-2b0f-4258-9b1d-b4b467b54c13"
+  },
+  "design-acceptance": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/891af3d1-c826-4f75-8ad1-c9922b8c5f6c/events",
+    "input": {
+      "version": 0,
+      "objectVersion": 1,
+      "kind": "ACCEPTED",
+      "quantity": 1,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·控制与接口成果已齐备，按项目已发布的交付范围提交独立验收。",
+      "fileVersionIds": [
+        "3673e02d-e64f-4281-8a2f-16cf758c985d"
+      ],
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9"
+    },
+    "requestId": "0f99670c-047b-46e8-a0eb-fe100b535136"
+  },
+  "equipment-first-arrival": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52/events",
+    "input": {
+      "version": 0,
+      "objectVersion": 1,
+      "kind": "RECEIVED",
+      "quantity": 6,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·第一批六套控制设备到货，型号、装箱与外观已经逐台核对。",
+      "fileVersionIds": [],
+      "verifierId": null
+    },
+    "requestId": "96f4953c-0025-4480-80eb-8ce98ba991aa"
+  },
+  "equipment-installation": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52/events",
+    "input": {
+      "version": 1,
+      "objectVersion": 1,
+      "kind": "INSTALLED",
+      "quantity": 4,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·首批四套完成接线、安装与现场联调，记录待独立核验。",
+      "fileVersionIds": [],
+      "verifierId": null
+    },
+    "requestId": "881e157e-0b5f-4050-acc1-2c3c3c49bc09"
+  },
+  "integration-progress": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/414cc1ca-73a7-48f9-81c5-21c4955f6269/actions",
+    "input": {
+      "version": 0,
+      "objectVersion": 3,
+      "action": "PROGRESS",
+      "occurredOn": "2026-09-13",
+      "note": "验证·八套设备中六套到货、四套安装；报告进度依据现场任务完成情况。",
+      "progress": 55
+    },
+    "requestId": "828da99b-e6df-4c09-b67a-955d1980fc75"
+  },
+  "错误的第二批到货记录明确冲回": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/events/21dbfc6f-1df4-4edc-9e11-8884aaef573d/actions",
+    "input": {
+      "version": 0,
+      "objectVersion": 1,
+      "action": "REVERSE",
+      "note": "验证·错误的第二批到货记录明确冲回"
+    },
+    "requestId": "d1089640-a9c9-4138-a809-7733c2f163e1"
+  },
+  "corrected-arrival": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52/events",
+    "input": {
+      "version": 5,
+      "objectVersion": 1,
+      "kind": "RECEIVED",
+      "quantity": 2,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·补录已核对装箱单的第二批两套，保留原错误记录及冲回依据。",
+      "fileVersionIds": [],
+      "verifierId": null
+    },
+    "requestId": "080fbfab-8ec3-489b-9ab9-134be173eecc"
+  },
+  "equipment-next-pending": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/items/a336a6a9-a0d7-4123-8c2a-d2d8a26a1b52/events",
+    "input": {
+      "version": 6,
+      "objectVersion": 1,
+      "kind": "ACCEPTED",
+      "quantity": 1,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·第三套调试完成待独立核验，尚不计入已验收。",
+      "fileVersionIds": [],
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9"
+    },
+    "requestId": "5c92904c-092d-463b-b4c4-52863ec710ba"
+  },
+  "pause-integration-check": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/414cc1ca-73a7-48f9-81c5-21c4955f6269/actions",
+    "input": {
+      "version": 1,
+      "objectVersion": 3,
+      "action": "PAUSE",
+      "occurredOn": "2026-09-13",
+      "note": "验证·暂停阶段，核实暂停时不能继续登记新的实际。"
+    },
+    "requestId": "bcd81c1c-4f08-4709-929a-ef9baba58124"
+  },
+  "resume-integration-check": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/414cc1ca-73a7-48f9-81c5-21c4955f6269/actions",
+    "input": {
+      "version": 2,
+      "objectVersion": 3,
+      "action": "RESUME",
+      "occurredOn": "2026-09-13",
+      "note": "验证·现场条件恢复，继续原阶段执行。"
+    },
+    "requestId": "05e46fab-a46d-4ae3-81bb-70a4eeb52c9b"
+  },
+  "design-complete-round-1": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/cda8f340-3ede-4042-97b2-55539f38ad65/actions",
+    "input": {
+      "version": 0,
+      "objectVersion": 7,
+      "action": "COMPLETE",
+      "occurredOn": "2026-09-13",
+      "note": "验证·原工作包、清单和里程碑均已独立完成，确认本阶段完成。"
+    },
+    "requestId": "40756817-ad67-4da1-b79a-fd6ffe44e839"
+  },
+  "design-reopen-round-2": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/cda8f340-3ede-4042-97b2-55539f38ad65/actions",
+    "input": {
+      "version": 1,
+      "objectVersion": 7,
+      "action": "REOPEN",
+      "occurredOn": "2026-09-13",
+      "note": "验证·补充接口会签核对，明确重开阶段并保留第一轮完成事实。"
+    },
+    "requestId": "c54a204e-aab2-4e2d-98ec-2d330dbbe7b1"
+  },
+  "design-milestone-reopen": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/milestones/8040b846-b062-4f1a-9847-8933b41f9a2b/actions",
+    "input": {
+      "version": 1,
+      "objectVersion": 1,
+      "action": "REOPEN",
+      "note": "验证·重新核对方案设计成果，原独立结论和附件保留。"
+    },
+    "requestId": "c874ac84-a983-4430-a5f9-3cc3346b7f70"
+  },
+  "design-milestone-resubmit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/milestones/8040b846-b062-4f1a-9847-8933b41f9a2b/submit",
+    "input": {
+      "version": 2,
+      "objectVersion": 1,
+      "occurredOn": "2026-09-13",
+      "evidence": "验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。",
+      "verifierId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "3673e02d-e64f-4281-8a2f-16cf758c985d"
+      ]
+    },
+    "requestId": "4ff8f7b8-7708-425d-83b1-8f23d7477261"
+  },
+  "design-milestone-reverify": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/milestones/8040b846-b062-4f1a-9847-8933b41f9a2b/actions",
+    "input": {
+      "version": 3,
+      "objectVersion": 1,
+      "action": "VERIFY",
+      "note": "验证·补充记录经独立复核，本轮成果通过。"
+    },
+    "requestId": "23ccf956-97e4-4b73-a3cd-3813fafc08c5"
+  },
+  "design-complete-round-2": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/execution/stages/cda8f340-3ede-4042-97b2-55539f38ad65/actions",
+    "input": {
+      "version": 2,
+      "objectVersion": 7,
+      "action": "COMPLETE",
+      "occurredOn": "2026-09-13",
+      "note": "验证·补充核对完成，按现行批准条件确认阶段再次完成。"
+    },
+    "requestId": "7eb76ed8-2ecc-465b-946e-75f7981267b7"
+  }
+}

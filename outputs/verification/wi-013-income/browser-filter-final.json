@@ -1,0 +1,9 @@
+{
+  "filtered": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY&q=%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%8F%A3&from=2026-09-11&to=2026-09-11",
+    "text": "收入台账 · 6\n预测与节点\n全部状态\n全部类型\n日期已筛选\n重 置\n收入事项\t来源说明\t实际日期\t金额（元）\t提交 / 确认\t状态\t操作\n\n收入事项\n\t\n来源说明\n\t\n实际日期\n\t\n金额（元）\n\t\n提交 / 确认\n\t\n状态\n\t\n操作\n\n\n验证·设备接口确认收入\n原预测 V1 · 采购与集成计划收入\n\t项目 / 其他收入依据\t2026-09-11\t100,000.00\t\n验证·接任专业负责人\n验证·工作包验证人\n\t待营销确认\t\n查看\n共 1 项\n1\n10 条/页",
+    "totals": "已发布计划收入\n1,200,000.00\nCNY · 元\n已确认净收入\n850,000.00\n含本月已确认冲销\n待确认正向收入\n150,000.00\n独立确认后计入\n待冲销金额\n0.00\n未从净收入扣减"
+  },
+  "resetUrl": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY",
+  "mobileOverflow": false
+}

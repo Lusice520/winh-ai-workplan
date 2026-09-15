@@ -1,0 +1,14 @@
+{
+  "1": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/files",
+    "metadata": {
+      "requestId": "f4ba034d-0f94-4382-ada7-05bdc2d5cc0d",
+      "title": "验证·设备接口核对报告",
+      "kind": "DELIVERABLE",
+      "classification": "INTERNAL",
+      "changeNote": "验证·第一轮接口核对结果"
+    },
+    "filename": "验证设备接口核对报告.txt",
+    "content": "验证·第一轮接口核对报告\n已核对原八套设备的接口与点表，异常点位的逐项确认需要补充。\n仅用于本地合成流程验证。"
+  }
+}

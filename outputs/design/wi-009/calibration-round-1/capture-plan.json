@@ -1,0 +1,33 @@
+{
+  "measurement_sha256": "20d8d471498b37c1b1e3c4d59fb647a52c10bb0c10c99544191b612fc0957754",
+  "targets": [
+    {
+      "name": "sidebar",
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "contract-heading",
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "contract-facts",
+      "selector": ".contract-workspace > .business-facts"
+    },
+    {
+      "name": "contract-nodes",
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:first-child"
+    },
+    {
+      "name": "contract-files",
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:nth-child(2)"
+    },
+    {
+      "name": "archive-progress",
+      "selector": ".contract-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child"
+    }
+  ]
+}

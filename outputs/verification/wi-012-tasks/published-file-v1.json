@@ -1,0 +1,76 @@
+{
+  "document": {
+    "id": "b0f0b63e-3f73-4169-bbb0-036eb274b21a",
+    "version": 2,
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "title": "验证·设备接口核对报告",
+    "kind": "OTHER",
+    "mainStage": "DELIVERY",
+    "classification": "INTERNAL",
+    "currentVersionId": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+    "latestVersion": {
+      "id": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+      "version": 2,
+      "versionNumber": 1,
+      "filename": "验证设备接口核对报告.txt",
+      "sizeBytes": 160,
+      "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea",
+      "status": "PUBLISHED",
+      "changeNote": "验证·第一轮接口核对结果",
+      "uploadedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "uploaderName": "验证·接任专业负责人",
+      "reviewerName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:13:33.219649Z",
+      "reviewedAt": "2026-09-13T11:13:33.751861Z",
+      "reviewComment": "验证·独立核对第 1 轮资料并发布；任务完成仍另行核验"
+    },
+    "updatedAt": "2026-09-13T11:13:33.751861Z"
+  },
+  "versions": [
+    {
+      "id": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+      "version": 2,
+      "versionNumber": 1,
+      "filename": "验证设备接口核对报告.txt",
+      "sizeBytes": 160,
+      "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea",
+      "status": "PUBLISHED",
+      "changeNote": "验证·第一轮接口核对结果",
+      "uploadedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "uploaderName": "验证·接任专业负责人",
+      "reviewerName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:13:33.219649Z",
+      "reviewedAt": "2026-09-13T11:13:33.751861Z",
+      "reviewComment": "验证·独立核对第 1 轮资料并发布；任务完成仍另行核验"
+    }
+  ],
+  "history": [
+    {
+      "id": "c284755c-18e6-403e-87bd-9704059322a6",
+      "action": "FILE_PUBLISHED",
+      "description": "资料 v1：PUBLISHED；验证·独立核对第 1 轮资料并发布；任务完成仍另行核验",
+      "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "actorName": "验证·工作包验证人",
+      "createdAt": "2026-09-13T11:13:33.753397Z"
+    },
+    {
+      "id": "a466d539-e97f-4e95-9490-ac97d376584b",
+      "action": "FILE_IN_REVIEW",
+      "description": "资料 v1：IN_REVIEW；验证·第 1 轮成果资料提交独立发布",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:13:33.686882Z"
+    },
+    {
+      "id": "fc1c7029-4416-422f-9ec2-d2029e40070e",
+      "action": "FILE_UPLOADED",
+      "description": "上传资料 v1；验证·第一轮接口核对结果",
+      "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "actorName": "验证·接任专业负责人",
+      "createdAt": "2026-09-13T11:13:33.577395Z"
+    }
+  ],
+  "allowedActions": [
+    "FILE_PUBLISH"
+  ]
+}

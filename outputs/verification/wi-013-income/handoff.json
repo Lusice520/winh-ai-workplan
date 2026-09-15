@@ -1,0 +1,472 @@
+{
+  "at": "2026-09-13T14:07:48.057Z",
+  "preview": {
+    "hash": "602688c9cec8db07dd227778b381d9727733f4fb21a81321710ef42579987337",
+    "mapping": {
+      "from": {
+        "accountId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "version": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ],
+        "originalOwner": false
+      },
+      "to": {
+        "accountId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "version": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ],
+        "originalOwner": false
+      },
+      "beforeHeader": {
+        "projectManagerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "technicalLeadId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "projectType": "SYSTEM_INTEGRATION",
+        "riskLevel": "MEDIUM",
+        "scopeAcceptance": "已接收产线控制、设备集成和现场实施范围。",
+        "acceptanceCriteria": "按成果清单、接口校验和现场联调结果验收。",
+        "timeConstraints": "方案与采购并行，前置成果确认后进入现场实施。",
+        "handoverFollowups": "移交资料已逐项接收，首段人员承诺在立项中继续确认。"
+      },
+      "afterHeader": {
+        "projectManagerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "technicalLeadId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "projectType": "SYSTEM_INTEGRATION",
+        "riskLevel": "MEDIUM",
+        "scopeAcceptance": "已接收产线控制、设备集成和现场实施范围。",
+        "acceptanceCriteria": "按成果清单、接口校验和现场联调结果验收。",
+        "timeConstraints": "方案与采购并行，前置成果确认后进入现场实施。",
+        "handoverFollowups": "移交资料已逐项接收，首段人员承诺在立项中继续确认。"
+      },
+      "objects": [],
+      "resources": [],
+      "findings": [],
+      "related": [
+        {
+          "domain": "INCOME",
+          "objectId": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 1,
+          "title": "验证·美元收入责任交接",
+          "roles": [
+            "收入指定确认人"
+          ]
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "id": "552881d6-70a3-43a5-9e5e-7a569fa9088b",
+    "version": 2,
+    "status": "APPLIED",
+    "fromId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+    "fromName": "验证·专业会签人",
+    "toId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "toName": "验证·工作包验证人",
+    "mapping": {
+      "from": {
+        "accountId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "version": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ],
+        "originalOwner": false
+      },
+      "to": {
+        "accountId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "version": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ],
+        "originalOwner": false
+      },
+      "beforeHeader": {
+        "projectManagerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "technicalLeadId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "projectType": "SYSTEM_INTEGRATION",
+        "riskLevel": "MEDIUM",
+        "scopeAcceptance": "已接收产线控制、设备集成和现场实施范围。",
+        "acceptanceCriteria": "按成果清单、接口校验和现场联调结果验收。",
+        "timeConstraints": "方案与采购并行，前置成果确认后进入现场实施。",
+        "handoverFollowups": "移交资料已逐项接收，首段人员承诺在立项中继续确认。"
+      },
+      "afterHeader": {
+        "projectManagerId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "technicalLeadId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "projectType": "SYSTEM_INTEGRATION",
+        "riskLevel": "MEDIUM",
+        "scopeAcceptance": "已接收产线控制、设备集成和现场实施范围。",
+        "acceptanceCriteria": "按成果清单、接口校验和现场联调结果验收。",
+        "timeConstraints": "方案与采购并行，前置成果确认后进入现场实施。",
+        "handoverFollowups": "移交资料已逐项接收，首段人员承诺在立项中继续确认。"
+      },
+      "objects": [],
+      "resources": [],
+      "findings": [],
+      "related": [
+        {
+          "domain": "INCOME",
+          "objectId": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 1,
+          "title": "验证·美元收入责任交接",
+          "roles": [
+            "收入指定确认人"
+          ]
+        }
+      ]
+    },
+    "mappingHash": "602688c9cec8db07dd227778b381d9727733f4fb21a81321710ef42579987337",
+    "permissions": [
+      {
+        "accountId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "expectedVersion": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ]
+      },
+      {
+        "accountId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+        "expectedVersion": 1,
+        "roleCodes": [
+          "PROJECT_REVIEWER",
+          "SYNTHETIC_WI013_CONFIRM"
+        ]
+      }
+    ],
+    "signatures": [],
+    "basis": "验证·由当前营销确认人交接此条待确认收入，保留原提交人，不改既有交付范围与任务",
+    "submittedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "submittedAt": "2026-09-13T14:07:47.561155Z",
+    "acceptedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "acceptedAt": "2026-09-13T14:07:47.641636Z",
+    "acceptanceNote": "验证·接任者核对原收入与未结确认职责后接收",
+    "decidedBy": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "effectiveAt": "2026-09-13T14:07:47.796496Z",
+    "decisionNote": "验证·正式生效本条收入责任，原提交事实保持不变"
+  },
+  "income": {
+    "income": {
+      "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+      "version": 3,
+      "kind": "INCOME",
+      "status": "CONFIRMED",
+      "title": "验证·美元收入责任交接",
+      "amount": "20.25",
+      "currency": "USD",
+      "occurredOn": "2026-09-13",
+      "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+      "source": {
+        "value": null,
+        "restricted": false
+      },
+      "forecast": null,
+      "unplannedReason": "验证·按实际发生补记收入",
+      "originalIncomeId": null,
+      "reversed": false,
+      "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "creatorName": "验证·接任专业负责人",
+      "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "ownerName": "验证·接任专业负责人",
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "confirmerName": "验证·工作包验证人",
+      "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+      "submitterName": "验证·接任专业负责人",
+      "submittedAt": "2026-09-13T14:07:46.976105Z",
+      "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "confirmedByName": "验证·工作包验证人",
+      "confirmedAt": "2026-09-13T14:07:47.870957Z",
+      "files": {
+        "files": [],
+        "restricted": 0
+      },
+      "allowedActions": []
+    },
+    "history": [
+      {
+        "id": "80096493-c20b-44ac-8f1b-84f4f810f939",
+        "action": "CREATE",
+        "reason": "验证·建立独立收入交接场景",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T14:07:46.893836Z",
+        "before": null,
+        "after": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 0,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+          "confirmerName": "验证·专业会签人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "54c137b4-1eed-4768-a285-fde1eb71a0a5",
+        "action": "SUBMIT",
+        "reason": "验证·handoff-income-submit",
+        "actorId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+        "actorName": "验证·接任专业负责人",
+        "at": "2026-09-13T14:07:46.985840Z",
+        "before": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 0,
+          "kind": "INCOME",
+          "status": "DRAFT",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+          "confirmerName": "验证·专业会签人",
+          "submittedBy": null,
+          "submitterName": null,
+          "submittedAt": null,
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 1,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+          "confirmerName": "验证·专业会签人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T14:07:46.976105Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "4b5ef9cd-f85f-401d-a69b-d1e37854abfe",
+        "action": "RESPONSIBILITY_TRANSFER",
+        "reason": "验证·由当前营销确认人交接此条待确认收入，保留原提交人，不改既有交付范围与任务",
+        "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+        "actorName": "验证·项目经理",
+        "at": "2026-09-13T14:07:47.752758Z",
+        "before": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 1,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+          "confirmerName": "验证·专业会签人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T14:07:46.976105Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 2,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T14:07:46.976105Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      },
+      {
+        "id": "01ff950a-b026-4145-a7bf-d974ba50b09a",
+        "action": "CONFIRM",
+        "reason": "验证·handoff-income-confirm",
+        "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+        "actorName": "验证·工作包验证人",
+        "at": "2026-09-13T14:07:47.871968Z",
+        "before": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 2,
+          "kind": "INCOME",
+          "status": "SUBMITTED",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T14:07:46.976105Z",
+          "confirmedBy": null,
+          "confirmedByName": null,
+          "confirmedAt": null,
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        },
+        "after": {
+          "id": "8821f998-61b5-4365-b5e0-cb6223e12256",
+          "version": 3,
+          "kind": "INCOME",
+          "status": "CONFIRMED",
+          "title": "验证·美元收入责任交接",
+          "amount": "20.25",
+          "currency": "USD",
+          "occurredOn": "2026-09-13",
+          "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+          "source": {
+            "value": null,
+            "restricted": false
+          },
+          "forecast": null,
+          "unplannedReason": "验证·按实际发生补记收入",
+          "originalIncomeId": null,
+          "ownerId": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "ownerName": "验证·接任专业负责人",
+          "createdBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "creatorName": "验证·接任专业负责人",
+          "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmerName": "验证·工作包验证人",
+          "submittedBy": "dd4bafa5-bcce-431a-9d53-637f8fff762a",
+          "submitterName": "验证·接任专业负责人",
+          "submittedAt": "2026-09-13T14:07:46.976105Z",
+          "confirmedBy": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+          "confirmedByName": "验证·工作包验证人",
+          "confirmedAt": "2026-09-13T14:07:47.870957Z",
+          "files": {
+            "files": [],
+            "restricted": 0
+          }
+        }
+      }
+    ]
+  },
+  "blockedRemoval": "BUSINESS_STATE_CONFLICT",
+  "checks": [
+    "only one new income responsibility moved",
+    "existing scope/header/resources/findings unchanged",
+    "recipient acceptance precedes apply",
+    "old submitter preserved, former reviewer cannot confirm",
+    "current member removal blocked while income awaits confirmation",
+    "CNY forecast and actual facts unchanged"
+  ]
+}

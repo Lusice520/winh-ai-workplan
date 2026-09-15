@@ -1,0 +1,880 @@
+{
+  "forecast-v1-save": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "CNY",
+      "bookVersion": null,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+          "title": "方案设计计划收入",
+          "amount": "400000.00",
+          "plannedOn": "2026-09-05",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        },
+        {
+          "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+          "title": "采购与集成计划收入",
+          "amount": "600000.00",
+          "plannedOn": "2026-09-10",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        }
+      ],
+      "reason": "验证·forecast-v1-save"
+    },
+    "method": "POST",
+    "requestId": "06954cfb-dc81-419f-9e34-27f63e62035a"
+  },
+  "forecast-v1-publish": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts/d041271f-2d9d-4bd4-8c89-a031fa238c95/commands",
+    "body": {
+      "bookVersion": 1,
+      "draftVersion": 0,
+      "action": "PUBLISH",
+      "reason": "验证·forecast-v1-publish"
+    },
+    "method": "POST",
+    "requestId": "6c8ef8bb-425c-4a32-b9b4-8dbf910a2025"
+  },
+  "income-file-v1-submit": {
+    "path": "/api/files/761b7a2d-05ad-4304-b036-9d1aa2cc220b/versions/c4c20c3c-477e-4526-afcf-f19464be6562/transition",
+    "body": {
+      "version": 0,
+      "decision": "IN_REVIEW",
+      "comment": "验证·收入原始资料独立发布"
+    },
+    "method": "POST",
+    "requestId": "16163b76-db7f-41b7-896f-6f54f04c111a"
+  },
+  "income-file-v1-publish": {
+    "path": "/api/files/761b7a2d-05ad-4304-b036-9d1aa2cc220b/versions/c4c20c3c-477e-4526-afcf-f19464be6562/transition",
+    "body": {
+      "version": 1,
+      "decision": "PUBLISHED",
+      "comment": "验证·资料发布与收入确认分开办理"
+    },
+    "method": "POST",
+    "requestId": "2e0f2184-80df-4e2c-877e-9340a47e77af"
+  },
+  "augustOriginal": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·8月设备调试收入",
+      "amount": "50000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-08-20",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "f864f407-f12d-40e3-8b04-f3d79d22ef40"
+  },
+  "august-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/49e7708f-8995-4bb6-a50a-3697f9a3155d/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·august-submit"
+    },
+    "method": "POST",
+    "requestId": "f15fbbac-e666-4b12-84c2-305b030aac4e"
+  },
+  "august-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/49e7708f-8995-4bb6-a50a-3697f9a3155d/commands",
+    "body": {
+      "version": 1,
+      "action": "CONFIRM",
+      "reason": "验证·august-confirm"
+    },
+    "method": "POST",
+    "requestId": "cf44cc6a-57a2-4d0f-80bb-8432add13881"
+  },
+  "designIncome": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·方案设计成果收入",
+      "amount": "400000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-05",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+      "forecastLineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "c4c20c3c-477e-4526-afcf-f19464be6562"
+      ],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "844a2970-7f7d-4494-9e35-746934b27332"
+  },
+  "design-first-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e501d8a7-650f-446c-8a69-ffb8675d2601/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·design-first-submit"
+    },
+    "method": "POST",
+    "requestId": "f3480892-c470-4505-b909-aaee6751e088"
+  },
+  "design-return-for-evidence": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e501d8a7-650f-446c-8a69-ffb8675d2601/commands",
+    "body": {
+      "version": 1,
+      "action": "RETURN",
+      "reason": "验证·design-return-for-evidence"
+    },
+    "method": "POST",
+    "requestId": "ed4e01ab-b918-4694-ac08-7caeaceb5ed3"
+  },
+  "income-file-v2-submit": {
+    "path": "/api/files/761b7a2d-05ad-4304-b036-9d1aa2cc220b/versions/ab7fae20-72a2-4c51-b618-19675eb4c76a/transition",
+    "body": {
+      "version": 0,
+      "decision": "IN_REVIEW",
+      "comment": "验证·收入原始资料独立发布"
+    },
+    "method": "POST",
+    "requestId": "1da08072-e083-410d-9da5-8a343087672f"
+  },
+  "income-file-v2-publish": {
+    "path": "/api/files/761b7a2d-05ad-4304-b036-9d1aa2cc220b/versions/ab7fae20-72a2-4c51-b618-19675eb4c76a/transition",
+    "body": {
+      "version": 1,
+      "decision": "PUBLISHED",
+      "comment": "验证·资料发布与收入确认分开办理"
+    },
+    "method": "POST",
+    "requestId": "ee710522-957f-46d3-b453-7cd82a6bdd97"
+  },
+  "design-second-draft": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e501d8a7-650f-446c-8a69-ffb8675d2601",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·方案设计成果收入",
+      "amount": "400000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-05",
+      "sourceNote": "验证·已按退回意见补齐方案成果、验收日期和收入金额依据",
+      "source": null,
+      "forecastRevisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+      "forecastLineId": "85d777d8-2729-4171-abfa-87f9d2555900",
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "ab7fae20-72a2-4c51-b618-19675eb4c76a"
+      ],
+      "reason": "验证·填报实际收入",
+      "version": 2
+    },
+    "method": "PATCH",
+    "requestId": "45fb54ac-d8e4-4a0c-be32-6fb71d601239"
+  },
+  "design-second-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e501d8a7-650f-446c-8a69-ffb8675d2601/commands",
+    "body": {
+      "version": 3,
+      "action": "SUBMIT",
+      "reason": "验证·design-second-submit"
+    },
+    "method": "POST",
+    "requestId": "486390c9-dcac-4ba1-b293-3cd378e73221"
+  },
+  "design-second-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e501d8a7-650f-446c-8a69-ffb8675d2601/commands",
+    "body": {
+      "version": 4,
+      "action": "CONFIRM",
+      "reason": "验证·design-second-confirm"
+    },
+    "method": "POST",
+    "requestId": "615a153f-3b98-4d1d-8dbe-1c9a52e79a8f"
+  },
+  "integrationIncome": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·采购集成阶段收入",
+      "amount": "500000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-10",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+      "forecastLineId": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "ab7fae20-72a2-4c51-b618-19675eb4c76a"
+      ],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "4c451d70-429d-4dae-a688-402297f7f133"
+  },
+  "integration-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/7a28d508-6150-4bbf-a40e-6878371586e9/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·integration-submit"
+    },
+    "method": "POST",
+    "requestId": "7b30412e-5c8d-4bef-8cd2-47789f40d01e"
+  },
+  "integration-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/7a28d508-6150-4bbf-a40e-6878371586e9/commands",
+    "body": {
+      "version": 1,
+      "action": "CONFIRM",
+      "reason": "验证·integration-confirm"
+    },
+    "method": "POST",
+    "requestId": "004007f6-f60a-4ba9-85fc-065dd8d4a619"
+  },
+  "augustReversal": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "REVERSAL",
+      "title": "验证·原设备调试收入冲销",
+      "amount": null,
+      "currency": "CNY",
+      "occurredOn": "2026-09-11",
+      "sourceNote": "验证·按复核结果整笔冲销8月误记设备调试收入",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": "49e7708f-8995-4bb6-a50a-3697f9a3155d",
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "ab7fae20-72a2-4c51-b618-19675eb4c76a"
+      ],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "91860d81-e3a9-4edc-913b-13285627e185"
+  },
+  "reversal-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/ac046b34-82f5-43fd-aff0-63b47852585c/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·reversal-submit"
+    },
+    "method": "POST",
+    "requestId": "d674dd67-d0fa-43ed-8867-3d113e6e5c72"
+  },
+  "reversal-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/ac046b34-82f5-43fd-aff0-63b47852585c/commands",
+    "body": {
+      "version": 2,
+      "action": "CONFIRM",
+      "reason": "验证·reversal-confirm"
+    },
+    "method": "POST",
+    "requestId": "4b0e650c-93b5-46eb-92aa-1cee0e621ae5"
+  },
+  "interfaceIncome": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·设备接口确认收入",
+      "amount": "100000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-11",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+      "forecastLineId": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "ab7fae20-72a2-4c51-b618-19675eb4c76a"
+      ],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "789e3993-c6b4-4891-9b64-dab634831d36"
+  },
+  "interface-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/7f7ebea1-a8c1-456e-a6da-e00b08d183bc/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·interface-submit"
+    },
+    "method": "POST",
+    "requestId": "32470521-2a37-4960-a4e8-83f90b80af94"
+  },
+  "siteIncome": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·现场准备收入",
+      "amount": "50000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-12",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [
+        "ab7fae20-72a2-4c51-b618-19675eb4c76a"
+      ],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "6056662c-e2c8-4fb2-986a-813a4667379c"
+  },
+  "site-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/51a589a6-4e22-4b76-8751-76ca42f856b0/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·site-submit"
+    },
+    "method": "POST",
+    "requestId": "48a7be26-81a0-4d32-9a98-0ea3432d2c51"
+  },
+  "returnedService": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·补充技术服务收入",
+      "amount": "120000.00",
+      "currency": "CNY",
+      "occurredOn": "2026-09-12",
+      "sourceNote": "验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·按实际业务补记，并单独核对预测差异",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·填报实际收入"
+    },
+    "method": "POST",
+    "requestId": "ad99296d-40cc-4f65-8763-2cd430bd0c44"
+  },
+  "service-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/9dad68eb-8f2d-4483-875d-2c3debf6929a/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·service-submit"
+    },
+    "method": "POST",
+    "requestId": "bb80e37e-3466-422e-93fc-13a9b34e1d88"
+  },
+  "service-return": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/9dad68eb-8f2d-4483-875d-2c3debf6929a/commands",
+    "body": {
+      "version": 1,
+      "action": "RETURN",
+      "reason": "验证·service-return"
+    },
+    "method": "POST",
+    "requestId": "92adefb3-56af-4a21-aa22-028b35ed8e1b"
+  },
+  "forecast-v2-save": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "CNY",
+      "bookVersion": 3,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+          "title": "方案设计计划收入",
+          "amount": "450000.00",
+          "plannedOn": "2026-09-05",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        },
+        {
+          "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+          "title": "采购与集成计划收入",
+          "amount": "600000.00",
+          "plannedOn": "2026-09-10",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        },
+        {
+          "id": "748c3c30-5427-4541-87b4-243d678eb8a7",
+          "title": "设备接口计划收入",
+          "amount": "50000.00",
+          "plannedOn": "2026-09-20",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": [],
+          "incomeReference": {
+            "id": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+            "version": 1
+          }
+        }
+      ],
+      "reason": "验证·forecast-v2-save"
+    },
+    "method": "POST",
+    "requestId": "d556b86e-ff2f-408c-a46e-5c1d6ad71eea"
+  },
+  "forecast-v2-publish": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts/d041271f-2d9d-4bd4-8c89-a031fa238c95/commands",
+    "body": {
+      "bookVersion": 4,
+      "draftVersion": 0,
+      "action": "PUBLISH",
+      "reason": "验证·forecast-v2-publish"
+    },
+    "method": "POST",
+    "requestId": "02a2817a-b2ce-4ff1-b007-24f6ec0bfe69"
+  },
+  "forecast-v3-save": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "CNY",
+      "bookVersion": 6,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "85d777d8-2729-4171-abfa-87f9d2555900",
+          "title": "方案设计计划收入",
+          "amount": "450000.00",
+          "plannedOn": "2026-09-05",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        },
+        {
+          "id": "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+          "title": "采购与集成计划收入",
+          "amount": "600000.00",
+          "plannedOn": "2026-09-10",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": []
+        },
+        {
+          "id": "748c3c30-5427-4541-87b4-243d678eb8a7",
+          "title": "设备接口计划收入",
+          "amount": "100000.00",
+          "plannedOn": "2026-09-20",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": [],
+          "incomeReference": {
+            "id": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+            "version": 1
+          }
+        },
+        {
+          "id": "0a4e6427-0f84-4082-aa5e-137fbf857f30",
+          "title": "现场准备计划收入",
+          "amount": "50000.00",
+          "plannedOn": "2026-09-22",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·按项目交付与经营安排制定计划",
+          "fileVersionIds": [],
+          "incomeReference": {
+            "id": "51a589a6-4e22-4b76-8751-76ca42f856b0",
+            "version": 1
+          }
+        }
+      ],
+      "reason": "验证·forecast-v3-save"
+    },
+    "method": "POST",
+    "requestId": "b9f06cca-5ad8-44d2-9402-b059a1807494"
+  },
+  "forecast-v3-publish": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts/d041271f-2d9d-4bd4-8c89-a031fa238c95/commands",
+    "body": {
+      "bookVersion": 7,
+      "draftVersion": 0,
+      "action": "PUBLISH",
+      "reason": "验证·forecast-v3-publish"
+    },
+    "method": "POST",
+    "requestId": "cdd9d845-303a-4cb3-a36b-ef22d2613203"
+  },
+  "usdOriginal": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·8月美元收入",
+      "amount": "75.25",
+      "currency": "USD",
+      "occurredOn": "2026-08-10",
+      "sourceNote": "验证·明确收入依据",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·补录依据",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·拒绝不合规收入命令"
+    },
+    "method": "POST",
+    "requestId": "8262987d-974a-4c66-a6eb-af970b10dbad"
+  },
+  "usd-original-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e12cbad6-04f2-40b7-8295-d39dc061e714/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·usd-original-submit"
+    },
+    "method": "POST",
+    "requestId": "3b14bde6-90bf-4ace-bb2f-1ec6e7a61a39"
+  },
+  "usd-original-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/e12cbad6-04f2-40b7-8295-d39dc061e714/commands",
+    "body": {
+      "version": 1,
+      "action": "CONFIRM",
+      "reason": "验证·usd-original-confirm"
+    },
+    "method": "POST",
+    "requestId": "f35bfbdf-a504-4b57-829a-6117f379bbb4"
+  },
+  "usdReversalA": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "REVERSAL",
+      "title": "验证·美元冲销申请A",
+      "amount": null,
+      "currency": "USD",
+      "occurredOn": "2026-09-13",
+      "sourceNote": "验证·明确收入依据",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·补录依据",
+      "originalIncomeId": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·拒绝不合规收入命令"
+    },
+    "method": "POST",
+    "requestId": "dd33bbfe-aba9-4f44-8d4a-0b38f03634a6"
+  },
+  "usdReversalB": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "REVERSAL",
+      "title": "验证·美元冲销申请B",
+      "amount": null,
+      "currency": "USD",
+      "occurredOn": "2026-09-13",
+      "sourceNote": "验证·明确收入依据",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·补录依据",
+      "originalIncomeId": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·拒绝不合规收入命令"
+    },
+    "method": "POST",
+    "requestId": "ba2b4a2a-26e9-470c-857e-2c34df973b84"
+  },
+  "usd-reversal-a-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/7a62ca89-bc61-4a13-a85e-0d99f4a6fffc/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·usd-reversal-a-submit"
+    },
+    "method": "POST",
+    "requestId": "a939a4b5-ae5a-4681-83eb-791c622a2390"
+  },
+  "usd-reversal-b-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/de72f8af-8933-4c35-961d-e3c15f829dbd/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·usd-reversal-b-submit"
+    },
+    "method": "POST",
+    "requestId": "5fd6af24-64f9-42a0-a023-c435075515fd"
+  },
+  "usd-losing-reversal-withdraw": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/de72f8af-8933-4c35-961d-e3c15f829dbd/commands",
+    "body": {
+      "version": 2,
+      "action": "WITHDRAW",
+      "reason": "验证·usd-losing-reversal-withdraw"
+    },
+    "method": "POST",
+    "requestId": "8b428e4d-3bfd-4355-b27e-c989d6a5c5e0"
+  },
+  "usd-losing-reversal-cancel": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/de72f8af-8933-4c35-961d-e3c15f829dbd/commands",
+    "body": {
+      "version": 3,
+      "action": "CANCEL",
+      "reason": "验证·usd-losing-reversal-cancel"
+    },
+    "method": "POST",
+    "requestId": "f8cb04b0-6f86-4528-996c-cb7e1d77aebf"
+  },
+  "usdIncome": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·美元本月收入",
+      "amount": "100.00",
+      "currency": "USD",
+      "occurredOn": "2026-09-13",
+      "sourceNote": "验证·明确收入依据",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·补录依据",
+      "originalIncomeId": null,
+      "confirmerId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "fileVersionIds": [],
+      "reason": "验证·拒绝不合规收入命令"
+    },
+    "method": "POST",
+    "requestId": "0549b90f-d854-4974-9360-e86c5456b91e"
+  },
+  "usd-positive-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/42d4c59d-620e-46c8-ad0e-e19869b6bd4c/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·usd-positive-submit"
+    },
+    "method": "POST",
+    "requestId": "621c8c54-78af-4b83-998c-ea6b78ee75f4"
+  },
+  "usd-positive-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/42d4c59d-620e-46c8-ad0e-e19869b6bd4c/commands",
+    "body": {
+      "version": 1,
+      "action": "CONFIRM",
+      "reason": "验证·usd-positive-confirm"
+    },
+    "method": "POST",
+    "requestId": "8bab393d-049e-4e57-913b-eb87732d07d1"
+  },
+  "usd-forecast-create": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "USD",
+      "bookVersion": null,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "62de42bc-8325-4a4a-a9d5-4150b86f9fd5",
+          "title": "验证·美元预测",
+          "amount": "100.01",
+          "plannedOn": "2026-09-20",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·单独币种预测",
+          "fileVersionIds": []
+        }
+      ],
+      "reason": "验证·美元独立预测"
+    },
+    "method": "POST",
+    "requestId": "c496b8dc-9ca2-4644-a79d-91be5a2a970a"
+  },
+  "usd-forecast-publish": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts/e47fafb4-98cb-4eca-aafa-75d6eb866a1e/commands",
+    "body": {
+      "bookVersion": 2,
+      "draftVersion": 1,
+      "action": "PUBLISH",
+      "reason": "验证·并发后核对并发布唯一有效版"
+    },
+    "method": "POST",
+    "requestId": "cac85c40-d6de-45d3-b6b8-c89dcc16849a"
+  },
+  "usd-discard-draft-create": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "USD",
+      "bookVersion": 4,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "62de42bc-8325-4a4a-a9d5-4150b86f9fd5",
+          "title": "验证·美元预测",
+          "amount": "400.00",
+          "plannedOn": "2026-09-20",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·单独币种预测",
+          "fileVersionIds": []
+        }
+      ],
+      "reason": "验证·临时修订后放弃"
+    },
+    "method": "POST",
+    "requestId": "5daf6302-5ca1-44de-a00a-04df2f25c205"
+  },
+  "usd-discard-draft": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts/e47fafb4-98cb-4eca-aafa-75d6eb866a1e/commands",
+    "body": {
+      "bookVersion": 5,
+      "draftVersion": 0,
+      "action": "DISCARD",
+      "reason": "验证·放弃草案，旧发布版继续有效"
+    },
+    "method": "POST",
+    "requestId": "18a5f981-da88-4d07-9cf8-1310c495cdd9"
+  },
+  "handoff-income-create": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes",
+    "body": {
+      "kind": "INCOME",
+      "title": "验证·美元收入责任交接",
+      "amount": "20.25",
+      "currency": "USD",
+      "occurredOn": "2026-09-13",
+      "sourceNote": "验证·只交接本条新收入的待确认职责，不转移原交付或任务",
+      "source": null,
+      "forecastRevisionId": null,
+      "forecastLineId": null,
+      "unplannedReason": "验证·按实际发生补记收入",
+      "originalIncomeId": null,
+      "confirmerId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+      "fileVersionIds": [],
+      "reason": "验证·建立独立收入交接场景"
+    },
+    "method": "POST",
+    "requestId": "f76a2469-f149-4e9b-9577-95f9079c7a6c"
+  },
+  "handoff-income-submit": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/8821f998-61b5-4365-b5e0-cb6223e12256/commands",
+    "body": {
+      "version": 0,
+      "action": "SUBMIT",
+      "reason": "验证·handoff-income-submit"
+    },
+    "method": "POST",
+    "requestId": "ad3eed72-c359-441e-b4b0-8d54ca9505fd"
+  },
+  "income-transfer-create": {
+    "path": "/api/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/responsibility-transfers",
+    "body": {
+      "version": 58,
+      "fromId": "f487233f-dd20-4c46-b13c-a3a3fc51201f",
+      "toId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+      "mappingHash": "602688c9cec8db07dd227778b381d9727733f4fb21a81321710ef42579987337",
+      "fromRoles": [
+        "PROJECT_REVIEWER",
+        "SYNTHETIC_WI013_CONFIRM"
+      ],
+      "toRoles": [
+        "PROJECT_REVIEWER",
+        "SYNTHETIC_WI013_CONFIRM"
+      ],
+      "basis": "验证·由当前营销确认人交接此条待确认收入，保留原提交人，不改既有交付范围与任务"
+    },
+    "method": "POST",
+    "requestId": "a841f766-b15f-4e5d-850e-05f5cb2f17bc"
+  },
+  "income-transfer-accept": {
+    "path": "/api/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/responsibility-transfers/552881d6-70a3-43a5-9e5e-7a569fa9088b/decision",
+    "body": {
+      "version": 0,
+      "action": "ACCEPT",
+      "note": "验证·接任者核对原收入与未结确认职责后接收"
+    },
+    "method": "POST",
+    "requestId": "b1c82204-e6ae-4cf0-96fc-17b49b70060f"
+  },
+  "income-transfer-apply": {
+    "path": "/api/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/responsibility-transfers/552881d6-70a3-43a5-9e5e-7a569fa9088b/decision",
+    "body": {
+      "version": 1,
+      "action": "APPLY",
+      "note": "验证·正式生效本条收入责任，原提交事实保持不变"
+    },
+    "method": "POST",
+    "requestId": "ffcecb13-b498-47e4-98ed-78f13375c52e"
+  },
+  "handoff-income-confirm": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/incomes/8821f998-61b5-4365-b5e0-cb6223e12256/commands",
+    "body": {
+      "version": 2,
+      "action": "CONFIRM",
+      "reason": "验证·handoff-income-confirm"
+    },
+    "method": "POST",
+    "requestId": "8eb00360-d7ab-4469-b919-23592467d186"
+  },
+  "eur-browser-concurrent-draft": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income-forecasts",
+    "body": {
+      "period": "2026-09",
+      "currency": "EUR",
+      "bookVersion": 3,
+      "draftVersion": null,
+      "lines": [
+        {
+          "id": "316cbc46-354f-497c-b616-e62bb7260f4a",
+          "title": "验证·桌面收入计划",
+          "plannedOn": "2026-09-20",
+          "amount": "175.01",
+          "sourceType": "PROJECT",
+          "source": null,
+          "sourceNote": "验证·桌面预测录入，依据项目补充服务计划，独立欧元口径",
+          "incomeReference": null,
+          "fileVersionIds": []
+        }
+      ],
+      "reason": "验证·另一窗口更新预测草案，核对旧窗口并发保护"
+    },
+    "method": "POST",
+    "requestId": "f1d69634-5a25-4c9c-90b9-f8a02bf37b98"
+  }
+}

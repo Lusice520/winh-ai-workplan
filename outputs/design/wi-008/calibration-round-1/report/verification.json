@@ -1,0 +1,418 @@
+{
+  "status": "截图前提通过，但元素采集不完整，需处理报告中的缺项",
+  "manifest": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-008/calibration-round-1/run.json",
+  "capture": {
+    "measurement_sha256": "9dbd403b80f628e1ee8f8cbcabbe9e75caeb4ef7e67a9ab8d3d1f48624b3ec09",
+    "url": "http://127.0.0.1:5173/projects/a5fbb927-8ca0-41ad-b927-6e59d98d768b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "document_height": 1329,
+    "fonts_ready": true,
+    "images_ready": true,
+    "document_overflow_x": false,
+    "captured_at": "2026-09-12T13:09:43.119Z",
+    "elements": [
+      {
+        "name": "sidebar",
+        "selector": ".workspace-sider",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          0,
+          0,
+          236,
+          1045
+        ],
+        "text": "项目工作台Project workspace商机与客户客户管理商机台账项目中心项目台账售前管理需求池",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "header",
+        "selector": ".workspace-header",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          236,
+          0,
+          1260,
+          58
+        ],
+        "text": "项目中心/项目空间搜索项目、客户、商机…",
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "80px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "project-heading",
+        "selector": ".business-page-heading",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          74,
+          1212,
+          56.21875
+        ],
+        "text": "验证·工厂数字化协同平台PRJ-A5FBB927 · 验证·星河制造 mtye7qm7进行中查看商机编辑项目",
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "project-facts",
+        "selector": ".business-page--project > .business-facts",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          144.21875,
+          1212,
+          67.9921875
+        ],
+        "text": "项目阶段售前阶段当前重点 · 待明确营销负责人验证·营销负责人招投标项目售前负责人验证·营销负责人2 位有效成员经营结果待定以商机确认结果为准",
+        "computed": {
+          "display": "grid",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "actions-panel",
+        "selector": ".presales-workspace .business-split > .business-stack > .business-panel:first-child",
+        "count": 2,
+        "status": "ambiguous"
+      },
+      {
+        "name": "action-row-1",
+        "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(2)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          261,
+          413.4140625,
+          856,
+          48
+        ],
+        "text": "01现场调研验证·营销负责人2026-10-12已完成生产现场调研纪要 · V1详情更新",
+        "computed": {
+          "display": "table-row",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "action-row-2",
+        "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(3)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          261,
+          461.4140625,
+          856,
+          48
+        ],
+        "text": "02需求梳理验证·营销负责人2026-10-12已完成业务需求与范围清单 · V1详情更新",
+        "computed": {
+          "display": "table-row",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "viewport_intersects": true
+      }
+    ],
+    "assets": {},
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "section_positions": [],
+  "comparison": "outputs/design/wi-008/calibration-round-1/report/verify-metrics.json",
+  "geometry": {
+    "measurement_sha256": "9dbd403b80f628e1ee8f8cbcabbe9e75caeb4ef7e67a9ab8d3d1f48624b3ec09",
+    "complete": false,
+    "unavailable_regions": [
+      "actions-panel"
+    ],
+    "regions": [
+      {
+        "name": "sidebar",
+        "selector": ".workspace-sider",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          0,
+          0,
+          236,
+          1045
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          0.0,
+          0.0,
+          237.0,
+          1045.0
+        ],
+        "delta_css": [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "max_abs_delta_css": 1.0
+      },
+      {
+        "name": "header",
+        "selector": ".workspace-header",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          236,
+          0,
+          1260,
+          58
+        ],
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "80px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          237.0,
+          0.0,
+          1268.0,
+          64.0
+        ],
+        "delta_css": [
+          -1.0,
+          0.0,
+          -8.0,
+          -6.0
+        ],
+        "max_abs_delta_css": 8.0
+      },
+      {
+        "name": "project-heading",
+        "selector": ".business-page-heading",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          74,
+          1212,
+          56.21875
+        ],
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "reference_css_box": [
+          262.0,
+          87.0,
+          1217.0,
+          63.0
+        ],
+        "delta_css": [
+          -2.0,
+          -13.0,
+          -5.0,
+          -6.781
+        ],
+        "max_abs_delta_css": 13.0
+      },
+      {
+        "name": "project-facts",
+        "selector": ".business-page--project > .business-facts",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          144.21875,
+          1212,
+          67.9921875
+        ],
+        "computed": {
+          "display": "grid",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(40, 54, 77)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          262.0,
+          166.0,
+          1217.0,
+          54.0
+        ],
+        "delta_css": [
+          -2.0,
+          -21.781,
+          -5.0,
+          13.992
+        ],
+        "max_abs_delta_css": 21.781
+      },
+      {
+        "name": "actions-panel",
+        "selector": ".presales-workspace .business-split > .business-stack > .business-panel:first-child",
+        "status": "ambiguous",
+        "box_type": "element"
+      },
+      {
+        "name": "action-row-1",
+        "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(2)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          261,
+          413.4140625,
+          856,
+          48
+        ],
+        "computed": {
+          "display": "table-row",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "reference_css_box": [
+          275.0,
+          426.0,
+          802.0,
+          47.0
+        ],
+        "delta_css": [
+          -14.0,
+          -12.586,
+          54.0,
+          1.0
+        ],
+        "max_abs_delta_css": 54.0
+      },
+      {
+        "name": "action-row-2",
+        "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(3)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          261,
+          461.4140625,
+          856,
+          48
+        ],
+        "computed": {
+          "display": "table-row",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 34, 53)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "reference_css_box": [
+          275.0,
+          473.0,
+          802.0,
+          47.0
+        ],
+        "delta_css": [
+          -14.0,
+          -11.586,
+          54.0,
+          1.0
+        ],
+        "max_abs_delta_css": 54.0
+      }
+    ],
+    "note": "偏差是 CSS 像素，不是还原率；布局可测量不证明未遮挡、字体正确或交互可用。"
+  }
+}

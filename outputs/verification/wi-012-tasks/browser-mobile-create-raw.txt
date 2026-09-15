@@ -1,0 +1,32 @@
+### Result
+{"status":200,"id":"9057f44d-b414-43f8-b7cf-60a5141adb22","sourceRequirementId":null,"estimatedDays":0.5,"formOverflow":false,"originalUrl":"http://127.0.0.1:5173/work-items/9057f44d-b414-43f8-b7cf-60a5141adb22"}
+### Ran Playwright code
+```js
+await (async (page) => {
+ await page.setViewportSize({width:390,height:844});
+ await page.goto("http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks");
+ await page.getByRole("button",{name:"新建任务",exact:true}).click();
+ const d=page.getByRole("dialog",{name:"新建任务",exact:true});
+ await d.getByLabel("任务名称",{exact:true}).fill("验证·移动端临时检查安排");
+ await d.getByLabel("任务内容与范围",{exact:true}).fill("验证·在原工作包内核对移动端填写的任务安排，保留取消和重新安排的完整历史。");
+ await d.getByLabel("完成标准",{exact:true}).fill("验证·逐项检查原范围和资料，由指定其他人独立确认。");
+ await d.getByRole("spinbutton",{name:/预计投入/}).fill("0.5");
+ await d.getByLabel("安排依据与原因",{exact:true}).fill("验证·原批准范围内的临时核对安排，不增加合同、设备数量或预算。");
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+ if(overflow)throw new Error("Mobile task form overflow");
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-create-form.png",fullPage:false,scale:"css",animations:"disabled"});
+ const rp=page.waitForResponse(r=>r.url().endsWith("/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks")&&r.request().method()==="POST");
+ await d.getByRole("button",{name:/^保\s*存$/}).click(); const r=await rp, b=await r.json();
+ if(r.status()!==200)throw new Error("Mobile create status "+r.status()+": "+b.message);
+ await page.waitForURL("**/work-items/"+b.task.id);
+ return {status:r.status(),id:b.task.id,sourceRequirementId:b.task.sourceRequirementId,estimatedDays:b.task.estimatedDays,formOverflow:overflow,originalUrl:page.url()};
+})(page);
+```
+### Open tabs
+- 0: (current) [工作计划系统 · 本地基线](http://127.0.0.1:5173/work-items/9057f44d-b414-43f8-b7cf-60a5141adb22)
+- 1: [工作计划系统 · 本地基线](http://127.0.0.1:5173/login)
+### Page
+- Page URL: http://127.0.0.1:5173/work-items/9057f44d-b414-43f8-b7cf-60a5141adb22
+- Page Title: 工作计划系统 · 本地基线
+### Events
+- New console entries: .playwright-cli/console-2026-09-13T00-11-16-819Z.log#L42

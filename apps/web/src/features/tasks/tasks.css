@@ -1,0 +1,221 @@
+.task-page {
+  min-width: 0;
+}
+.task-breadcrumb {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #7285a1;
+}
+.task-facts .business-facts {
+  margin: 0;
+  padding: 10px 0;
+}
+.task-facts .business-facts > div {
+  gap: 3px;
+}
+.task-detail-page > .business-facts strong {
+  font-size: 14px;
+  line-height: 22px;
+}
+.task-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 318px;
+  gap: 14px;
+  align-items: start;
+}
+.task-layout > *,
+.task-main {
+  min-width: 0;
+}
+.task-aside {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+.task-page .business-panel-heading {
+  padding: 12px 14px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.task-page .business-panel-body {
+  padding: 12px;
+}
+.task-page .business-panel-heading h2 {
+  font-size: 16px;
+}
+.task-page .ant-table-cell {
+  font-size: 12px;
+  line-height: 20px;
+  overflow-wrap: anywhere;
+}
+.task-page .ant-table-thead > tr > th {
+  background: #f4f8fe;
+  color: #3c5680;
+}
+.task-title {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 21px;
+}
+.task-source {
+  font-size: 12px;
+}
+.task-two-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.task-filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.task-filter .ant-input-affix-wrapper {
+  width: 220px;
+}
+.task-filter .ant-select {
+  width: 148px;
+}
+.task-date-filter {
+  font-size: 12px;
+  color: #496386;
+  margin-bottom: 10px;
+}
+.task-date-filter summary {
+  cursor: pointer;
+  padding: 4px 0;
+}
+.task-date-filter label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}
+.task-date-filter input {
+  width: 148px;
+}
+.task-review-card {
+  display: grid;
+  gap: 8px;
+  border: 1px solid #dde7f7;
+  padding: 12px;
+  background: #f9fbff;
+  border-radius: 6px;
+}
+.task-review-card + .task-review-card {
+  margin-top: 10px;
+}
+.task-review-card p {
+  font-size: 12px;
+  line-height: 21px;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.task-criteria dt {
+  color: #264874;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.task-criteria dd {
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #edf1f7;
+  overflow-wrap: anywhere;
+}
+.task-footnote {
+  font-size: 12px;
+  line-height: 21px;
+  margin: 12px 0 0;
+}
+.task-recent {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 12px;
+  font-size: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #edf1f7;
+}
+.task-recent span {
+  color: #7d8faa;
+}
+.task-recent p {
+  grid-column: 1 / -1;
+  line-height: 21px;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.task-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  font-size: 13px;
+}
+.task-comparison section {
+  min-width: 0;
+}
+.task-comparison h3 {
+  font-size: 13px;
+  color: #466489;
+  margin: 0 0 8px;
+}
+.task-comparison .business-text {
+  line-height: 23px;
+  overflow-wrap: anywhere;
+}
+.task-actual .ant-progress {
+  max-width: 360px;
+}
+.task-actions {
+  width: 100%;
+}
+.task-actions .ant-btn {
+  width: 100%;
+}
+@media (max-width: 1050px) {
+  .task-layout {
+    grid-template-columns: minmax(0, 1fr) 270px;
+  }
+}
+@media (max-width: 760px) {
+  .task-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .task-layout > * {
+    width: 100%;
+  }
+  .task-aside {
+    display: contents;
+  }
+  .task-aside > .business-panel {
+    width: 100%;
+  }
+  .task-review-panel {
+    order: -1;
+  }
+  .task-comparison {
+    grid-template-columns: 1fr;
+  }
+  .task-filter .ant-input-affix-wrapper {
+    flex: 1 1 100%;
+    width: auto;
+  }
+  .task-recent {
+    grid-template-columns: 1fr;
+  }
+  .task-breadcrumb {
+    gap: 6px 12px;
+  }
+  .task-page .business-panel-body {
+    padding: 10px;
+  }
+}

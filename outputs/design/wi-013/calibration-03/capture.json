@@ -1,0 +1,174 @@
+{
+  "measurement_sha256": "73bf2e154b63435fdc87d5754816f3731df4431c9b3d40dcaa15c8b8c30c0c04",
+  "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY",
+  "title": "工作计划系统 · 本地基线",
+  "viewport": {
+    "width": 1523,
+    "height": 1033
+  },
+  "dpr": 1,
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document_height": 1064,
+  "fonts_ready": true,
+  "images_ready": true,
+  "document_overflow_x": false,
+  "captured_at": "2026-09-13T14:16:34.303Z",
+  "elements": [
+    {
+      "name": "heading",
+      "selector": ".income-page .business-page-heading",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        74,
+        1230,
+        56.21875
+      ],
+      "text": "经营预测与收入验证·启明产线自动化改造（接口验证） · 资金计划编辑预测",
+      "computed": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "facts",
+      "selector": ".income-facts",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        200.21875,
+        883.90625,
+        90
+      ],
+      "text": "已发布计划收入1,200,000.00CNY · 元已确认净收入850,000.00含本月已确认冲销待确认正向收入150,000.00独立确认后计入待冲销金额0.00未从净收入扣减",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "ledger",
+      "selector": ".income-ledger-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        304.21875,
+        883.90625,
+        508
+      ],
+      "text": "收入台账 · 6预测与节点全部状态全部类型日 期重 置收入事项来源说明实际日期金额（元）提交 / 确认状态操作收入事项来源说明实际日期金额（元）提交 / 确认状态操作验证·补充技术服务收入验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票项目 / 其他收入依据2026-09-12120,000.00验证·接任专业负责人验证·工作包验证人已退回查看验证·现场准备收入验证·已发生的项目收入，有独立确认依据；不代表现金回款或开票项目 / 其他收入依据2026-09-1250,000.00验证·接任专业负责人验证·工作包验证人待营销确认查看验证·设备接口确认收入原预测 V1 · 采购与集成计",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "revisions",
+      "selector": ".income-revisions-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        826.21875,
+        883.90625,
+        189
+      ],
+      "text": "预测版本完整版本历史 →版本计划收入（元）更新时间更新人调整原因状态操作版本计划收入（元）更新时间更新人调整原因状态操作V31,200,000.0009/13 21:37验证·项目经理验证·forecast-v3-publish当前有效查看V21,100,000.0009/13 21:37验证·项目经理验证·forecast-v2-publish历史版本查看V11,000,000.0009/13 21:37验证·项目经理验证·forecast-v1-publish历史版本查看",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "review",
+      "selector": ".income-review-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1157.90625,
+        200.21875,
+        332.09375,
+        453.109375
+      ],
+      "text": "待确认收入（2）确认后才进入已确认净收入验证·现场准备收入50,000.00 元指定确认 · 验证·工作包验证人验证·接任专业负责人2026-09-12项目 / 其他收入依据查看当轮依据 验证·设备接口确认收入100,000.00 元指定确认 · 验证·工作包验证人验证·接任专业负责人2026-09-11项目 / 其他收入依据查看当轮依据",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "sources",
+      "selector": ".income-source-panel",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1157.90625,
+        667.328125,
+        332.09375,
+        325.3828125
+      ],
+      "text": "计划更新来源待确认收入可供财务修订预测时参考验证·现场准备收入50,000.00 CNY · 待营销确认已引用 · 更新预测依据 →验证·设备接口确认收入100,000.00 CNY · 待营销确认已引用 · 更新预测依据 →引用仅作为参考，编辑并发布后才更新计划收入。",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(40, 54, 77)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    }
+  ],
+  "assets": {},
+  "full_page": false,
+  "screenshot_scale": "css"
+}

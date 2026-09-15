@@ -1,0 +1,161 @@
+{
+  "measurement_sha256": "e7f22a2c5483388c7e2a9a91144333ea0aaabdbfcec6bbd4709f994f6257deb4",
+  "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e?tab=milestones",
+  "title": "工作计划系统 · 本地基线",
+  "viewport": {
+    "width": 1522,
+    "height": 1033
+  },
+  "dpr": 1,
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document_height": 1598,
+  "fonts_ready": true,
+  "images_ready": true,
+  "document_overflow_x": false,
+  "captured_at": "2026-09-13T10:14:29.250Z",
+  "elements": [
+    {
+      "name": "execution-summary",
+      "selector": ".execution-summary",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        340.2109375,
+        1229,
+        53.5703125
+      ],
+      "text": "交付执行 · V41 已完成1 进行中2 未开始1 项清单待我核验",
+      "computed": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 51, 91)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "stage-comparison",
+      "selector": ".execution-layout > div > .business-panel:nth-child(1)",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        260,
+        407.78125,
+        905,
+        422.21875
+      ],
+      "text": "里程碑实际与核验筛选里程碑里程碑负责人里程碑核验状态计划日期自计划日期至清除筛选里程碑与责任当前计划 / 实际核验状态指定验证 / 当前依据操作里程碑与责任当前计划 / 实际核验状态指定验证 / 当前依据操作方案设计成果验收验证·项目经理2026-11-082026-09-13已验证验证·工作包验证人验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。历史与依据采购集成成果验收验证·项目经理2026-11-15尚未发生未提交提交时明确工作包全部成果通过独立核验。历史与依据现场实施成果验收验证·项目经理2026-12-20尚未发生未提交提交时明确工作包全部成果通",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 51, 91)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "selected-stage-detail",
+      "selector": ".execution-layout > div > .business-panel:nth-child(2)",
+      "count": 0,
+      "status": "missing"
+    },
+    {
+      "name": "item-execution",
+      "selector": ".execution-layout > div > .business-panel:nth-child(3)",
+      "count": 0,
+      "status": "missing"
+    },
+    {
+      "name": "my-reviews",
+      "selector": ".execution-aside > .business-panel:nth-child(1)",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1179,
+        407.78125,
+        310,
+        251.8046875
+      ],
+      "text": "需要我处理（1）来自原执行记录的指定核验；处理结果回写原对象。待验证自动化控制设备验证·接任专业负责人 提交 1，实际发生于 2026-09-13核对本批验收",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 51, 91)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "recent-events",
+      "selector": ".execution-aside > .business-panel:nth-child(2)",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1179,
+        673.5859375,
+        310,
+        474.328125
+      ],
+      "text": "最近执行记录实际日期与登记时间分别保留。查看记录阶段完成2026-09-13 · 验证·项目经理验证·补充核对完成，按现行批准条件确认阶段再次完成。登记于 09/13 17:55里程碑验证通过2026-09-13 · 验证·工作包验证人验证·补充记录经独立复核，本轮成果通过。登记于 09/13 17:55提交里程碑实际2026-09-13 · 验证·项目经理验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。登记于 09/13 17:55",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 51, 91)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": true
+    },
+    {
+      "name": "milestone-status",
+      "selector": ".execution-aside > .business-panel:nth-child(3)",
+      "count": 1,
+      "status": "measured",
+      "box": [
+        1179,
+        1161.9140625,
+        310,
+        420.234375
+      ],
+      "text": "里程碑执行情况方案设计成果验收已验证计划 2026-11-08 · 实际 2026-09-13采购集成成果验收未提交计划 2026-11-15 · 实际 未发生现场实施成果验收未提交计划 2026-12-20 · 实际 未发生验证·培训与资料验收未提交计划 2026-12-28 · 实际 未发生",
+      "computed": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "fontWeight": "400",
+        "color": "rgb(24, 51, 91)",
+        "backgroundColor": "rgb(255, 255, 255)"
+      },
+      "viewport_intersects": false
+    }
+  ],
+  "assets": {},
+  "full_page": false,
+  "screenshot_scale": "css"
+}

@@ -1,0 +1,87 @@
+{
+  "reference": "presales-design-v2-compact.png",
+  "css_viewport_width": 1505,
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/a5fbb927-8ca0-41ad-b927-6e59d98d768b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "box": [
+        0,
+        0,
+        237,
+        1045
+      ],
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "box": [
+        237,
+        0,
+        1268,
+        64
+      ],
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "project-heading",
+      "box": [
+        262,
+        87,
+        1217,
+        63
+      ],
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "project-facts",
+      "box": [
+        262,
+        166,
+        1217,
+        54
+      ],
+      "selector": ".business-page--project > .business-facts"
+    },
+    {
+      "name": "actions-panel",
+      "box": [
+        262,
+        290,
+        829,
+        477
+      ],
+      "selector": ".presales-workspace .business-split > .business-stack > .business-panel:first-child"
+    },
+    {
+      "name": "action-row-1",
+      "box": [
+        275,
+        426,
+        802,
+        47
+      ],
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(2)"
+    },
+    {
+      "name": "action-row-2",
+      "box": [
+        275,
+        473,
+        802,
+        47
+      ],
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(3)"
+    }
+  ]
+}

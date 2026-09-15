@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>DG-01 商务移交与提前开工｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">02 / 阶段门</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 02｜DG-01 商务移交与提前开工</h2>
+<p class="subtitle">P1 在同一项目空间完成交付可接收性检查；提前开工只允许限定范围先行，不自动通过 DG-01。DG-01 通过形成移交包，P2 准备并通过 DG-02 后才正式进入交付。</p>
+
+<div class="section">
+  <div class="label">零、进入 DG-01 的业务前提</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;text-align:center;"><strong>项目空间·售前</strong><br><small>规定动作与 SG-02 已形成结果</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#eef9f4;text-align:center;"><strong>中标/成交/合同路径</strong><br><small>按采购方式回显“中标”或“成交”</small></div>
+    <div style="font-size:22px;color:#94a3b8;">或</div>
+    <div style="padding:15px;border-radius:10px;background:#fff8e8;text-align:center;"><strong>提前开工申请获批</strong><br><small>作为批准范围内的开工依据</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">未中标、客户取消或主动终止时，项目空间以“售前｜已关闭｜对应业务结果”只读保留，不进入 DG-01。提前开工获批时业务结果可以继续为“待定”。</p>
+</div>
+
+<div class="section">
+  <div class="label">一、移交资料包｜由商务发起，系统先做完整性检查</div>
+  <div style="display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:10px;margin-top:10px;">
+    <div style="padding:14px;border-radius:10px;background:#eef4ff;border-top:4px solid #5d8ee3;"><strong>项目基础</strong><br><small>客户、现场、设备、干系人、关键时间</small></div>
+    <div style="padding:14px;border-radius:10px;background:#f3efff;border-top:4px solid #7863ce;"><strong>商务依据</strong><br><small>合同/中标/委托依据、金额、付款节点</small></div>
+    <div style="padding:14px;border-radius:10px;background:#eaf8f1;border-top:4px solid #3d9d73;"><strong>范围与技术</strong><br><small>需求、方案、供货范围、边界、接口与差异</small></div>
+    <div style="padding:14px;border-radius:10px;background:#fff7e6;border-top:4px solid #d19a32;"><strong>验收与计划</strong><br><small>验收标准、生产窗口、目标工期、关键节点</small></div>
+    <div style="padding:14px;border-radius:10px;background:#fff0ee;border-top:4px solid #d66b5f;"><strong>投入与风险</strong><br><small>初始约束、资源需求、遗留问题、风险与承诺</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、正常准入与限定先行｜都不能跳过正式阶段门</div>
+  <div class="split" style="margin-top:10px;">
+    <div class="mockup" style="border:2px solid #60a987;">
+      <div class="mockup-header mockup-header--light" style="background:#eaf8f1;"><strong>路径 A｜正常交付准入</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:8px;align-items:center;text-align:center;">
+          <div style="padding:12px;border-radius:9px;background:#f0fdf7;"><strong>商务提交</strong><br><small>完整移交包</small></div>
+          <div style="font-size:20px;color:#94a3b8;">→</div>
+          <div style="padding:12px;border-radius:9px;background:#f0fdf7;"><strong>联合评审</strong><br><small>拟任项目经理/交付代表＋技术＋相关部门</small></div>
+          <div style="font-size:20px;color:#94a3b8;">→</div>
+          <div style="padding:12px;border-radius:9px;background:#dff6ea;"><strong>DG-01 通过</strong><br><small>形成可接收移交包</small></div>
+        </div>
+        <ul style="margin-bottom:0;">
+          <li>范围、验收、时间和商务依据达到准入要求</li>
+          <li>初始资源和交付约束已识别，详细团队承诺在 DG-02 完成</li>
+          <li>资料不足时退回，并生成缺项清单</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mockup" style="border:2px solid #d6a23c;">
+      <div class="mockup-header mockup-header--light" style="background:#fff7e6;"><strong>路径 B｜提前开工例外</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:8px;align-items:center;text-align:center;">
+          <div style="padding:12px;border-radius:9px;background:#fffbeb;"><strong>例外申请</strong><br><small>说明缺失与必要性</small></div>
+          <div style="font-size:20px;color:#94a3b8;">→</div>
+          <div style="padding:12px;border-radius:9px;background:#fffbeb;"><strong>风险会签</strong><br><small>技术、预算、资源评估</small></div>
+          <div style="font-size:20px;color:#94a3b8;">→</div>
+          <div style="padding:12px;border-radius:9px;background:#fff1c7;"><strong>公司级批准</strong><br><small>限范围、限预算、限期限</small></div>
+        </div>
+        <ul style="margin-bottom:0;">
+          <li>批准后可在限定范围内先行，但 DG-01 仍保持待补齐/待通过</li>
+          <li>必须填写启动依据、临时范围和预算上限</li>
+          <li>逐项登记缺失资料、责任人及补齐期限</li>
+          <li>以最小承诺台账记录金额/工时、责任人、依据和实际发生</li>
+          <li>明确风险承担人、停止条件和到期日期</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">三、P1 输出与 P2 起点不能混在一起</div>
+  <div class="split" style="margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#f3efff;border:1px solid #b8a5e8;">
+      <strong>P1｜DG-01 通过后形成</strong><br><small>移交结论、当前有效移交包、缺项/例外清单、初始范围与风险、合同/中标/委托依据，以及进入 P2 的待办。</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border:1px solid #8fcaae;">
+      <strong>P2｜先准备、再通过 DG-02</strong><br><small>P2 开始即开放团队、执行阶段、项目清单、专业工作包、主计划和预算草案；DG-02 评审通过后，同一批对象转为正式基线、主阶段变为“交付”，并形成 P3 执行准入条件。</small>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、提前开工的到期控制</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#fff7e6;text-align:center;"><strong>例外获批</strong><br><small>只允许批准范围内工作<br>逐笔记录承诺与实际</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;text-align:center;"><strong>补齐与转正</strong><br><small>签约、资料补齐后完成 DG-01，并在 P2 建立 DG-02 基线</small></div>
+    <div style="font-size:22px;color:#94a3b8;">／</div>
+    <div style="padding:15px;border-radius:10px;background:#fff0ee;text-align:center;"><strong>到期/超范围/超预算</strong><br><small>冻结新增承诺并升级公司裁决</small></div>
+  </div>
+</div>
+
+<div style="padding:14px 16px;border-left:4px solid #475569;background:#f8fafc;border-radius:7px;">
+  <strong>审计原则：</strong>所有退回、补充、例外批准、承诺占用、范围变化和转正过程保留版本与时间记录，不能覆盖原始交底内容；提前开工不是 DG-01 或 DG-02 的隐式“已通过”。
+</div>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="01-business-architecture.html"><small>上一页 · 01</small><strong>← 总体业务架构</strong></a>
+    <a href="03-plan-resource-report.html"><small>下一页 · 03</small><strong>计划、资源与项目报告 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · DG-01 商务移交与提前开工 · V0.4</footer>
+</body>
+</html>

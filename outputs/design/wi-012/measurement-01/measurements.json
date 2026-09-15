@@ -1,0 +1,160 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-012/task-workspace-design-v1.png",
+  "source_sha256": "552ac27ffd374de44b418cd1ed885f8c238e1a6ab5cf08ee27bd098440964c53",
+  "source_size": [
+    1522,
+    1033
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1522,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "page-heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        247,
+        70,
+        1254,
+        64
+      ],
+      "normalized_box": [
+        0.162286,
+        0.067764,
+        0.823916,
+        0.061955
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        247.0,
+        70.0,
+        1254.0,
+        64.0
+      ],
+      "selector": ".task-page .business-page-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "task-facts",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        247,
+        143,
+        1254,
+        87
+      ],
+      "normalized_box": [
+        0.162286,
+        0.138432,
+        0.823916,
+        0.084221
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        247.0,
+        143.0,
+        1254.0,
+        87.0
+      ],
+      "selector": ".task-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "task-table",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        245,
+        247,
+        893,
+        579
+      ],
+      "normalized_box": [
+        0.160972,
+        0.239109,
+        0.586728,
+        0.560503
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        245.0,
+        247.0,
+        893.0,
+        579.0
+      ],
+      "selector": ".task-list-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "review-queue",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1153,
+        247,
+        349,
+        324
+      ],
+      "normalized_box": [
+        0.757556,
+        0.239109,
+        0.229304,
+        0.31365
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1153.0,
+        247.0,
+        349.0,
+        324.0
+      ],
+      "selector": ".task-review-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "package-criteria",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1153,
+        586,
+        349,
+        303
+      ],
+      "normalized_box": [
+        0.757556,
+        0.56728,
+        0.229304,
+        0.29332
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1153.0,
+        586.0,
+        349.0,
+        303.0
+      ],
+      "selector": ".task-criteria-panel",
+      "dom_comparable": true
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "c958a4e26d4ab776e876b192f7c83f040b00d18bcd3bd6084efce5cf66132cb7"
+}

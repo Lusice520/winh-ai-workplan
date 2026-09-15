@@ -1,0 +1,33 @@
+{
+  "measurement_sha256": "cad45467142b55f24e254057879b643aef0ff5d5bbc33f8385efe917ec7c0c32",
+  "targets": [
+    {
+      "name": "sidebar",
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "project-heading",
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "project-facts",
+      "selector": ".business-page--project > .business-facts"
+    },
+    {
+      "name": "handover-table",
+      "selector": ".handover-checklist"
+    },
+    {
+      "name": "readiness-panel",
+      "selector": ".handover-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child"
+    },
+    {
+      "name": "first-checklist-row",
+      "selector": ".handover-checklist .ant-table-tbody tr.ant-table-row:first-of-type"
+    }
+  ]
+}

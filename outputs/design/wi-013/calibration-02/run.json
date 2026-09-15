@@ -1,0 +1,28 @@
+{
+  "reference": "../income-design-v2.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1523,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": true,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurement-02/measurements.json",
+  "measurement_sha256": "12fa9bcef77f5df9c6c0503310174040962ea6cb45c5922495af895d5282c54a",
+  "allow_height_difference": true,
+  "expected_assets": {},
+  "clips": [
+    "region-000:259,76,1235,61",
+    "region-001:259,201,889,90",
+    "region-002:259,306,889,487",
+    "region-003:259,808,889,176",
+    "region-004:1161,201,333,443",
+    "region-005:1161,659,333,305"
+  ]
+}

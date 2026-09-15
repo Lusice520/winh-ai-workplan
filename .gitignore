@@ -1,0 +1,56 @@
+# macOS 与编辑器
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# 本地 AI 与自动化工具运行目录
+.scratch/
+.superpowers/
+.workbuddy/
+.gstack/
+.playwright-cli/
+.local-tools/
+.local-data/
+CLAUDE.local.md
+.claude/settings.local.json
+
+# 密钥和本地环境
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+secrets/
+
+# Java / Gradle / Maven
+**/target/
+**/build/
+.gradle/
+
+# Node / 前端
+**/node_modules/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+.pnpm-store/
+playwright-report/
+test-results/
+
+# 日志、缓存和临时文件
+*.log
+*.tmp
+*.swp
+.cache/
+tmp/
+
+# 旧的本地输出目录；正式交付物使用 outputs/
+output/
+
+# outputs 中的文档工具临时配置与 QA 渲染缓存；保留最终交付文件
+outputs/**/.lo-profile*/
+outputs/**/qa-*/

@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-13T13:29:39.860Z",
+  "freshBeforeTables": 0,
+  "databases": [
+    {
+      "name": "winh_workplan",
+      "result": "21|t|21"
+    },
+    {
+      "name": "winh_wi013_income_v21_fresh_20260913",
+      "result": "21|t|21"
+    }
+  ]
+}

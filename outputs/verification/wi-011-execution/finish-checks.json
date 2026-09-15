@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-13T09:55:52.748Z",
+  "checks": [
+    "independent milestone required before stage completion",
+    "closed downstream rejects direct reverse and reopen",
+    "explicit stage and milestone reopening retains both completion rounds",
+    "each round retains exact file versions",
+    "incomplete second stage cannot complete",
+    "approved objects and earlier work unchanged"
+  ]
+}

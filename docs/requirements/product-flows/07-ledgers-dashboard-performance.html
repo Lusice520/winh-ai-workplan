@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>台账与看板｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · P1 看板 / 后续台账</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">07 / 管理</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 07｜管理台账与角色化看板</h2>
+<p class="subtitle">业务过程是源，台账和看板是结果；业务结果从商机与项目空间自动回显，绩效管理当前暂缓。</p>
+
+<div style="padding:14px 16px;border-left:4px solid #5d8ee3;background:#f6f9ff;border-radius:8px;margin-bottom:16px;">
+  <strong>分批边界：</strong>P1 只实现商机台账、项目空间台账、商务管理看板和管理层商机看板；交付/资源台账随 P2/P3 深化，经营报表属于 P4，车辆、宿舍、保险等辅助台账暂缓。
+</div>
+
+<div class="section">
+  <div class="label">一、台账从业务自动形成</div>
+  <div style="display:grid;grid-template-columns:1.3fr auto 2fr;gap:14px;align-items:center;margin-top:10px;">
+    <div style="padding:18px;border-radius:12px;background:#eef4ff;border:1px solid #9db6e5;">
+      <strong>业务事件</strong><br><small>商机、售前立项、业务结果、移交、阶段、清单、人员承诺、采购、验收与维护</small>
+    </div>
+    <div style="font-size:24px;color:#94a3b8;">→</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;">
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">项目台账</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">人员配置</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">采购台账</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">车辆台账</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">宿舍台账</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">保险台账</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">备品备件</div>
+      <div style="padding:13px;border-radius:9px;background:#f8fafc;text-align:center;">工具与资产</div>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-left:4px solid #5d8ee3;background:#f6f9ff;border-radius:7px;">
+    <small><strong>例：</strong>项目人员在飞书完成出差审批后，系统关联项目编号、人员和日期；现场住宿、车辆和保险记录再补充项目专属信息，人员配置台账随之自动更新。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、通用资源台账使用同一套生命周期</div>
+  <div style="display:grid;grid-template-columns:repeat(6,minmax(125px,1fr));gap:8px;margin-top:10px;">
+    <div style="padding:13px;border-radius:9px;background:#eef4ff;text-align:center;"><strong>登记</strong><br><small>编号、类型、归属</small></div>
+    <div style="padding:13px;border-radius:9px;background:#f3efff;text-align:center;"><strong>分配</strong><br><small>项目、人员、期限</small></div>
+    <div style="padding:13px;border-radius:9px;background:#fff8e8;text-align:center;"><strong>使用</strong><br><small>位置、状态、记录</small></div>
+    <div style="padding:13px;border-radius:9px;background:#fff0ed;text-align:center;"><strong>异常</strong><br><small>损坏、缺失、到期</small></div>
+    <div style="padding:13px;border-radius:9px;background:#eef9f4;text-align:center;"><strong>归还 / 续期</strong><br><small>验收、维护、费用</small></div>
+    <div style="padding:13px;border-radius:9px;background:#f1f5f9;text-align:center;"><strong>报废 / 关闭</strong><br><small>原因、审批、凭证</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">车辆、工具、保险、住宿和备件的专属字段不同，但项目、责任人、时间、状态、费用、附件和提醒机制可以复用。</p>
+</div>
+
+<div class="section">
+  <div class="label">三、同一数据形成三层看板</div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px;">
+    <div style="padding:17px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>项目看板</strong><br><small>主阶段、当前重点阶段、并行阶段、状态、结果、里程碑、项目清单、需求、风险、问题、成员和资金摘要</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#eef4ff;border-top:4px solid #5d8ee3;">
+      <strong>部门看板</strong><br><small>人员负荷、跨项目任务、专业交付、逾期问题、质量缺陷、未来资源需求</small>
+    </div>
+    <div style="padding:17px;border-radius:12px;background:#f3efff;border-top:4px solid #7863ce;">
+      <strong>公司经营看板</strong><br><small>商机/项目组合、业务结果、优先级、进度风险、收入回款付款、成本偏差、重大决策项</small>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、后续月度工作视图｜不是绩效评分</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1.25fr auto 1fr;gap:10px;align-items:stretch;margin-top:10px;">
+    <div style="padding:16px;border-radius:11px;background:#eef4ff;text-align:center;"><strong>项目任务</strong><br><small>从主计划和工作包自动带入</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">＋</div>
+    <div style="padding:16px;border-radius:11px;background:#fff8e8;text-align:center;"><strong>部门与专项工作</strong><br><small>产品建设、培训、制度、临时专项</small></div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px;border-radius:11px;background:#eef9f4;text-align:center;"><strong>个人月度工作视图</strong><br><small>目标、任务、成果和完成事实<br>不设置绩效权重或评分</small></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">五、绩效管理当前暂缓</div>
+  <div style="padding:18px;border-radius:12px;background:#f1f5f9;border:1px solid #cbd5e1;margin-top:10px;">
+    <strong>不纳入当前 MVP</strong><br><small>绩效考核表、KPI/OKR、评分、校准、申诉和奖金联动均不在本阶段设计。系统只保存真实、可审计的业务过程事实，未来如有需要再单独立项。</small>
+  </div>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">台账支持筛选、导出和权限视图，但不得通过导出的Excel形成新的线下主数据源。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="06-cost-procurement-forecast.html"><small>上一页 · 06</small><strong>← 成本、采购与项目经营台账</strong></a>
+    <a href="08-delivery-stage-gates.html"><small>下一页 · 08</small><strong>交付阶段门与项目模板 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 台账与看板 · V0.4</footer>
+</body>
+</html>

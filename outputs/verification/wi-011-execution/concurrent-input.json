@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "version": 3,
+    "objectVersion": 1,
+    "kind": "RECEIVED",
+    "quantity": 2,
+    "occurredOn": "2026-09-13",
+    "evidence": "验证·第二批两套设备到货（并发容量校验）",
+    "fileVersionIds": [],
+    "verifierId": null
+  },
+  "requestIds": [
+    "25101874-62b1-4325-843b-deb204c0c8a6",
+    "fa915a54-6cf2-45eb-8528-78764441d81f"
+  ]
+}

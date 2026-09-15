@@ -1,0 +1,41 @@
+{
+  "measurement_sha256": "483f8be2a26ee4ddb957fea52e80df55122c13fcd36329ea45873595310f8ed8",
+  "targets": [
+    {
+      "name": "heading",
+      "selector": ".delivery-initiation-heading"
+    },
+    {
+      "name": "readiness-strip",
+      "selector": ".delivery-initiation-facts"
+    },
+    {
+      "name": "readiness-checklist",
+      "selector": ".delivery-checklist-panel"
+    },
+    {
+      "name": "stage-plan",
+      "selector": ".delivery-plan-panel"
+    },
+    {
+      "name": "work-packages",
+      "selector": ".delivery-work-package-panel"
+    },
+    {
+      "name": "current-task",
+      "selector": ".delivery-current-task-panel"
+    },
+    {
+      "name": "review-path",
+      "selector": ".delivery-review-panel"
+    },
+    {
+      "name": "budget-composition",
+      "selector": ".delivery-budget-panel"
+    },
+    {
+      "name": "followups",
+      "selector": ".delivery-followups-panel"
+    }
+  ]
+}

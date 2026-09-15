@@ -1,0 +1,33 @@
+{
+  "reference": "../delivery-initiation-design-v1.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/delivery-initiation/71a40e56-9908-4681-9ad8-95d1a8f64a08",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurement-01/measurements.json",
+  "measurement_sha256": "1a15fd7ec5f74e3ce7941e1d0d6cd8f063b3e19e8b95219a142d86c6d85dfcb7",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:251,69,1246,72",
+    "region-001:251,146,1246,74",
+    "region-002:251,234,721,373",
+    "region-003:251,621,721,192",
+    "region-004:251,825,721,185",
+    "region-005:987,234,510,172",
+    "region-006:987,416,510,233",
+    "region-007:987,661,510,210",
+    "region-008:987,883,510,127",
+    "region-009:972,240,14,350",
+    "region-010:1150,607,210,26"
+  ]
+}

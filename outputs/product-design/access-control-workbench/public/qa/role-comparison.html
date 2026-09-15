@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>角色矩阵视觉对比</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #eef2f8;
+        color: #24354f;
+        font:
+          14px/1.4 -apple-system,
+          BlinkMacSystemFont,
+          "PingFang SC",
+          sans-serif;
+      }
+      header {
+        padding: 16px 24px;
+        background: #fff;
+        border-bottom: 1px solid #dce5f0;
+      }
+      h1 {
+        font-size: 18px;
+        margin: 0;
+      }
+      p {
+        color: #61738e;
+        margin: 4px 0 0;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 18px;
+      }
+      figure {
+        margin: 0;
+        overflow: hidden;
+        border: 1px solid #dbe4ef;
+        border-radius: 8px;
+        background: #fff;
+      }
+      figcaption {
+        font-weight: 700;
+        padding: 10px 12px;
+        border-bottom: 1px solid #e4ebf3;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>角色矩阵页：视觉对比</h1>
+      <p>
+        同一 1487 × 1058
+        桌面视口；左侧为确认后的表格工作台，右侧为浏览器渲染结果。
+      </p>
+    </header>
+    <main>
+      <figure>
+        <figcaption>确认后的角色矩阵</figcaption>
+        <img src="/qa/role-source.png" alt="角色矩阵视觉稿" />
+      </figure>
+      <figure>
+        <figcaption>原型渲染</figcaption>
+        <img src="/qa/role-implementation.png" alt="角色矩阵原型渲染" />
+      </figure>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "reference": "../contract-design-v1.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/contracts/7728baa6-0152-4ffa-8957-08f3e85ccf5b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurements/measurements.json",
+  "measurement_sha256": "20d8d471498b37c1b1e3c4d59fb647a52c10bb0c10c99544191b612fc0957754",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:0,0,237,1045",
+    "region-001:237,0,1268,65",
+    "region-002:261,85,1219,65",
+    "region-003:261,160,1219,81",
+    "region-004:261,302,752,280",
+    "region-005:261,593,752,212",
+    "region-006:1025,298,455,251"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-013/income-design-v2.png",
+  "source_sha256": "20a8d8a614469048e1d5a5afcb217416688a911c0217ca9d9d656c439cf79514",
+  "source_size": [
+    1523,
+    1033
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1523,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        259,
+        76,
+        1235,
+        61
+      ],
+      "normalized_box": [
+        0.170059,
+        0.073572,
+        0.8109,
+        0.059051
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        259.0,
+        76.0,
+        1235.0,
+        61.0
+      ],
+      "selector": ".income-page .business-page-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "facts",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        259,
+        201,
+        889,
+        90
+      ],
+      "normalized_box": [
+        0.170059,
+        0.194579,
+        0.583716,
+        0.087125
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        259.0,
+        201.0,
+        889.0,
+        90.0
+      ],
+      "selector": ".income-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "ledger",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        259,
+        306,
+        889,
+        487
+      ],
+      "normalized_box": [
+        0.170059,
+        0.296225,
+        0.583716,
+        0.471442
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        259.0,
+        306.0,
+        889.0,
+        487.0
+      ],
+      "selector": ".income-ledger-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "revisions",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        259,
+        808,
+        889,
+        176
+      ],
+      "normalized_box": [
+        0.170059,
+        0.782188,
+        0.583716,
+        0.170378
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        259.0,
+        808.0,
+        889.0,
+        176.0
+      ],
+      "selector": ".income-revisions-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "review",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1161,
+        201,
+        333,
+        443
+      ],
+      "normalized_box": [
+        0.762311,
+        0.194579,
+        0.218647,
+        0.428848
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1161.0,
+        201.0,
+        333.0,
+        443.0
+      ],
+      "selector": ".income-review-panel",
+      "dom_comparable": true
+    },
+    {
+      "name": "sources",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        1161,
+        659,
+        333,
+        305
+      ],
+      "normalized_box": [
+        0.762311,
+        0.637948,
+        0.218647,
+        0.295257
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        1161.0,
+        659.0,
+        333.0,
+        305.0
+      ],
+      "selector": ".income-source-panel",
+      "dom_comparable": true
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/income?period=2026-09&currency=CNY",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1523,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "2cd262ea3b1ab30b973cc13be03e467e53e2b7ad3e9dba6d99d352c970699906"
+}

@@ -1,0 +1,29 @@
+{
+  "reference": "../handover-design-v1.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/71a40e56-9908-4681-9ad8-95d1a8f64a08?tab=handover&handover=dg01",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../handover-measurements-v2/measurements.json",
+  "measurement_sha256": "3e9ada9d4771eeb1a6a0c8442e4141691057d597bb39a98d2e962e9641d99e8c",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:0,0,236,1045",
+    "region-001:236,0,1269,65",
+    "region-002:261,85,1219,65",
+    "region-003:261,165,1219,79",
+    "region-004:261,361,749,440",
+    "region-005:1022,306,459,195",
+    "region-006:274,450,721,38"
+  ]
+}

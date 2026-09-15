@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统术语表">
+  <title>术语表｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+  <style>
+    .glossary-group { margin: 24px 0; }
+    .glossary-group > h3 {
+      margin: 0 0 14px;
+      padding: 8px 14px;
+      border-left: 4px solid var(--orange);
+      background: #f4f7fb;
+      color: var(--navy);
+      font-size: 16px;
+      letter-spacing: .03em;
+    }
+    .term-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .term-card {
+      padding: 16px 18px;
+      border: 1px solid #dbe1e8;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(16,44,82,.04);
+    }
+    .term-card .term-name {
+      display: inline-block;
+      margin-bottom: 6px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: #eef4ff;
+      color: #245aa9;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .02em;
+    }
+    .term-card .term-name.sg { background: #f0f9f5; color: #2d7d5a; }
+    .term-card .term-name.dg { background: #f3efff; color: #6b4fc7; }
+    .term-card .term-name.batch { background: #fff8e8; color: #a8761a; }
+    .term-card .term-name.obj { background: #eef4ff; color: #245aa9; }
+    .term-card .term-name.status { background: #f1f5f9; color: #475569; }
+    .term-card .term-name.tech { background: #fff0ed; color: #c2554a; }
+    .term-card p { margin: 4px 0 0; font-size: 13px; line-height: 1.6; color: #475569; }
+    .term-card .term-detail { margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-size: 12px; color: #64748b; }
+    .gate-flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      gap: 6px;
+      margin: 14px 0 20px;
+    }
+    .gate-node {
+      min-width: 100px;
+      padding: 10px 8px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 12px;
+    }
+    .gate-node small { display: block; color: #64748b; font-size: 10px; margin-top: 3px; }
+    .gate-arrow { align-self: center; color: #94a3b8; font-size: 18px; }
+    .legend-box {
+      padding: 14px 16px;
+      border-radius: 8px;
+      background: #fff8e6;
+      border: 1px solid #efd28a;
+      margin: 16px 0;
+      font-size: 13px;
+      color: #475569;
+    }
+    .legend-box strong { color: var(--navy); }
+    @media (max-width: 660px) {
+      .term-grid { grid-template-columns: 1fr; }
+      .gate-flow { flex-direction: column; }
+      .gate-arrow { transform: rotate(90deg); text-align: center; }
+    }
+  </style>
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">术语表</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>术语表｜核心概念速查</h2>
+<p class="subtitle">本页集中解释蓝图、BRD 和 PRD 中反复出现的关键术语。第一次接触本项目时建议先通读本页，再阅读各主题蓝图。</p>
+
+<div class="legend-box">
+  <strong>怎么用这页：</strong>术语按类别分组——阶段门体系、分批策略、核心业务对象、状态与结果、商机相关、交付执行相关、技术缩写。每个术语卡片给出定义和所属批次（P1/P2/P3/P4）或适用阶段。如有疑问，对应详细定义见 BRD 第 5–7 章。
+</div>
+
+<!-- ===== 阶段门体系 ===== -->
+<div class="glossary-group">
+  <h3>一、阶段门（Stage Gate）体系</h3>
+  <p style="font-size: 13px; color: #64748b; margin: 0 0 12px;">
+    <strong>阶段门</strong>是项目从一个阶段进入下一个阶段时的正式检查点。它不是项目阶段本身，而是"你是否可以继续往前走"的决策点。每个阶段门有一组通过条件（输入、规定动作、成果物、责任角色、通过标准、例外规则），未通过则退回或升级。阶段门分为售前阶段门（SG）和交付阶段门（DG）两大类。
+  </p>
+
+  <div class="gate-flow">
+    <div class="gate-node" style="background:#e8f0ff;border-top:3px solid #4f7ddd;"><strong>SG-01</strong><small>售前投入立项</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#eef4ff;border-top:3px solid #5d8ee3;"><strong>SG-02</strong><small>报价/投标评审</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#f3efff;border-top:3px solid #7863ce;"><strong>DG-01</strong><small>交付准入</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#eaf8f1;border-top:3px solid #3d9d73;"><strong>DG-02</strong><small>交付立项</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#eef9f4;border-top:3px solid #3d9d73;"><strong>DG-03</strong><small>需求基线</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#f3efff;border-top:3px solid #7863ce;"><strong>DG-04</strong><small>设计基线</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#fff8e8;border-top:3px solid #d19a32;"><strong>DG-05</strong><small>出厂/进场就绪</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#fff0ed;border-top:3px solid #d66b5f;"><strong>DG-06</strong><small>调试就绪</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#eaf8f7;border-top:3px solid #319a93;"><strong>DG-07</strong><small>验收就绪</small></div>
+    <div class="gate-arrow">→</div>
+    <div class="gate-node" style="background:#f1f5f9;border-top:3px solid #64748b;"><strong>DG-08</strong><small>验收归档</small></div>
+  </div>
+
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name sg">SG-01 售前投入立项</span>
+      <p>确认调研目的、拟投入人员/差旅/费用、预期成果、责任人和退出条件。通过后项目状态从"待立项"变为"进行中"。</p>
+      <div class="term-detail">所属批次：P1 ｜ 未通过处理：不得形成未授权的跨部门或外部投入；少量内部投入按授权阈值简化确认</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name sg">SG-02 报价/投标评审</span>
+      <p>确认售前调研、方案、工程量、采购估算、关键假设、交付约束和主要风险已评审。是提交正式报价或投标的前置条件。</p>
+      <div class="term-detail">所属批次：P1 ｜ 未通过处理：缺失项显式列为假设、风险或待澄清项；高风险项目必须增加交付可行性评审</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-01 交付准入</span>
+      <p>商务移交的正式检查点——确认商务依据、范围、技术资料、验收目标、计划约束、初始投入和风险达到要求。通过后形成<strong>移交包</strong>，供 P2 接续。</p>
+      <div class="term-detail">所属批次：P1 ｜ 关键规则：提前开工不自动通过 DG-01，只允许限定范围先行</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-02 交付立项与项目基线</span>
+      <p>交付阶段的正式立项检查点——团队、角色、执行阶段、工作包、项目清单、主计划和实施预算已评审。通过后草案转为<strong>批准基线</strong>，主阶段变为"交付"。</p>
+      <div class="term-detail">所属批次：P2 ｜ 未通过处理：不得进入无基线执行；分阶段预算需有批准范围</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-03 深化需求基线</span>
+      <p>确认交付调研成果、需求、接口、现场约束和资料包。在售前调研基础上完成现场踏勘和正式资料包。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：生成缺项或变更，不允许口头替代</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-04 设计基线与采购/开发放行</span>
+      <p>机械、电气、软件、供货清单、接口和验收标准形成受控版本并完成必要评审。这是采购和开发可以正式启动的放行点。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：评审问题未关闭的受影响范围不得采购、制造、开发或发布</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-05 出厂/进场就绪</span>
+      <p>采购、制造、开发、接口、测试和安全准备达到进场要求。设备可以出厂运往现场。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：关联任务延迟并升级，不得用现场返工常态化补救</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-06 调试就绪</span>
+      <p>到货验收、安装复核、通电通网、配置、安全培训和测试缺陷达到要求。现场具备开始调试的条件。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：关键前置缺失时禁止进入对应调试等级</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-07 验收就绪</span>
+      <p>合同范围内调试、空重载、培训和试运行证据齐全。可以组织正式验收。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：生成未完成项、责任和补齐期限</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-08 验收归档/维护移交</span>
+      <p>验收签署、有效文件、归档清单、离场和维护资料齐全。项目正式归档并移交维护。</p>
+      <div class="term-detail">所属批次：P3 ｜ 未通过处理：不得仅凭会议口头结论关闭项目</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name dg">DG-09 项目关闭</span>
+      <p>当前版本仅保留未来扩展位，不设计项目关闭流程。维护期结束、关闭责任和归档规则在后续批次单独确认。</p>
+      <div class="term-detail">所属批次：暂缓 ｜ 当前状态：占位，不实现</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 分批策略 ===== -->
+<div class="glossary-group">
+  <h3>二、分批策略（P1 / P2 / P3 / P4）</h3>
+  <p style="font-size: 13px; color: #64748b; margin: 0 0 12px;">
+    系统按全量目标设计，但分四批落地。每批有明确的结束点和移交物，不会出现"做了一半不知道算不算完成"的情况。
+  </p>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name batch">P1 首期 MVP</span>
+      <p>完整跑通"商机 → 售前 → DG-01 交付准入/移交边界"。包含客户主档、商机迁移、项目空间、SG-01/02、DG-01 移交包、最小合同主档、资料管理、权限和移动响应式。</p>
+      <div class="term-detail">结束点：DG-01 通过并形成移交包 ｜ 不越过 DG-02</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name batch">P2 交付立项</span>
+      <p>从 DG-01 移交包接续，组建团队，配置阶段与清单，建立工作包、主计划和预算草案。DG-02 通过后转为批准基线。</p>
+      <div class="term-detail">结束点：DG-02 通过，形成 P3 执行准入条件</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name batch">P3 交付执行</span>
+      <p>在已通过 DG-02 的基线下开展完整执行：阶段、资源、预算、采购、清单、风险、问题、日报/周报/例会和交付执行，完成验收归档与 NAS 同步。</p>
+      <div class="term-detail">结束点：DG-08 验收归档与维护移交</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name batch">P4 经营深化</span>
+      <p>项目经营台账、确认收入、回款/付款/采购计划与执行、合同履约深化和组合经营分析。</p>
+      <div class="term-detail">结束点：经营闭环可运行</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 核心业务对象 ===== -->
+<div class="glossary-group">
+  <h3>三、核心业务对象</h3>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name obj">商机主档</span>
+      <p>所有 A–D 等级商机的统一记录，包含客户、销售进展、投入与业务结果。P1 从飞书多维表迁移约 30–50 条历史与当前商机。</p>
+      <div class="term-detail">迁移后飞书商机表停用，新系统为唯一事实来源</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">项目空间</span>
+      <p>贯穿售前、交付和维护全周期的固定入口。同一商机创建同一项目空间，不重复建档。固定聚合概览、阶段、里程碑、清单、需求、资金、风险、问题、例会、日报周报、成员和资料。</p>
+      <div class="term-detail">不是新增的业务层级，而是全周期的组织容器</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">项目清单</span>
+      <p>管理多设备、多现场、分开验收的统一对象。按设备、材料、现场、安装位置和验收范围记录、筛选及汇总。替代了 V0.1 中的"交付单元/交付子项目"概念。</p>
+      <div class="term-detail">分次进场、分阶段实施通过清单状态和时间窗口表达，不新增平行对象</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">专业工作包</span>
+      <p>跨阶段按专业范围组织执行的基本单元。如机械、电气、PLC、软件、算法、采购、安装、ECS 等。P2 在 DG-02 准备阶段建立，DG-02 通过后转为批准基线。</p>
+      <div class="term-detail">与执行阶段的区别：执行阶段是时间维度（设计→采购→安装…），工作包是专业维度</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">主合同</span>
+      <p>合同、客户、付款节点与经营目标的汇总。系统只承接签署后的合同主档和受控归档，不建设合同审批、法务审查或电子签署流程。</p>
+      <div class="term-detail">提前开工阶段不建立虚假主合同，先挂接商机和项目空间</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">移交包</span>
+      <p>DG-01 通过后形成的交付物集合，供 P2 接续。包含移交结论、当前有效移交包、缺项/例外清单、初始范围与风险、合同/中标/委托依据，以及进入 P2 的待办。</p>
+      <div class="term-detail">P2 从移交包接续开始准备 DG-02，不能跳过</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 四个独立事实 ===== -->
+<div class="glossary-group">
+  <h3>四、四个独立事实（任何界面不能混成一个状态）</h3>
+  <p style="font-size: 13px; color: #64748b; margin: 0 0 12px;">
+    这是本项目最重要的设计原则之一。主阶段、当前重点阶段、项目状态和业务结果是四个独立的维度，任何界面不得用一个字段（如"已关闭"）替代另一个字段的含义。
+  </p>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name status">主阶段</span>
+      <p>项目当前处于的大阶段，只有三个值：<strong>售前</strong>、<strong>交付</strong>、<strong>维护</strong>。</p>
+      <div class="term-detail">示例：售前 ｜ 交付 ｜ 维护</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name status">当前重点阶段</span>
+      <p>从并行执行阶段中指定一个，用于界面默认回显。表示当前最值得关注的工作主题。</p>
+      <div class="term-detail">示例：投标评审 ｜ 调研 ｜ 设计 ｜ 采购 ｜ 安装 ｜ 调试</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name status">项目状态</span>
+      <p>项目是否正在运行，四个值：<strong>待立项</strong>（等待 SG-01）、<strong>进行中</strong>、<strong>暂停</strong>、<strong>已关闭</strong>。</p>
+      <div class="term-detail">"已关闭"只表示不再运行，不等于未中标——需配合业务结果字段</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name status">业务结果</span>
+      <p>商机的最终业务结论，五个值：<strong>待定</strong>、<strong>成功</strong>、<strong>失败</strong>、<strong>客户取消</strong>、<strong>主动终止</strong>。招投标场景显示中标/未中标，非招标场景显示成交/未成交。</p>
+      <div class="term-detail">标准示例：售前 ｜ 已关闭 ｜ 未中标——三个维度同时可见</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 商机相关 ===== -->
+<div class="glossary-group">
+  <h3>五、商机相关</h3>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name obj">A–D 商机等级</span>
+      <p>商机的确定性分级。A 为最高确定性（即将签约/已中标），D 为最低确定性（早期线索）。所有等级商机统一管理，不区分流程入口，只在投入审批阈值上有差异。</p>
+      <div class="term-detail">具体阈值由试点前的现状数据校准后配置</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">销售进展</span>
+      <p>商机在销售过程中的当前阶段。P1 可配置，但至少需要一套默认值才能启动。</p>
+      <div class="term-detail">示例：初步接触 → 需求确认 → 方案报价 → 招投标 → 中标/成交</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">规定动作（售前）</span>
+      <p>售前阶段需要开展的工作与成果，可并行、反复推进。包括调研、需求梳理、方案、工程量/采购估算、报价、招投标、技术交底准备等。</p>
+      <div class="term-detail">不是线性流程，而是并行反复推进</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">需求池</span>
+      <p>贯穿售前、交付和维护全周期的独立需求管理入口。多来源记录、人工澄清分类、影响评估，到派生/关联问题、工作包、任务或变更，再到验证和关闭。</p>
+      <div class="term-detail">人工派生/关联而非自动判断；原需求始终保留且全链路可追溯</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 交付执行相关 ===== -->
+<div class="glossary-group">
+  <h3>六、交付执行相关</h3>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name obj">提前开工</span>
+      <p>受控例外机制——在 DG-01 正式通过前，允许在限定范围（范围、预算、期限）内先行。P1 以<strong>最小承诺台账</strong>逐笔记录，到期/超范围/超预算时冻结新增承诺。</p>
+      <div class="term-detail">关键规则：提前开工不自动通过 DG-01；转正时必须回补 DG-01</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">最小承诺台账</span>
+      <p>提前开工期间的承诺记录工具。记录每笔先行投入的范围、预算上限和到期日。是 P1 对提前开工进行受控管理的核心机制。</p>
+      <div class="term-detail">到期、超出批准范围或超过临时预算上限时冻结新增承诺并升级公司裁决</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">基线（Baseline）</span>
+      <p>经评审批准的当前有效版本，可以作为后续执行、采购或验证的依据。基线不是永久不变——发现问题时可开启变更分支，批准后发布新版本并保留替代历史。</p>
+      <div class="term-detail">类型：需求基线（DG-03）、设计基线（DG-04）、项目基线（DG-02）</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">并行执行阶段</span>
+      <p>交付阶段内可同时推进的多个执行主题。如调研、设计、采购、开发、安装、调试、验收等可以部分并行。每个阶段有前置条件和通过标准。</p>
+      <div class="term-detail">项目经理控制阶段启停及主阶段，阶段负责人只维护本阶段内容</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">项目模板</span>
+      <p>按项目类型（标准复用/配置迭代/非标定制/首台套特殊）预配置的阶段、工作包和规则快照。项目创建时形成模板快照，新模板版本不覆盖运行项目。</p>
+      <div class="term-detail">模板配置：必选/可选/条件启用阶段、默认负责人、前置条件、并行规则、里程碑、规定动作、成果物和完成条件</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name obj">调试能力等级</span>
+      <p>按合同范围逐级启用的调试等级：远程手动 → 远程半自动 → 远程全自动 → 全流程 ECS。未纳入合同的等级不生成强制任务。</p>
+      <div class="term-detail">每级有前置条件、测试用例和通过证据</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 技术缩写 ===== -->
+<div class="glossary-group">
+  <h3>七、技术缩写与外部系统</h3>
+  <div class="term-grid">
+    <div class="term-card">
+      <span class="term-name tech">NAS</span>
+      <p>网络附加存储（Network Attached Storage）。本项目中指公司现有的文件存储系统，承担验收后长期归档副本的保管，不承担过程协作。</p>
+      <div class="term-detail">项目验收后接收完整、可校验的只读归档包</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name tech">FAT</span>
+      <p>出厂验收测试（Factory Acceptance Test）。设备出厂前在制造商现场进行的验收测试，确认设备满足合同技术要求。</p>
+      <div class="term-detail">属于 DG-05 出厂/进场就绪的关键证据</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name tech">PLC</span>
+      <p>可编程逻辑控制器（Programmable Logic Controller）。自动化设备的控制核心，本项目交付中的电气/控制开发对象之一。</p>
+      <div class="term-detail">与软件/算法/ECS 并行开发，通过接口版本约束</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name tech">ECS</span>
+      <p>设备控制系统/设备控制软件（Equipment Control System）。项目调试能力最高等级"全流程 ECS"涉及系统间协议、PLC 联调和流程级异常处理。</p>
+      <div class="term-detail">调试等级第四级：远程手动 → 半自动 → 全自动 → 全流程 ECS</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name tech">飞书</span>
+      <p>公司当前使用的协同平台。迁移后仅负责沟通、消息提醒和深度链接，商机多维表迁移后停用，不再作为主表。</p>
+      <div class="term-detail">系统边界：协同入口，不是事实来源</div>
+    </div>
+    <div class="term-card">
+      <span class="term-name tech">Excel 一次性迁移</span>
+      <p>P1 将飞书商机表中的约 30–50 条历史与当前商机一次性导入新系统。迁移后不再双向同步，飞书商机表停用。</p>
+      <div class="term-detail">需要制作迁移模板和字段映射规则（P1 待补）</div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 28px; padding: 16px 18px; border-radius: 8px; background: #f8fafc; border-left: 4px solid #64748b;">
+  <strong>术语与文档关系：</strong>本页定义的术语在 BRD 第 5–7 章有完整的业务定义和通过条件；在 PRD 3.4 有对应的功能结构编号；在后续 SPEC 中有字段级定义和状态机说明。如发现蓝图页面中的术语未在此页解释，请补充。
+</div>
+
+<p style="margin-top: 18px; color: #64748b; font-size: 13px;">如需返回蓝图目录，请点击顶部"返回蓝图目录"或下方链接。</p>
+
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="overview.html"><small>上一页 · 00</small><strong>← 业务蓝图总览</strong></a>
+    <a href="01-business-architecture.html"><small>下一页 · 01</small><strong>总体业务架构 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 术语表 · V0.4</footer>
+</body>
+</html>

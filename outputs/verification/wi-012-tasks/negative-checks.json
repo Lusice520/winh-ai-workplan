@@ -1,0 +1,44 @@
+[
+  {
+    "label": "经理不能代填个人实际",
+    "status": 409,
+    "code": "BUSINESS_STATE_CONFLICT",
+    "message": "只有当前任务负责人可以提交自己的实际进展与成果。"
+  },
+  {
+    "label": "实际不能早于阶段开始",
+    "status": 400,
+    "code": "VALIDATION_FAILED",
+    "message": "实际日期不能早于阶段实际开始日期。"
+  },
+  {
+    "label": "实际不能是未来日期",
+    "status": 400,
+    "code": "VALIDATION_FAILED",
+    "message": "请填写已实际发生的日期，不能晚于今天。"
+  },
+  {
+    "label": "JSON 小数进度不能被截断为整数",
+    "status": 400,
+    "code": "VALIDATION_FAILED",
+    "message": "请检查输入后重试。"
+  },
+  {
+    "label": "提交人不能自验",
+    "status": 409,
+    "code": "BUSINESS_STATE_CONFLICT",
+    "message": "请由指定的其他验证人独立确认，原提交人不能自行验证。"
+  },
+  {
+    "label": "原泛用入口不能绕过任务成果规则",
+    "status": 409,
+    "code": "BUSINESS_STATE_CONFLICT",
+    "message": "此任务已接续原工作包，请从任务执行入口提交日期、成果与独立验证。"
+  },
+  {
+    "label": "父包存在未结任务时不能提交完成",
+    "status": 409,
+    "code": "BUSINESS_STATE_CONFLICT",
+    "message": "原工作包仍有未完成或需复核的任务，请先处理任务成果。"
+  }
+]

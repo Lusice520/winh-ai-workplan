@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>需求蓝图导航｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · 阶段基线审阅版</span></div>
+</header>
+<main class="index-shell">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">WINH · Project Operating System</p>
+      <h1>把跨部门项目，<br>放回<span>同一条主线</span></h1>
+      <p class="hero-copy">P1 先建立组织、账号、权限、工作台等系统底座，再跑通客户商机、项目空间、售前协同和 DG-01；P2 从移交包接续，建立阶段与清单基线；P3 形成日报、周报、例会和交付闭环。</p>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>13</strong><span>核心蓝图主题</span></div>
+      <div class="stat"><strong>6</strong><span>贯穿管理主线</span></div>
+      <div class="stat"><strong>2</strong><span>P1 / P2 边界</span></div>
+    </div>
+  </section>
+
+  <section class="phase-strip" aria-label="业务主线与控制点">
+    <div class="phase"><small>01 / OBJECT</small><strong>商机主档</strong></div>
+    <div class="phase"><small>02 / STAGE</small><strong>售前阶段</strong></div>
+    <div class="phase"><small>03 / GATE</small><strong>DG-01 准入</strong></div>
+    <div class="phase"><small>04 / P2 GATE</small><strong>准备并通过 DG-02</strong></div>
+    <div class="phase"><small>05 / STAGE</small><strong>交付阶段</strong></div>
+    <div class="phase"><small>06 / STAGE</small><strong>交付内验收 → 维护</strong></div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <h2>蓝图目录</h2>
+      <p>先看总览和术语表，再进入总体架构和 DG-01 边界。页面会明确标注 P1、P2、P3、P4；09 与 09B 共同说明系统基础底座，12 展示 V0.4 已收敛的 P1 能力与成果物映射。</p>
+    </div>
+    <div class="chapter-grid">
+    <a class="chapter-card" data-no="00" href="overview.html">
+      <div class="card-top"><span class="chapter-no">00</span><span class="tag">全局视图</span></div>
+      <h3>业务蓝图总览</h3>
+      <p>同一项目空间、P1/P2 分界、业务结果回显，以及六条贯穿管理线。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="★" href="00b-glossary.html">
+      <div class="card-top"><span class="chapter-no">★</span><span class="tag">术语</span></div>
+      <h3>核心术语表</h3>
+      <p>阶段门（SG/DG）、分批策略（P1–P4）、项目空间/清单/工作包、四个独立事实、技术缩写等核心概念速查。</p>
+      <span class="card-arrow">打开术语表 →</span>
+    </a>
+    <a class="chapter-card" data-no="01" href="01-business-architecture.html">
+      <div class="card-top"><span class="chapter-no">01</span><span class="tag">架构</span></div>
+      <h3>总体业务架构</h3>
+      <p>业务对象与项目空间、阶段/状态/结果分离，以及系统边界。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="02" href="02-handover-gate.html">
+      <div class="card-top"><span class="chapter-no">02</span><span class="tag">阶段门</span></div>
+      <h3>DG-01 商务移交与提前开工</h3>
+      <p>P1 移交包、缺项阻断、受控提前开工，以及 DG-02 的明确边界。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="03" href="03-plan-resource-report.html">
+      <div class="card-top"><span class="chapter-no">03</span><span class="tag">P2/P3</span></div>
+      <h3>阶段、计划、报告与例会</h3>
+      <p>P2 主计划/工作包计划与资源基线，P3 周滚动、任务、手写日报、周报和例会待办。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="04" href="04-issue-risk-change-safety.html">
+      <div class="card-top"><span class="chapter-no">04</span><span class="tag">P1 / P3</span></div>
+      <h3>需求池、问题、风险、变更与安全</h3>
+      <p>全周期独立需求池、独立风险入口，以及人工派生/关联和验证关闭证据链。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="05" href="05-knowledge-archive.html">
+      <div class="card-top"><span class="chapter-no">05</span><span class="tag">P1 / P3</span></div>
+      <h3>知识、版本与归档</h3>
+      <p>统一资料入口、链接＋密码分享、自动归档清单与 NAS 长期归档。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="06" href="06-cost-procurement-forecast.html">
+      <div class="card-top"><span class="chapter-no">06</span><span class="tag">P2—P4</span></div>
+      <h3>成本、采购与项目经营台账</h3>
+      <p>项目清单采购链，以及实际确认收入、回款/付款/采购计划的责任与版本。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="07" href="07-ledgers-dashboard-performance.html">
+      <div class="card-top"><span class="chapter-no">07</span><span class="tag">管理</span></div>
+      <h3>台账与角色化看板</h3>
+      <p>业务过程自动形成台账和看板；业务结果可分析，绩效当前暂缓。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="08" href="08-delivery-stage-gates.html">
+      <div class="card-top"><span class="chapter-no">08</span><span class="tag">P2/P3</span></div>
+      <h3>主阶段、执行阶段与模板</h3>
+      <p>DG-02 提交、退回/撤回、重提、通过和基线锁定，以及并行阶段、模板快照与阶段权限。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="09" href="09-permissions-security.html">
+      <div class="card-top"><span class="chapter-no">09</span><span class="tag">治理</span></div>
+      <h3>组织、账号、权限与安全</h3>
+      <p>账号生命周期、系统/项目/阶段角色、敏感边界、临时授权和两种外网访问。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="09B" href="09b-system-foundation.html">
+      <div class="card-top"><span class="chapter-no">09B</span><span class="tag">系统底座</span></div>
+      <h3>工作台与系统管理闭环</h3>
+      <p>待办消息、组织账号、字典参数、模板规则、审计、数据任务与集成运行状态。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="10" href="10-channels-integrations.html">
+      <div class="card-top"><span class="chapter-no">10</span><span class="tag">渠道</span></div>
+      <h3>Web、移动端与系统协同</h3>
+      <p>桌面 Web、移动端、飞书提醒、Excel 一次性迁移及 NAS 归档协同。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="11" href="11-mvp-rollout-acceptance.html">
+      <div class="card-top"><span class="chapter-no">11</span><span class="tag">落地</span></div>
+      <h3>P1/P2 边界、迁移与验收</h3>
+      <p>商机全量迁移、P1 真实案例验收和 P2 接续路线。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    <a class="chapter-card" data-no="12" href="12-action-deliverable-panorama.html">
+      <div class="card-top"><span class="chapter-no">12</span><span class="tag">全景</span></div>
+      <h3>P1 能力与成果物映射</h3>
+      <p>把 P1 菜单能力、核心业务结果、成果物和验收证据对齐；V0.1 原始清单仅保留来源追溯。</p>
+      <span class="card-arrow">打开蓝图 →</span>
+    </a>
+    </div>
+  </section>
+
+  <aside class="index-note">
+    <h3>这不是系统页面原型</h3>
+    <p>本蓝图用于确认业务对象、流程、阶段门、职责和证据要求；菜单级功能结构已经写入 PRD 3.4，具体页面交互与技术架构由后续 SPEC 和总体技术方案细化。</p>
+  </aside>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 业务需求蓝图 V0.4 · 2026-07-24</footer>
+</body>
+</html>

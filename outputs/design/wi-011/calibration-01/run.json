@@ -1,0 +1,31 @@
+{
+  "reference": "../project-execution-design-v1.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e?tab=stages&executionStage=414cc1ca-73a7-48f9-81c5-21c4955f6269",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurement-01/measurements.json",
+  "measurement_sha256": "e7f22a2c5483388c7e2a9a91144333ea0aaabdbfcec6bbd4709f994f6257deb4",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:240,196,821,50",
+    "region-001:240,259,821,246",
+    "region-002:254,518,795,262",
+    "region-003:240,808,821,207",
+    "region-004:1075,196,423,317",
+    "region-005:1075,528,423,276",
+    "region-006:1075,815,423,192",
+    "region-007:1063,260,10,230",
+    "region-008:1100,791,150,10"
+  ]
+}

@@ -1,0 +1,26 @@
+### Result
+{"at":"2026-09-13T11:53:22.764Z","url":"http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks","errors":[],"failedRequests":[],"rows":7}
+### Ran Playwright code
+```js
+await (async (page) => {
+ const errors=[];const failed=[];
+ const consoleListener=message=>{if(message.type()==="error")errors.push(message.text());};
+ const responseListener=response=>{if(response.url().startsWith("http://127.0.0.1:5173/api/")&&response.status()>=400)failed.push({status:response.status(),path:new URL(response.url()).pathname});};
+ page.on("console",consoleListener);page.on("response",responseListener);
+ try{
+  await page.setViewportSize({width:1522,height:1033});
+  await page.goto("http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks");
+  await page.getByRole("link",{name:"验证·移动端临时检查安排",exact:true}).waitFor();await page.waitForLoadState("networkidle");
+  if(errors.length||failed.length)throw new Error(JSON.stringify({errors,failed}));
+  return {at:new Date().toISOString(),url:page.url(),errors,failedRequests:failed,rows:await page.locator(".task-list-panel tbody tr.ant-table-row").count()};
+ }finally{page.off("console",consoleListener);page.off("response",responseListener);}
+})(page);
+```
+### Open tabs
+- 0: (current) [工作计划系统 · 本地基线](http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks)
+- 1: [工作计划系统 · 本地基线](http://127.0.0.1:5173/login)
+### Page
+- Page URL: http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks
+- Page Title: 工作计划系统 · 本地基线
+### Events
+- New console entries: .playwright-cli/console-2026-09-13T00-11-16-819Z.log#L46-L47

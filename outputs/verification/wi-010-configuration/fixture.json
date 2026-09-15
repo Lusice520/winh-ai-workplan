@@ -1,0 +1,29 @@
+{
+  "run": "mtysa0wg",
+  "origin": "http://127.0.0.1:8080",
+  "authoritySetup": "A new synthetic company grantor was explicitly initialized in the local test database; application delegation rules were preserved.",
+  "grantorId": "02fae406-c4e4-4c0b-84d9-e2dc5f7ab84f",
+  "templateId": "a9380deb-f43d-4c66-a18b-f48b7517438b",
+  "templateHash": "7f85a54764cda5776339f9b34a77907bd8437fe45adc88ca4ebdd534a17f3da2",
+  "policyId": "31146f77-7092-46cf-9190-2247f40ddcf6",
+  "browserTemplateId": "2f4c1d18-320a-4ab3-96ac-cfc94974ce60",
+  "browserPolicyId": "e7ab03cb-48f9-41cd-a55d-bb979c03d9d0",
+  "editor": {
+    "id": "bed47b59-95fc-41b4-832b-0c7c9b3d2a12",
+    "name": "验证·交付配置人 mtysa0wg",
+    "loginName": "wi010-editor-mtysa0wg"
+  },
+  "publisher": {
+    "id": "469d0b8e-fe86-425d-8ee1-9887c08ed39c",
+    "name": "验证·公司授权发布人 mtysa0wg",
+    "loginName": "wi010-publisher-mtysa0wg"
+  },
+  "reviewer": {
+    "id": "058d4670-a70a-4b94-989f-592d8c75670d",
+    "name": "验证·专业会签人 mtysa0wg"
+  },
+  "approver": {
+    "id": "777da34a-c64d-42d0-916a-65b5dab1c3c7",
+    "name": "验证·最终批准人 mtysa0wg"
+  }
+}

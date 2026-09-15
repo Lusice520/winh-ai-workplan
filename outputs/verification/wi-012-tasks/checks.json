@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-13T11:27:04.087Z",
+  "negativeChecks": 7,
+  "concurrency": "one accepted, one 409, one event",
+  "replay": "same original key/body before and after a later command, no added event or stale overwrite",
+  "pointsProgress": 65,
+  "originalSource": "74cc63e6-a688-4d7c-bb8b-416be433db64"
+}

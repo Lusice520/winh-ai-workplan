@@ -1,0 +1,27 @@
+{
+  "reference": "../task-workspace-design-v1.png",
+  "candidate": "candidate.png",
+  "capture_metadata": "capture.json",
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "measurement_baseline": "../measurement-01/measurements.json",
+  "measurement_sha256": "9a545f3293e8e719a815bac21702d07e3f38a29a5d4176530a8454ea9c01a64b",
+  "allow_height_difference": false,
+  "expected_assets": {},
+  "clips": [
+    "region-000:247,70,1254,64",
+    "region-001:247,143,1254,87",
+    "region-002:245,247,893,579",
+    "region-003:1153,247,349,324",
+    "region-004:1153,586,349,303"
+  ]
+}

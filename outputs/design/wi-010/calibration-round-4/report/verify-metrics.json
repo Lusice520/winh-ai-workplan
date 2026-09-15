@@ -1,0 +1,167 @@
+{
+  "reference": "outputs/design/wi-010/calibration-round-4/../delivery-initiation-design-v1.png",
+  "candidate": "outputs/design/wi-010/calibration-round-4/candidate.png",
+  "reference_size": [
+    1522,
+    1033
+  ],
+  "candidate_size_original": [
+    1522,
+    1033
+  ],
+  "candidate_size_compared": [
+    1522,
+    1033
+  ],
+  "resized": false,
+  "geometry_match": true,
+  "height_delta": 0,
+  "unmatched_tails": {},
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1522,
+        1033
+      ],
+      "rms_diff": 41.551,
+      "mean_abs_diff": 15.273,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-full-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-full-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-full-heatmap.png"
+    },
+    {
+      "name": "region-000",
+      "size": [
+        1246,
+        72
+      ],
+      "rms_diff": 65.383,
+      "mean_abs_diff": 30.516,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-000-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-000-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-000-heatmap.png"
+    },
+    {
+      "name": "region-001",
+      "size": [
+        1246,
+        74
+      ],
+      "rms_diff": 40.297,
+      "mean_abs_diff": 12.251,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-001-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-001-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-001-heatmap.png"
+    },
+    {
+      "name": "region-002",
+      "size": [
+        721,
+        373
+      ],
+      "rms_diff": 46.029,
+      "mean_abs_diff": 18.414,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-002-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-002-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-002-heatmap.png"
+    },
+    {
+      "name": "region-003",
+      "size": [
+        721,
+        192
+      ],
+      "rms_diff": 51.254,
+      "mean_abs_diff": 20.831,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-003-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-003-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-003-heatmap.png"
+    },
+    {
+      "name": "region-004",
+      "size": [
+        721,
+        185
+      ],
+      "rms_diff": 45.135,
+      "mean_abs_diff": 18.781,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-004-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-004-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-004-heatmap.png"
+    },
+    {
+      "name": "region-005",
+      "size": [
+        510,
+        172
+      ],
+      "rms_diff": 47.289,
+      "mean_abs_diff": 18.32,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-005-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-005-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-005-heatmap.png"
+    },
+    {
+      "name": "region-006",
+      "size": [
+        510,
+        233
+      ],
+      "rms_diff": 40.87,
+      "mean_abs_diff": 17.03,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-006-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-006-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-006-heatmap.png"
+    },
+    {
+      "name": "region-007",
+      "size": [
+        510,
+        210
+      ],
+      "rms_diff": 41.984,
+      "mean_abs_diff": 16.52,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-007-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-007-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-007-heatmap.png"
+    },
+    {
+      "name": "region-008",
+      "size": [
+        510,
+        127
+      ],
+      "rms_diff": 39.717,
+      "mean_abs_diff": 14.847,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-008-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-008-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-008-heatmap.png"
+    },
+    {
+      "name": "region-009",
+      "size": [
+        14,
+        350
+      ],
+      "rms_diff": 3.71,
+      "mean_abs_diff": 3.024,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-009-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-009-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-009-heatmap.png"
+    },
+    {
+      "name": "region-010",
+      "size": [
+        120,
+        18
+      ],
+      "rms_diff": 1.335,
+      "mean_abs_diff": 1.196,
+      "candidate": "outputs/design/wi-010/calibration-round-4/report/verify-region-010-candidate.png",
+      "diff": "outputs/design/wi-010/calibration-round-4/report/verify-region-010-diff.png",
+      "heatmap": "outputs/design/wi-010/calibration-round-4/report/verify-region-010-heatmap.png"
+    }
+  ],
+  "note": "误差不等于还原度；字体、摄影和位置分别判断。尺寸一致也不代表视觉通过。"
+}

@@ -1,0 +1,26 @@
+.contract-node-revision > p {
+  margin: 4px 0 10px;
+  color: #526079;
+  overflow-wrap: anywhere;
+}
+.contract-node-revision__facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.contract-node-revision__facts > section {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #e5ebf5;
+  border-radius: 8px;
+  background: #f8faff;
+}
+.contract-node-revision__facts h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: #253858;
+}
+.contract-node-revision__facts .ant-descriptions-item-content {
+  overflow-wrap: anywhere;
+}

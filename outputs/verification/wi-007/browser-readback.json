@@ -1,0 +1,60 @@
+{
+  "pending": {
+    "at": "2026-09-12T18:23:30.443Z",
+    "status": "PENDING_REVIEW",
+    "sensitiveVisible": false,
+    "startsAt": "2026-09-12T18:17:59.349Z",
+    "endsAt": "2026-09-12T18:47:59.349Z",
+    "roleRevoked": true,
+    "baseRolePreserved": true,
+    "directoryHttpStatus": 403,
+    "navigationEntryRemoved": true,
+    "reviewComment": null,
+    "reviewedByAccountId": null,
+    "revokeReason": null
+  },
+  "approved": {
+    "at": "2026-09-12T18:24:50.952Z",
+    "status": "ACTIVE",
+    "sensitiveVisible": true,
+    "startsAt": "2026-09-12T18:17:59.349Z",
+    "endsAt": "2026-09-12T18:47:59.349Z",
+    "roleRevoked": true,
+    "baseRolePreserved": true,
+    "directoryHttpStatus": 403,
+    "navigationEntryRemoved": true,
+    "reviewComment": "验证·浏览器独立复核：仅限此项目，保留原起止时间。",
+    "reviewedByAccountId": "df8b4a8e-9528-4be2-b7ae-ad48e2341465",
+    "revokeReason": null
+  },
+  "revoked": {
+    "at": "2026-09-12T18:26:25.427Z",
+    "status": "REVOKED",
+    "sensitiveVisible": false,
+    "startsAt": "2026-09-12T18:17:59.349Z",
+    "endsAt": "2026-09-12T18:47:59.349Z",
+    "roleRevoked": true,
+    "baseRolePreserved": true,
+    "directoryHttpStatus": 403,
+    "navigationEntryRemoved": true,
+    "reviewComment": "验证·浏览器独立复核：仅限此项目，保留原起止时间。",
+    "reviewedByAccountId": "df8b4a8e-9528-4be2-b7ae-ad48e2341465",
+    "revokeReason": "验证·浏览器复核闭环结束，立即收回临时权限。"
+  },
+  "menu": {
+    "at": "2026-09-12T18:40:09.037Z",
+    "id": "120aa472-3e1f-4393-8776-efb74a778f9b",
+    "name": "验证·权限资源目录（浏览器验收）",
+    "code": "VERIFY_DIRECTORY_MTYPJYD8",
+    "status": "DISABLED",
+    "sortOrder": 98,
+    "version": 3,
+    "impact": {
+      "resourceId": "120aa472-3e1f-4393-8776-efb74a778f9b",
+      "directChildCount": 0,
+      "permissionItemCount": 0,
+      "roleGrantCount": 0,
+      "temporaryGrantCount": 0
+    }
+  }
+}

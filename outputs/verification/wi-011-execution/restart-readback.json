@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-13T10:07:16.054Z",
+  "databases": [
+    {
+      "database": "winh_workplan",
+      "migrations": 18,
+      "success": true
+    },
+    {
+      "database": "winh_wi011_execution_clean_20260913",
+      "migrations": 18,
+      "success": true
+    }
+  ],
+  "health": "both UP",
+  "checks": [
+    "all execution workspace and item facts byte-for-byte equal after restart",
+    "both milestone rounds and exact file references retained",
+    "verified totals 8 received / 4 installed / 2 accepted / 1 pending",
+    "designated remaining queue only",
+    "outside and removed members still rejected",
+    "original approved scope and completed work unchanged",
+    "clean database started at zero public tables and migrated through V18"
+  ]
+}

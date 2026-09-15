@@ -1,0 +1,212 @@
+{
+  "source": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-008/presales-design-v2-compact.png",
+  "source_sha256": "52f58be99af3d23bb978b9a16c9d86d913061d01d1f4c57e48ade02adabf9ad5",
+  "source_size": [
+    1505,
+    1045
+  ],
+  "css_mapping": {
+    "assumed_viewport_width": 1505,
+    "css_per_image_pixel": 1.0,
+    "meaning": "实现约定，不证明参考图原始 DPR 或 CSS 视口"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        0,
+        0,
+        237,
+        1045
+      ],
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.157475,
+        1.0
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        0.0,
+        0.0,
+        237.0,
+        1045.0
+      ],
+      "selector": ".workspace-sider",
+      "dom_comparable": true
+    },
+    {
+      "name": "header",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        237,
+        0,
+        1268,
+        64
+      ],
+      "normalized_box": [
+        0.157475,
+        0.0,
+        0.842525,
+        0.061244
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        237.0,
+        0.0,
+        1268.0,
+        64.0
+      ],
+      "selector": ".workspace-header",
+      "dom_comparable": true
+    },
+    {
+      "name": "project-heading",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        262,
+        87,
+        1217,
+        63
+      ],
+      "normalized_box": [
+        0.174086,
+        0.083254,
+        0.808638,
+        0.060287
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        262.0,
+        87.0,
+        1217.0,
+        63.0
+      ],
+      "selector": ".business-page-heading",
+      "dom_comparable": true
+    },
+    {
+      "name": "project-facts",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        262,
+        166,
+        1217,
+        54
+      ],
+      "normalized_box": [
+        0.174086,
+        0.158852,
+        0.808638,
+        0.051675
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        262.0,
+        166.0,
+        1217.0,
+        54.0
+      ],
+      "selector": ".business-page--project > .business-facts",
+      "dom_comparable": true
+    },
+    {
+      "name": "actions-panel",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        262,
+        290,
+        829,
+        477
+      ],
+      "normalized_box": [
+        0.174086,
+        0.277512,
+        0.550831,
+        0.456459
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        262.0,
+        290.0,
+        829.0,
+        477.0
+      ],
+      "selector": ".presales-workspace .business-split > .business-stack > .business-panel:first-child",
+      "dom_comparable": true
+    },
+    {
+      "name": "action-row-1",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        275,
+        426,
+        802,
+        47
+      ],
+      "normalized_box": [
+        0.182724,
+        0.407656,
+        0.53289,
+        0.044976
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        275.0,
+        426.0,
+        802.0,
+        47.0
+      ],
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(2)",
+      "dom_comparable": true
+    },
+    {
+      "name": "action-row-2",
+      "kind": "box",
+      "box_type": "element",
+      "box": [
+        275,
+        473,
+        802,
+        47
+      ],
+      "normalized_box": [
+        0.182724,
+        0.452632,
+        0.53289,
+        0.044976
+      ],
+      "boundary_evidence": "Agent 选择的标注范围，非自动识别的真实元素边界",
+      "css_box": [
+        275.0,
+        473.0,
+        802.0,
+        47.0
+      ],
+      "selector": ".presales-action-table .ant-table-tbody tr.ant-table-row:nth-of-type(3)",
+      "dom_comparable": true
+    }
+  ],
+  "groups": [],
+  "vertical_scans": [],
+  "expected": {
+    "url": "http://127.0.0.1:5173/projects/a5fbb927-8ca0-41ad-b927-6e59d98d768b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "expected_assets": {},
+  "input_manifest_sha256": "a810003544e88eb95082a82087d1181b7e36d9527700983ae7c241890901666f"
+}

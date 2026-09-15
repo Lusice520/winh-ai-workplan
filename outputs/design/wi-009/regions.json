@@ -1,0 +1,87 @@
+{
+  "reference": "contract-design-v1.png",
+  "css_viewport_width": 1505,
+  "expected": {
+    "url": "http://127.0.0.1:5173/contracts/7728baa6-0152-4ffa-8957-08f3e85ccf5b",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1505,
+      "height": 1045
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "regions": [
+    {
+      "name": "sidebar",
+      "box": [
+        0,
+        0,
+        237,
+        1045
+      ],
+      "selector": ".workspace-sider"
+    },
+    {
+      "name": "header",
+      "box": [
+        237,
+        0,
+        1268,
+        65
+      ],
+      "selector": ".workspace-header"
+    },
+    {
+      "name": "contract-heading",
+      "box": [
+        261,
+        85,
+        1219,
+        65
+      ],
+      "selector": ".business-page-heading"
+    },
+    {
+      "name": "contract-facts",
+      "box": [
+        261,
+        160,
+        1219,
+        81
+      ],
+      "selector": ".contract-workspace > .business-facts"
+    },
+    {
+      "name": "contract-nodes",
+      "box": [
+        261,
+        302,
+        752,
+        280
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:first-child"
+    },
+    {
+      "name": "contract-files",
+      "box": [
+        261,
+        593,
+        752,
+        212
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:first-child > .business-panel:nth-child(2)"
+    },
+    {
+      "name": "archive-progress",
+      "box": [
+        1025,
+        298,
+        455,
+        251
+      ],
+      "selector": ".contract-workspace .business-split > .business-stack:nth-child(2) > .business-panel:first-child"
+    }
+  ]
+}

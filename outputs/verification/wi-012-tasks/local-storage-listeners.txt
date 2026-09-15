@@ -1,0 +1,3 @@
+COMMAND   PID   USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+java    79170 lusice    9u  IPv6 0x82ae56869e198715      0t0  TCP 127.0.0.1:9191 (LISTEN)
+java    79170 lusice   13u  IPv6 0xe3ed6662f2369d11      0t0  TCP 127.0.0.1:9090 (LISTEN)

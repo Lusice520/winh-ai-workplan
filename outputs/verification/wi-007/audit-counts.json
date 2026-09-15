@@ -1,0 +1,12 @@
+[{"event_type":"ACCOUNT_SESSIONS_REVOKED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"AUTH_LOGIN_SUCCEEDED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"AUTH_PASSWORD_CHANGED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"MENU_RESOURCE_CREATED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"MENU_RESOURCE_MOVED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"MENU_RESOURCE_STATUS_CHANGED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"MENU_RESOURCE_UPDATED","outcome":"SUCCEEDED","event_count":2}, 
+ {"event_type":"SYSTEM_ROLE_ASSIGNMENTS_REPLACED","outcome":"SUCCEEDED","event_count":7}, 
+ {"event_type":"TEMPORARY_GRANT_CREATED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"TEMPORARY_GRANT_REVIEWED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"TEMPORARY_GRANT_REVOKED","outcome":"SUCCEEDED","event_count":1}, 
+ {"event_type":"USER_CREATED","outcome":"SUCCEEDED","event_count":1}]

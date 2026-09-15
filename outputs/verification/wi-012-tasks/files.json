@@ -1,0 +1,35 @@
+{
+  "1": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/files",
+    "metadata": {
+      "requestId": "e192112a-57a4-4011-9ecb-5f9ecef39548",
+      "title": "验证·设备接口核对报告",
+      "kind": "OTHER",
+      "classification": "INTERNAL",
+      "changeNote": "验证·第一轮接口核对结果"
+    },
+    "filename": "验证设备接口核对报告.txt",
+    "content": "验证·第一轮接口核对报告\n已核对原八套设备的接口与点表，异常点位的逐项确认需要补充。\n仅用于本地合成流程验证。",
+    "documentId": "b0f0b63e-3f73-4169-bbb0-036eb274b21a",
+    "versionId": "0472c0fe-fdae-406a-88bb-efdf8197de5f",
+    "sha256": "77cedb49c94c2d28dc78f996e643202cc6b1a5228bd694eafabb745339e2f4ea",
+    "sizeBytes": 160
+  },
+  "2": {
+    "path": "/api/files/b0f0b63e-3f73-4169-bbb0-036eb274b21a/versions",
+    "metadata": {
+      "requestId": "680f11a8-6897-41ff-8625-e6a68e1796fd",
+      "version": 2,
+      "title": "验证·设备接口核对报告",
+      "kind": "OTHER",
+      "classification": "INTERNAL",
+      "changeNote": "验证·按任务退回要求补齐异常点位和逐项确认"
+    },
+    "filename": "验证设备接口核对报告.txt",
+    "content": "验证·第二轮接口核对报告\n原八套设备接口与点表逐项核对，异常点位的确认记录已补齐，保留第一轮原稿。\n仅用于本地合成流程验证。",
+    "documentId": "b0f0b63e-3f73-4169-bbb0-036eb274b21a",
+    "versionId": "de175124-e4e6-42e7-bf82-2893e7408b86",
+    "sha256": "6b6b14fb1a1427dbe71fc497178234c437daf66cc4fb58748629f1cb765c325c",
+    "sizeBytes": 181
+  }
+}

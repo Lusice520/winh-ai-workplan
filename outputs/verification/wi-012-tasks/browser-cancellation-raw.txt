@@ -1,0 +1,20 @@
+### Result
+{"results":[{"action":"取消任务","status":200,"taskStatus":"CANCELLED","history":2},{"action":"明确重开","status":200,"taskStatus":"OPEN","history":3},{"action":"取消任务","status":200,"taskStatus":"CANCELLED","history":4}],"overflow":false}
+### Ran Playwright code
+```js
+await (async (page) => {
+ const results=[];
+ for(const [index,label] of ["取消任务","明确重开","取消任务"].entries()){
+  await page.getByRole("button",{name:label,exact:true}).click();
+  const d=page.getByRole("dialog",{name:label+" · 验证·移动端临时检查安排",exact:true});
+  await d.getByLabel("核对结论与原因",{exact:true}).fill("验证·移动端第 "+(index+1)+" 次调整："+label+"，保留原安排与前后历史，不计入其他已完成任务。");
+  const rp=page.waitForResponse(r=>r.url().endsWith("/tasks/9057f44d-b414-43f8-b7cf-60a5141adb22/commands")&&r.request().method()==="POST");
+  await d.getByRole("button",{name:"确认提交",exact:true}).click(); const r=await rp,b=await r.json();
+  if(r.status()!==200)throw new Error(label+" failed "+r.status());
+  results.push({action:label,status:r.status(),taskStatus:b.task.status,history:b.history.length});
+  await d.waitFor({state:"hidden"});
+ }
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-cancelled-detail.png",fullPage:true,scale:"css",animations:"disabled"});
+ return {results,overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)};
+})(page);
+```

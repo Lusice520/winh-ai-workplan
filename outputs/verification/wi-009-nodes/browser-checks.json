@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-12T17:43:07.245Z",
+  "contractId": "c3aa7e6b-4a64-445d-9851-5e5fd1d2853b",
+  "nodeId": "b379c32a-974c-4b0e-b98f-28ad132c919b",
+  "checks": [
+    "浏览器填写完成证据和原因，POST 保存成功，刷新后原证据和新证据并存",
+    "历史只读，无保存动作；桌面并排、手机上下比较",
+    "1505px 桌面抽屉宽 660；390px 页面与抽屉不溢出，已人工查看最终截图",
+    "归档人员项目摘要不展示其无权访问的商机跳转"
+  ],
+  "archiveStatus": "ARCHIVED",
+  "nodeRevisionId": "ef225c09-477b-4123-9cd2-a4e2b83b639b",
+  "mainStage": "PRESALES"
+}

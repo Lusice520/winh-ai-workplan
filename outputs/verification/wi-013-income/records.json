@@ -1,0 +1,24 @@
+{
+  "lineIds": [
+    "85d777d8-2729-4171-abfa-87f9d2555900",
+    "3476f6eb-b97a-4a15-90ba-57a2733e0960",
+    "748c3c30-5427-4541-87b4-243d678eb8a7",
+    "0a4e6427-0f84-4082-aa5e-137fbf857f30"
+  ],
+  "bookId": "d041271f-2d9d-4bd4-8c89-a031fa238c95",
+  "forecastV1": "645397ba-b8b4-4cdd-9715-86a2d88f6940",
+  "augustOriginal": "49e7708f-8995-4bb6-a50a-3697f9a3155d",
+  "designIncome": "e501d8a7-650f-446c-8a69-ffb8675d2601",
+  "integrationIncome": "7a28d508-6150-4bbf-a40e-6878371586e9",
+  "augustReversal": "ac046b34-82f5-43fd-aff0-63b47852585c",
+  "interfaceIncome": "7f7ebea1-a8c1-456e-a6da-e00b08d183bc",
+  "siteIncome": "51a589a6-4e22-4b76-8751-76ca42f856b0",
+  "returnedService": "9dad68eb-8f2d-4483-875d-2c3debf6929a",
+  "usdOriginal": "e12cbad6-04f2-40b7-8295-d39dc061e714",
+  "usdReversalA": "7a62ca89-bc61-4a13-a85e-0d99f4a6fffc",
+  "usdReversalB": "de72f8af-8933-4c35-961d-e3c15f829dbd",
+  "usdReversalWinner": "7a62ca89-bc61-4a13-a85e-0d99f4a6fffc",
+  "usdReversalLoser": "de72f8af-8933-4c35-961d-e3c15f829dbd",
+  "usdIncome": "42d4c59d-620e-46c8-ad0e-e19869b6bd4c",
+  "handoffIncome": "8821f998-61b5-4365-b5e0-cb6223e12256"
+}

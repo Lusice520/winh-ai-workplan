@@ -1,0 +1,31 @@
+### Result
+{"list":{"width":390,"overflow":false,"reviewY":-20.328125,"tableY":292.6640625,"tableWidth":357,"criteriaWidth":357},"detail":{"width":390,"overflow":false,"valueFont":"14px"},"filterUrl":"http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks?q=%E9%80%9A%E4%BF%A1%E7%82%B9%E8%A1%A8","filteredRows":1,"reviewButtonVisible":true}
+### Ran Playwright code
+```js
+await (async (page) => {
+ await page.setViewportSize({width:390,height:844});
+ await page.goto("http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks");
+ await page.getByRole("button",{name:"查看成果并核验",exact:true}).waitFor();
+ const search=page.getByRole("textbox",{name:"任务名称或责任人",exact:true}); await search.fill("通信点表"); await page.waitForURL(/q=/);const filterUrl=page.url();
+ await page.reload();await page.getByRole("link",{name:"验证·通信点表联调",exact:true}).waitFor();const filteredRows=await page.locator(".task-list-panel tbody tr.ant-table-row").count();if(filteredRows!==1)throw new Error("Filter reload failed");
+ await page.getByRole("button",{name:/^重\s*置$/}).click();
+ const list=await page.evaluate(()=>({width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,reviewY:document.querySelector(".task-review-panel").getBoundingClientRect().top,tableY:document.querySelector(".task-list-panel").getBoundingClientRect().top,tableWidth:document.querySelector(".task-list-panel").getBoundingClientRect().width,criteriaWidth:document.querySelector(".task-criteria-panel").getBoundingClientRect().width}));
+ if(list.overflow||list.reviewY>=list.tableY||Math.abs(list.tableWidth-list.criteriaWidth)>1)throw new Error("Mobile layout failed");
+ await page.evaluate(()=>window.scrollTo(0,0));
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-review-list-final.png",fullPage:true,scale:"css",animations:"disabled"});
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-review-viewport-final.png",fullPage:false,scale:"css",animations:"disabled"});
+ await page.getByRole("button",{name:"查看成果并核验",exact:true}).click();await page.getByRole("button",{name:"独立核验通过",exact:true}).waitFor();
+ const detail=await page.evaluate(()=>({width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,valueFont:getComputedStyle(document.querySelector(".task-detail-page > .business-facts strong")).fontSize}));if(detail.overflow||detail.valueFont!=="14px")throw new Error("Detail layout failed");
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-task-detail-final.png",fullPage:true,scale:"css",animations:"disabled"});
+ await page.screenshot({path:"outputs/verification/wi-012-tasks/mobile-task-viewport-final.png",fullPage:false,scale:"css",animations:"disabled"});
+ return {list,detail,filterUrl,filteredRows,reviewButtonVisible:await page.getByRole("button",{name:"独立核验通过",exact:true}).isVisible()};
+})(page);
+```
+### Open tabs
+- 0: (current) [工作计划系统 · 本地基线](http://127.0.0.1:5173/work-items/0c20e90a-2fd7-46ae-b829-4b510b69112c)
+- 1: [工作计划系统 · 本地基线](http://127.0.0.1:5173/login)
+### Page
+- Page URL: http://127.0.0.1:5173/work-items/0c20e90a-2fd7-46ae-b829-4b510b69112c
+- Page Title: 工作计划系统 · 本地基线
+### Events
+- New console entries: .playwright-cli/console-2026-09-13T00-11-16-819Z.log#L44-L45

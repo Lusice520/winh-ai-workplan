@@ -1,0 +1,475 @@
+{
+  "status": "截图身份与渲染前提通过；视觉仍需复核",
+  "manifest": "/Volumes/WorkSpace/winh-ai-workplan/outputs/design/wi-011/calibration-03/run.json",
+  "capture": {
+    "measurement_sha256": "e7f22a2c5483388c7e2a9a91144333ea0aaabdbfcec6bbd4709f994f6257deb4",
+    "url": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e?tab=stages&executionStage=414cc1ca-73a7-48f9-81c5-21c4955f6269",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "document_height": 1628,
+    "fonts_ready": true,
+    "images_ready": true,
+    "document_overflow_x": false,
+    "captured_at": "2026-09-13T10:19:53.954Z",
+    "elements": [
+      {
+        "name": "execution-summary",
+        "selector": ".execution-summary",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          340.2109375,
+          1229,
+          53.5703125
+        ],
+        "text": "交付执行 · V41 已完成1 进行中2 未开始1 项清单待我核验",
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "stage-comparison",
+        "selector": ".execution-layout > div > .business-panel:nth-child(1)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          407.78125,
+          905,
+          390.109375
+        ],
+        "text": "阶段执行对照执行状态阶段与责任当前状态计划 / 实际报告进度计划与实际时间浅蓝：计划 · 深蓝：实际操作阶段与责任当前状态计划 / 实际报告进度计划与实际时间浅蓝：计划 · 深蓝：实际操作方案设计重点验证·接任专业负责人已完成2026-10-12 至 11-082026-09-13 至 09-13查看阶段采购集成验证·接任专业负责人进行中2026-10-12 至 11-152026-09-13 至 尚未完成55%查看阶段现场实施验证·接任专业负责人未开始2026-11-16 至 12-20尚未发生0%查看阶段验证·培训与资料移交验证·接任专业负责人未开始2026-12-21 至 12-28尚未",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "selected-stage-detail",
+        "selector": ".execution-layout > div > .business-panel:nth-child(2)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          811.890625,
+          905,
+          287.5078125
+        ],
+        "text": "当前查看：采购集成进行中实际负责人：验证·接任专业负责人；报告进度与最终完成结论分别记录。执行历史原专业工作包负责人计划完成执行状态原专业工作包负责人计划完成执行状态采购集成专业工作包验证·接任专业负责人2026-11-15待处理完成条件与当前缺项成果通过指定人员独立验证，范围与验收依据完整。3 项待完成条件规定动作：核对范围与接口、组织成果复核成果：采购集成成果资料、验收依据清单",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "item-execution",
+        "selector": ".execution-layout > div > .business-panel:nth-child(3)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          260,
+          1113.3984375,
+          905,
+          498.5078125
+        ],
+        "text": "项目清单执行以当前批准数量为分母，验收比例仅计独立通过的有效数量。筛选清单清单类别所属阶段所属工作包清单执行状态清除筛选清单 / 规格批准数量净到货净安装已验收待核验验收比例操作清单 / 规格批准数量净到货净安装已验收待核验验收比例操作控制与接口设计成果按已明确范围交付，接口与数量可核验。1 项不适用不适用10查看记录自动化控制设备按已明确范围交付，接口与数量可核验。8 套842125%查看记录现场联调交付成果按已明确范围交付，接口与数量可核验。1 项待明确待明确000%查看记录验证·培训资料与考核记录培训材料、操作签到及考核结果合并成册1 套待明确待明确000%查看记录",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": false
+      },
+      {
+        "name": "my-reviews",
+        "selector": ".execution-aside > .business-panel:nth-child(1)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          1179,
+          407.78125,
+          310,
+          251.8046875
+        ],
+        "text": "需要我处理（1）来自原执行记录的指定核验；处理结果回写原对象。待验证自动化控制设备验证·接任专业负责人 提交 1，实际发生于 2026-09-13核对本批验收",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "recent-events",
+        "selector": ".execution-aside > .business-panel:nth-child(2)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          1179,
+          673.5859375,
+          310,
+          474.328125
+        ],
+        "text": "最近执行记录实际日期与登记时间分别保留。查看记录阶段完成2026-09-13 · 验证·项目经理验证·补充核对完成，按现行批准条件确认阶段再次完成。登记于 09/13 17:55里程碑验证通过2026-09-13 · 验证·工作包验证人验证·补充记录经独立复核，本轮成果通过。登记于 09/13 17:55提交里程碑实际2026-09-13 · 验证·项目经理验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。登记于 09/13 17:55",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": true
+      },
+      {
+        "name": "milestone-status",
+        "selector": ".execution-aside > .business-panel:nth-child(3)",
+        "count": 1,
+        "status": "measured",
+        "box": [
+          1179,
+          1161.9140625,
+          310,
+          420.234375
+        ],
+        "text": "里程碑执行情况方案设计成果验收已验证计划 2026-11-08 · 实际 2026-09-13采购集成成果验收未提交计划 2026-11-15 · 实际 未发生现场实施成果验收未提交计划 2026-12-20 · 实际 未发生验证·培训与资料验收未提交计划 2026-12-28 · 实际 未发生",
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "viewport_intersects": false
+      }
+    ],
+    "assets": {},
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "section_positions": [],
+  "comparison": "outputs/design/wi-011/calibration-03/report/verify-metrics.json",
+  "geometry": {
+    "measurement_sha256": "e7f22a2c5483388c7e2a9a91144333ea0aaabdbfcec6bbd4709f994f6257deb4",
+    "complete": true,
+    "unavailable_regions": [],
+    "regions": [
+      {
+        "name": "execution-summary",
+        "selector": ".execution-summary",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          340.2109375,
+          1229,
+          53.5703125
+        ],
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          240.0,
+          196.0,
+          821.0,
+          50.0
+        ],
+        "delta_css": [
+          20.0,
+          144.211,
+          408.0,
+          3.57
+        ],
+        "max_abs_delta_css": 408.0
+      },
+      {
+        "name": "stage-comparison",
+        "selector": ".execution-layout > div > .business-panel:nth-child(1)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          407.78125,
+          905,
+          390.109375
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          240.0,
+          259.0,
+          821.0,
+          246.0
+        ],
+        "delta_css": [
+          20.0,
+          148.781,
+          84.0,
+          144.109
+        ],
+        "max_abs_delta_css": 148.781
+      },
+      {
+        "name": "selected-stage-detail",
+        "selector": ".execution-layout > div > .business-panel:nth-child(2)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          811.890625,
+          905,
+          287.5078125
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          254.0,
+          518.0,
+          795.0,
+          262.0
+        ],
+        "delta_css": [
+          6.0,
+          293.891,
+          110.0,
+          25.508
+        ],
+        "max_abs_delta_css": 293.891
+      },
+      {
+        "name": "item-execution",
+        "selector": ".execution-layout > div > .business-panel:nth-child(3)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          260,
+          1113.3984375,
+          905,
+          498.5078125
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          240.0,
+          808.0,
+          821.0,
+          207.0
+        ],
+        "delta_css": [
+          20.0,
+          305.398,
+          84.0,
+          291.508
+        ],
+        "max_abs_delta_css": 305.398
+      },
+      {
+        "name": "my-reviews",
+        "selector": ".execution-aside > .business-panel:nth-child(1)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          1179,
+          407.78125,
+          310,
+          251.8046875
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          1075.0,
+          196.0,
+          423.0,
+          317.0
+        ],
+        "delta_css": [
+          104.0,
+          211.781,
+          -113.0,
+          -65.195
+        ],
+        "max_abs_delta_css": 211.781
+      },
+      {
+        "name": "recent-events",
+        "selector": ".execution-aside > .business-panel:nth-child(2)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          1179,
+          673.5859375,
+          310,
+          474.328125
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          1075.0,
+          528.0,
+          423.0,
+          276.0
+        ],
+        "delta_css": [
+          104.0,
+          145.586,
+          -113.0,
+          198.328
+        ],
+        "max_abs_delta_css": 198.328
+      },
+      {
+        "name": "milestone-status",
+        "selector": ".execution-aside > .business-panel:nth-child(3)",
+        "status": "measured",
+        "box_type": "element",
+        "actual_css_box": [
+          1179,
+          1161.9140625,
+          310,
+          420.234375
+        ],
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "fontFamily": "Inter, \"Segoe UI Variable\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "fontWeight": "400",
+          "color": "rgb(24, 51, 91)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "reference_css_box": [
+          1075.0,
+          815.0,
+          423.0,
+          192.0
+        ],
+        "delta_css": [
+          104.0,
+          346.914,
+          -113.0,
+          228.234
+        ],
+        "max_abs_delta_css": 346.914
+      },
+      {
+        "name": "canvas-color",
+        "status": "reference_only",
+        "reason": "仅测量参考图，没有 DOM 选择器"
+      },
+      {
+        "name": "panel-color",
+        "status": "reference_only",
+        "reason": "仅测量参考图，没有 DOM 选择器"
+      }
+    ],
+    "note": "偏差是 CSS 像素，不是还原率；布局可测量不证明未遮挡、字体正确或交互可用。"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "reference": "delivery-initiation-design-v1.png",
+  "css_viewport_width": 1522,
+  "expected": {
+    "url": "http://127.0.0.1:5173/delivery-initiation/c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "title": "工作计划系统 · 本地基线",
+    "viewport": {
+      "width": 1522,
+      "height": 1033
+    },
+    "dpr": 1,
+    "full_page": false,
+    "screenshot_scale": "css"
+  },
+  "regions": [
+    {
+      "name": "heading",
+      "box": [
+        251,
+        69,
+        1246,
+        72
+      ],
+      "selector": ".delivery-initiation-heading"
+    },
+    {
+      "name": "readiness-strip",
+      "box": [
+        251,
+        146,
+        1246,
+        74
+      ],
+      "selector": ".delivery-initiation-facts"
+    },
+    {
+      "name": "readiness-checklist",
+      "box": [
+        251,
+        234,
+        721,
+        373
+      ],
+      "selector": ".delivery-checklist-panel"
+    },
+    {
+      "name": "stage-plan",
+      "box": [
+        251,
+        621,
+        721,
+        192
+      ],
+      "selector": ".delivery-plan-panel"
+    },
+    {
+      "name": "work-packages",
+      "box": [
+        251,
+        825,
+        721,
+        185
+      ],
+      "selector": ".delivery-work-package-panel"
+    },
+    {
+      "name": "current-task",
+      "box": [
+        987,
+        234,
+        510,
+        172
+      ],
+      "selector": ".delivery-current-task-panel"
+    },
+    {
+      "name": "review-path",
+      "box": [
+        987,
+        416,
+        510,
+        233
+      ],
+      "selector": ".delivery-review-panel"
+    },
+    {
+      "name": "budget-composition",
+      "box": [
+        987,
+        661,
+        510,
+        210
+      ],
+      "selector": ".delivery-budget-panel"
+    },
+    {
+      "name": "followups",
+      "box": [
+        987,
+        883,
+        510,
+        127
+      ],
+      "selector": ".delivery-followups-panel"
+    },
+    {
+      "name": "canvas-color",
+      "kind": "color",
+      "box": [
+        972,
+        240,
+        14,
+        350
+      ],
+      "inset": 2
+    },
+    {
+      "name": "panel-color",
+      "kind": "color",
+      "box": [
+        1180,
+        429,
+        120,
+        18
+      ],
+      "inset": 2
+    }
+  ]
+}

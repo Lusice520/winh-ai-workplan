@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="项目全生命周期管理系统业务需求蓝图">
+  <title>计划、资源与项目报告｜项目全生命周期管理系统</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23e67e35'/%3E%3Cpath d='M20 14h16c10 0 16 5 16 14S46 42 36 42h-6v9H20V14zm10 9v10h6c4 0 6-2 6-5s-2-5-6-5h-6z' fill='%23102c52'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="blueprint.css">
+</head>
+<body>
+<div class="topline"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span>项目全生命周期 · 需求蓝图</span></a>
+  <div class="header-meta"><span class="status-dot"></span><span>V0.4 · P2 基线 / P3 执行</span></div>
+</header>
+<main class="document-shell">
+  <nav class="doc-toolbar" aria-label="蓝图导航">
+    <a href="index.html">← 返回蓝图目录</a>
+    <span class="chapter-chip">03 / 执行</span>
+  </nav>
+  <article class="blueprint-content">
+<h2>需求方案 03｜阶段、计划、资源、报告与项目例会</h2>
+<p class="subtitle">P2 先建立阶段、里程碑、工作包、主计划、资源和预算基线；P3 再沿用基线记录任务、报告与例会事实。</p>
+
+<div style="padding:14px 16px;border-left:4px solid #3d9d73;background:#f3fbf7;border-radius:8px;margin-bottom:16px;">
+  <strong>P2/P3 边界：</strong>团队、执行阶段、项目清单、工作包、计划和预算草案在 P2 开始时开放，用于准备 DG-02；DG-02 通过后同一批对象转为已批准基线。P3 在该基线下开放任务、执行事实、日报周报和例会。售前的调研、方案、估算和招投标属于并行规定动作，不是这里的专业工作包。
+</div>
+
+<div class="section">
+  <div class="label">一、四层计划体系</div>
+  <div style="display:grid;grid-template-columns:1.1fr auto 1.25fr auto 1.3fr auto 1.25fr;gap:8px;align-items:stretch;margin-top:10px;">
+    <div style="padding:16px 12px;border-radius:12px;background:#eaf2ff;border-top:4px solid #4f7ddd;">
+      <strong>项目主计划｜P2 基线</strong><br><small>合同与验收里程碑<br>项目经理维护</small>
+    </div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#eef9f4;border-top:4px solid #3d9d73;">
+      <strong>工作包计划｜P2 基线</strong><br><small>机械、电气、PLC、软件等<br>工作包负责人维护</small>
+    </div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#fff8e8;border-top:4px solid #d19a32;">
+      <strong>周滚动计划｜P3 执行</strong><br><small>未来若干周任务与资源<br>负责人和成员共同确认</small>
+    </div>
+    <div style="align-self:center;font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:16px 12px;border-radius:12px;background:#fff0ed;border-top:4px solid #d66b5f;">
+      <strong>个人任务与事实｜P3 执行</strong><br><small>进度、投入、问题与成果<br>成员更新并用于周报</small>
+    </div>
+  </div>
+  <div style="margin-top:10px;padding:11px 13px;border-radius:8px;background:#f8fafc;border-left:4px solid #64748b;">
+    <small><strong>同源原则：</strong>DG-02 只批准 P2 的主计划与工作包计划；周滚动计划、个人任务和执行事实由 P3 在原对象下展开。任务、里程碑、阶段、风险和问题为项目周报提供事实；项目日报由项目经理独立手写。</small>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">二、版本化阶段模板形成项目快照并组织适用工作包</div>
+  <div style="display:grid;grid-template-columns:1fr auto 2.1fr;gap:14px;align-items:center;margin-top:10px;">
+    <div style="padding:18px;border-radius:12px;background:#f3efff;border:1px solid #b8a5e8;">
+      <strong>项目阶段模板</strong><br><small>必选/可选/条件阶段<br>前置与并行规则<br>里程碑/成果/完成条件</small>
+    </div>
+    <div style="font-size:24px;color:#94a3b8;">→</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;">
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">机械</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">电气</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">采购</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">PLC</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">通用软件</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">算法</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">安装调试</div>
+      <div style="padding:12px;border:1px solid #cbd5e1;border-radius:9px;text-align:center;">ECS/接口</div>
+    </div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">模板提供阶段与默认治理结构；工作包可由需求、执行阶段或项目经理建立，仍需在 DG-02 中确认适用范围和负责人，不因选中模板自动视为已批准。</p>
+</div>
+
+<div class="section">
+  <div class="label">三、资源申请、承诺与冲突裁决</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1.1fr;gap:8px;align-items:stretch;margin-top:10px;">
+    <div style="padding:15px;border-radius:10px;background:#eef4ff;"><strong>项目经理提需求</strong><br><small>岗位、技能、周期、投入比例</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#eef9f4;"><strong>部门负责人承诺</strong><br><small>具体人员、可用时间与专业质量</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#fff8e8;"><strong>系统容量校验</strong><br><small>跨项目负荷、出差与时间重叠</small></div>
+    <div style="align-self:center;font-size:21px;color:#94a3b8;">→</div>
+    <div style="padding:15px;border-radius:10px;background:#fff0ed;"><strong>冲突处理</strong><br><small>先协调；PMO汇总；公司按合同期限、客户窗口、安全紧急度与技术风险裁决</small></div>
+  </div>
+  <div style="display:flex;gap:10px;margin-top:10px;align-items:center;">
+    <span style="padding:7px 11px;border-radius:999px;background:#eaf8f1;color:#246b4a;"><strong>计划投入：</strong>按周、天或比例</span>
+    <span style="padding:7px 11px;border-radius:999px;background:#eef4ff;color:#385d9f;"><strong>实际投入：</strong>按天/半天记录</span>
+    <span style="padding:7px 11px;border-radius:999px;background:#fff0ed;color:#9a4a40;"><strong>变更：</strong>影响进度后重新确认</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">四、项目日报、成员周报、项目周报与例会闭环</div>
+  <div class="split" style="margin-top:10px;">
+    <div class="mockup">
+      <div class="mockup-header"><strong>项目日报｜项目经理每天纯手写</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">日期 / 项目</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">项目经理</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">模板 / 历史</div>
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;grid-column:span 3;">手写正文与附件；系统不自动生成正文，首期不限制提交时间、补录、节假日、逾期锁定或代填</div>
+        </div>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header"><strong>周报与例会｜汇总、审核、决策、待办</strong></div>
+      <div class="mockup-body">
+        <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:8px;align-items:center;text-align:center;">
+          <div style="padding:11px;border-radius:8px;background:#f8fafc;">成员按项目<br>提交周报</div>
+          <div>→</div>
+          <div style="padding:11px;border-radius:8px;background:#eef4ff;">系统汇总提炼<br>项目周报草稿</div>
+          <div>→</div>
+          <div style="padding:11px;border-radius:8px;background:#eef9f4;">项目经理<br>补充审核发布</div>
+          <div style="grid-column:1 / -1;padding:11px;border-radius:8px;background:#fff8e8;">手动创建项目例会，关联一/多份项目周报或聚合多项目周报，填写线上会议链接、记录、结论和会后待办</div>
+          <div style="grid-column:1 / -1;padding:11px;border-radius:8px;background:#fff0ed;">待办可关联/派生任务、需求、问题、风险、工作包和里程碑/预算变更，执行结果回到后续周报</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">五、计划基线与变更留痕</div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:10px;text-align:center;">
+    <div style="padding:14px;border-radius:10px;background:#eef4ff;"><strong>P2 里程碑/计划/预算草案</strong><br><small>可协同修改，不是批准基线</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:14px;border-radius:10px;background:#fff8e8;"><strong>DG-02 评审通过</strong><br><small>冻结评审快照与当轮对象版本</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:14px;border-radius:10px;background:#eef9f4;"><strong>批准基线 V1</strong><br><small>原对象原位转基线，P3 沿用</small></div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:10px;text-align:center;">
+    <div style="padding:14px;border-radius:10px;background:#eaf2ff;"><strong>通过后的当前里程碑/预算 V1</strong><br><small>原批准快照保持不可变</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:14px;border-radius:10px;background:#fff8e8;"><strong>项目经理调整</strong><br><small>必填原因，可附线下依据</small></div>
+    <div style="font-size:22px;color:#94a3b8;">→</div>
+    <div style="padding:14px;border-radius:10px;background:#eef9f4;"><strong>新版本 V2 直接生效</strong><br><small>保留 V1，可比较计划与实际；首期无复杂审批</small></div>
+  </div>
+  <p style="margin-bottom:0;color:#64748b;font-size:13px;">阶段适用性、清单范围、工作包边界或主计划的实质变化先记录影响并按授权确认，只发布受影响对象的新版本；是否触发 DG-02 复审及阈值在 P2 试点前配置。</p>
+</div>
+
+<p style="margin-top:18px;color:#64748b;font-size:13px;">项目经理管理项目结果与主计划；工作包负责人管理专业交付；部门负责人管理人员供给和专业质量。</p>
+  </article>
+  <nav class="doc-nav" aria-label="章节翻页">
+    <a href="02-handover-gate.html"><small>上一页 · 02</small><strong>← DG-01 商务移交与提前开工</strong></a>
+    <a href="04-issue-risk-change-safety.html"><small>下一页 · 04</small><strong>需求、问题、风险、变更与安全 →</strong></a>
+  </nav>
+</main>
+<footer class="site-footer">项目全生命周期管理系统 · 计划、资源与项目报告 · V0.4</footer>
+</body>
+</html>

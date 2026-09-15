@@ -1,0 +1,18 @@
+{
+  "list": {
+    "width": 390,
+    "overflow": false,
+    "reviewY": -20.328125,
+    "tableY": 292.6640625,
+    "tableWidth": 357,
+    "criteriaWidth": 357
+  },
+  "detail": {
+    "width": 390,
+    "overflow": false,
+    "valueFont": "14px"
+  },
+  "filterUrl": "http://127.0.0.1:5173/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/work-packages/73026adc-3bc0-451e-840a-d43f1bb59860/tasks?q=%E9%80%9A%E4%BF%A1%E7%82%B9%E8%A1%A8",
+  "filteredRows": 1,
+  "reviewButtonVisible": true
+}

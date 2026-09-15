@@ -1,0 +1,13 @@
+package com.winh.workplan.iam.authorization;
+
+public enum DataScope {
+	SELF,
+	OWN_ORG,
+	OWN_ORG_AND_DESCENDANTS,
+	NAMED_ORG_UNITS,
+	PARTICIPATING_PROJECTS,
+	NAMED_PROJECTS,
+	NAMED_OBJECTS,
+	ALL_ORGANIZATION,
+	ALL_PROJECTS
+}

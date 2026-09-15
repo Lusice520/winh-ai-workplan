@@ -1,0 +1,119 @@
+{
+  "reference": "outputs/design/wi-008/calibration-round-1/../presales-design-v2-compact.png",
+  "candidate": "outputs/design/wi-008/calibration-round-1/candidate.png",
+  "reference_size": [
+    1505,
+    1045
+  ],
+  "candidate_size_original": [
+    1505,
+    1045
+  ],
+  "candidate_size_compared": [
+    1505,
+    1045
+  ],
+  "resized": false,
+  "geometry_match": true,
+  "height_delta": 0,
+  "unmatched_tails": {},
+  "regions": [
+    {
+      "name": "full",
+      "size": [
+        1505,
+        1045
+      ],
+      "rms_diff": 39.758,
+      "mean_abs_diff": 14.085,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-full-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-full-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-full-heatmap.png"
+    },
+    {
+      "name": "region-000",
+      "size": [
+        237,
+        1045
+      ],
+      "rms_diff": 24.275,
+      "mean_abs_diff": 6.211,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-000-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-000-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-000-heatmap.png"
+    },
+    {
+      "name": "region-001",
+      "size": [
+        1268,
+        64
+      ],
+      "rms_diff": 25.923,
+      "mean_abs_diff": 7.077,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-001-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-001-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-001-heatmap.png"
+    },
+    {
+      "name": "region-002",
+      "size": [
+        1217,
+        63
+      ],
+      "rms_diff": 64.599,
+      "mean_abs_diff": 28.655,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-002-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-002-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-002-heatmap.png"
+    },
+    {
+      "name": "region-003",
+      "size": [
+        1217,
+        54
+      ],
+      "rms_diff": 47.027,
+      "mean_abs_diff": 17.209,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-003-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-003-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-003-heatmap.png"
+    },
+    {
+      "name": "region-004",
+      "size": [
+        829,
+        477
+      ],
+      "rms_diff": 39.429,
+      "mean_abs_diff": 14.313,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-004-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-004-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-004-heatmap.png"
+    },
+    {
+      "name": "region-005",
+      "size": [
+        802,
+        47
+      ],
+      "rms_diff": 47.623,
+      "mean_abs_diff": 18.836,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-005-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-005-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-005-heatmap.png"
+    },
+    {
+      "name": "region-006",
+      "size": [
+        802,
+        47
+      ],
+      "rms_diff": 45.023,
+      "mean_abs_diff": 17.494,
+      "candidate": "outputs/design/wi-008/calibration-round-1/report/verify-region-006-candidate.png",
+      "diff": "outputs/design/wi-008/calibration-round-1/report/verify-region-006-diff.png",
+      "heatmap": "outputs/design/wi-008/calibration-round-1/report/verify-region-006-heatmap.png"
+    }
+  ],
+  "note": "误差不等于还原度；字体、摄影和位置分别判断。尺寸一致也不代表视觉通过。"
+}

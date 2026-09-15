@@ -1,0 +1,33 @@
+{
+  "1": {
+    "path": "/api/projects/c2ebb10c-39e1-4cdb-bca0-00724ffa808e/files",
+    "metadata": {
+      "requestId": "2715631a-e263-4b77-a6b7-f5ea009cb569",
+      "title": "验证·收入确认依据",
+      "kind": "OTHER",
+      "classification": "INTERNAL",
+      "changeNote": "验证·收入第一轮依据"
+    },
+    "filename": "验证收入确认依据.txt",
+    "content": "验证·方案设计实际收入400000.00元。第一轮待补齐验收与收入来源说明。仅为本地合成数据。",
+    "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+    "versionId": "c4c20c3c-477e-4526-afcf-f19464be6562",
+    "sha256": "7f96fca862ae7fde023279078686d11da72cb27b59c6161f232544cab4fd4113"
+  },
+  "2": {
+    "path": "/api/files/761b7a2d-05ad-4304-b036-9d1aa2cc220b/versions",
+    "metadata": {
+      "requestId": "766f20f0-dd6a-4bde-8f8a-60e81876b0e4",
+      "version": 2,
+      "title": "验证·收入确认依据",
+      "kind": "OTHER",
+      "classification": "INTERNAL",
+      "changeNote": "验证·按退回意见补齐金额与验收依据"
+    },
+    "filename": "验证收入确认依据.txt",
+    "content": "验证·方案设计实际收入400000.00元。已按独立确认人的退回意见补齐验收、实际日期和金额依据。保留第一轮原稿。仅为本地合成数据。",
+    "documentId": "761b7a2d-05ad-4304-b036-9d1aa2cc220b",
+    "versionId": "ab7fae20-72a2-4c51-b618-19675eb4c76a",
+    "sha256": "5ce267b0b6652d306557d6dc868a944c396b6c84b1b62ba3882d522b85f5b213"
+  }
+}

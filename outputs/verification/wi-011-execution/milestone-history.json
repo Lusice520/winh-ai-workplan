@@ -1,0 +1,243 @@
+[
+  {
+    "id": "5e6cc57b-3787-4b78-98b3-041289578fdb",
+    "objectId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+    "kind": "MILESTONE",
+    "action": "MILESTONE_VERIFY",
+    "note": "验证·补充记录经独立复核，本轮成果通过。",
+    "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "actorName": "验证·工作包验证人",
+    "occurredOn": "2026-09-13",
+    "beforeJson": "{\"status\":\"PENDING\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "afterJson": "{\"status\":\"VERIFIED\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedAt\":\"2026-09-13T09:55:52.260564Z\",\"decision\":\"验证·补充记录经独立复核，本轮成果通过。\",\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "beforeFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "afterFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "objectVersion": 1,
+    "baselineVersion": 4,
+    "at": "2026-09-13T09:55:52.261231Z"
+  },
+  {
+    "id": "e388fb2d-45fd-4f97-8963-f609b81fe3bb",
+    "objectId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+    "kind": "MILESTONE",
+    "action": "MILESTONE_SUBMIT",
+    "note": "验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。",
+    "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "actorName": "验证·项目经理",
+    "occurredOn": "2026-09-13",
+    "beforeJson": "{\"status\":\"OPEN\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"decidedAt\":\"2026-09-13T09:55:52.058812Z\",\"decision\":\"验证·重新核对方案设计成果，原独立结论和附件保留。\",\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "afterJson": "{\"status\":\"PENDING\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·补充接口会签复核说明后重提，沿用本轮已发布的交付范围依据，原提交记录保持可追溯。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "beforeFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "afterFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "objectVersion": 1,
+    "baselineVersion": 4,
+    "at": "2026-09-13T09:55:52.156204Z"
+  },
+  {
+    "id": "768ffd22-ac6f-4854-ac32-a14fb3ff6060",
+    "objectId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+    "kind": "MILESTONE",
+    "action": "MILESTONE_REOPEN",
+    "note": "验证·重新核对方案设计成果，原独立结论和附件保留。",
+    "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "actorName": "验证·项目经理",
+    "occurredOn": "2026-09-13",
+    "beforeJson": "{\"status\":\"VERIFIED\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedAt\":\"2026-09-13T09:54:35.009913Z\",\"decision\":\"验证·独立核对原工作包、已验收清单与已发布资料，确认本轮方案设计里程碑达到完成条件。\",\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "afterJson": "{\"status\":\"OPEN\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"decidedAt\":\"2026-09-13T09:55:52.058812Z\",\"decision\":\"验证·重新核对方案设计成果，原独立结论和附件保留。\",\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "beforeFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "afterFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "objectVersion": 1,
+    "baselineVersion": 4,
+    "at": "2026-09-13T09:55:52.060144Z"
+  },
+  {
+    "id": "0f5519c8-64c6-4582-ac06-c344d8a6b382",
+    "objectId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+    "kind": "MILESTONE",
+    "action": "MILESTONE_VERIFY",
+    "note": "验证·独立核对原工作包、已验收清单与已发布资料，确认本轮方案设计里程碑达到完成条件。",
+    "actorId": "41a3da2f-6cf8-49ea-9c98-18deaca049d9",
+    "actorName": "验证·工作包验证人",
+    "occurredOn": "2026-09-13",
+    "beforeJson": "{\"status\":\"PENDING\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "afterJson": "{\"status\":\"VERIFIED\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedAt\":\"2026-09-13T09:54:35.009913Z\",\"decision\":\"验证·独立核对原工作包、已验收清单与已发布资料，确认本轮方案设计里程碑达到完成条件。\",\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "beforeFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "afterFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "objectVersion": 1,
+    "baselineVersion": 4,
+    "at": "2026-09-13T09:54:35.013871Z"
+  },
+  {
+    "id": "33c081b7-414c-4408-9b48-3dc00a89e46c",
+    "objectId": "8040b846-b062-4f1a-9847-8933b41f9a2b",
+    "kind": "MILESTONE",
+    "action": "MILESTONE_SUBMIT",
+    "note": "验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。",
+    "actorId": "f8d1b00e-bc42-4137-a2c9-a6d0352f27b4",
+    "actorName": "验证·项目经理",
+    "occurredOn": "2026-09-13",
+    "beforeJson": "null",
+    "afterJson": "{\"status\":\"PENDING\",\"occurredOn\":\"2026-09-13\",\"evidence\":\"验证·本阶段设计清单已独立验收，原专业工作包完成事实已复核，提交方案设计成果验收里程碑。\",\"submittedBy\":\"f8d1b00e-bc42-4137-a2c9-a6d0352f27b4\",\"verifierId\":\"41a3da2f-6cf8-49ea-9c98-18deaca049d9\",\"decidedBy\":null,\"decidedAt\":null,\"decision\":null,\"scopeHash\":\"3ccab3bcf6bbb3307ca421887383f3ffaa2a9d2f39d4cfcbee3c054002ceca7f\"}",
+    "beforeFiles": {
+      "files": [],
+      "restricted": 0
+    },
+    "afterFiles": {
+      "files": [
+        {
+          "documentId": "883de59e-8e12-42cc-952d-1af472eecf1c",
+          "versionId": "3673e02d-e64f-4281-8a2f-16cf758c985d",
+          "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+          "title": "验证·交付范围与验收目标",
+          "filename": "验证交付依据.txt",
+          "versionNumber": 1,
+          "classification": "INTERNAL",
+          "status": "PUBLISHED",
+          "current": true,
+          "stateVersion": 2,
+          "sha256": "c372242f0d5719a7c070aad7402e1477a84463a56214483746070cbb59549f8e"
+        }
+      ],
+      "restricted": 0
+    },
+    "objectVersion": 1,
+    "baselineVersion": 4,
+    "at": "2026-09-13T09:53:14.114460Z"
+  }
+]

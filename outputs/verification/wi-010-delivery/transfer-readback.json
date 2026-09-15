@@ -1,0 +1,68 @@
+[
+  {
+    "at": "2026-09-12T22:45:03.786Z",
+    "stage": "proposed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 0,
+    "checks": [
+      "接收与重签过程中，当前责任、原工作包和原需求均未提前切换，原 V3 快照不变",
+      "交接由真实浏览器发起；拒绝冒名接收、提前生效和错误版本"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:45:50.230Z",
+    "stage": "accepted",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 1,
+    "checks": [
+      "接收与重签过程中，当前责任、原工作包和原需求均未提前切换，原 V3 快照不变",
+      "新责任人通过浏览器确认接收；资源未重签时仍拒绝生效，接任角色不自动具备部门承诺权"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:50:49.526Z",
+    "stage": "signed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 4,
+    "checks": [
+      "接收与重签过程中，当前责任、原工作包和原需求均未提前切换，原 V3 快照不变",
+      "指定部门承诺人经浏览器逐项查看重叠并完成三项资源签认"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:51:39.835Z",
+    "stage": "applied",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 5,
+    "checks": [
+      "责任、三个工作包、原需求、三资源与成员角色统一生效；旧成员权限即时收回，V3 仍不可变且预算继续按权限隔离",
+      "新负责人获得原包完成入口，原编号与源需求链接连续；交接不自动完成工作"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:56:40.111Z",
+    "stage": "completed",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 5,
+    "checks": [
+      "责任、三个工作包、原需求、三资源与成员角色统一生效；旧成员权限即时收回，V3 仍不可变且预算继续按权限隔离",
+      "接任负责人经浏览器提交原包完成证据，进入指定他人验证；拒绝自验"
+    ]
+  },
+  {
+    "at": "2026-09-12T22:56:46.866Z",
+    "stage": "verified",
+    "projectId": "c2ebb10c-39e1-4cdb-bca0-00724ffa808e",
+    "transferId": "4b1ddcb8-e008-4dcf-a886-2d23f424a278",
+    "transferVersion": 5,
+    "checks": [
+      "责任、三个工作包、原需求、三资源与成员角色统一生效；旧成员权限即时收回，V3 仍不可变且预算继续按权限隔离",
+      "指定验证人经浏览器完成原包独立验证；原需求仍处理，批准检查不会因正常执行完成误报失效"
+    ]
+  }
+]

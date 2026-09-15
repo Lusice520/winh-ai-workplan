@@ -1,0 +1,16 @@
+BEGIN
+psql:scripts/development/task-database-check.sql:31: NOTICE:  PASS all three illegal source combinations rejected by PostgreSQL; original task source retained
+DO
+ROLLBACK
+ version | success 
+---------+---------
+ 12      | t
+ 19      | t
+ 20      | t
+(3 rows)
+
+                 conname                 |                                                                                                                                                                       pg_get_constraintdef                                                                                                                                                                       
+-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ project_work_item_creation_source_check | CHECK (((((creation_source)::text = 'REQUIREMENT'::text) AND (source_requirement_id IS NOT NULL)) OR (((creation_source)::text = 'DELIVERY'::text) AND ((kind)::text = 'WORK_PACKAGE'::text) AND (source_requirement_id IS NULL)) OR (((creation_source)::text = 'DELIVERY_TASK'::text) AND ((kind)::text = 'TASK'::text) AND (source_requirement_id IS NULL))))
+(1 row)
+
